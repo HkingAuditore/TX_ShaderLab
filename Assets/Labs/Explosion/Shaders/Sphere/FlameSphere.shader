@@ -3,6 +3,7 @@ Shader "Explosion/Sphere/FlameSphere"
     Properties
     {
         _BaseTex ("Base Tex ", 2D) = "white" {}
+        _RampTex ("Ramp Tex ", 2D) = "white" {}
         
         _FlameTex0 ("Flame Tex 0 ", 2D) = "white" {}
         _FlameTex0Speed ("Flame Tex 0 Speed",Range(-10, 10)) = 5
@@ -75,6 +76,8 @@ Shader "Explosion/Sphere/FlameSphere"
             sampler2D _FlameTex2;
             sampler2D _FlameTex3;
             sampler2D _FlameTex4;
+            
+            sampler2D _RampTex;
 
             float4 _FlameTex0_ST;
             float4 _FlameTex1_ST;
@@ -137,6 +140,8 @@ Shader "Explosion/Sphere/FlameSphere"
                 fixed NdotV = dot(N,i.viewDir);
                 fixed NdotL = dot(N,i.worldLight);
 
+                
+
                 fixed2 flame0uv = transformUpUV(i.uv * _FlameTex0_ST.xy + _FlameTex0_ST.zw,_FlameTex0Speed * _Time.y);
                 fixed flame0 = tex2D(_FlameTex0,flame0uv);
                 fixed2 flame1uv = transformUpUV(i.uv * _FlameTex1_ST.xy + _FlameTex1_ST.zw,_FlameTex1Speed* _Time.y);
@@ -149,17 +154,15 @@ Shader "Explosion/Sphere/FlameSphere"
                 fixed flame4 = tex2D(_FlameTex4,flame4uv);
 
                 fixed flame = tex2D(_BaseTex,uv);
-                flame = min(flame,flame0);
-                flame = min(flame,flame1);
-                flame = min(flame,flame2);
-                flame = min(flame,flame3);
-                flame = min(flame,flame4);
+                flame *= flame0 * flame1 * flame2 * flame3 * flame4;
+    
+                flame = clamp(flame,0.1,0.99);
 
-
+                fixed4 fireCol = tex2D(_RampTex,fixed2(1-flame,0));
                 
                 clip(flame - _Cutoff);
                 // fixed4 col = lerp(c0,c1,transition);
-                return flame;
+                return fireCol;
             }
             ENDCG
         }

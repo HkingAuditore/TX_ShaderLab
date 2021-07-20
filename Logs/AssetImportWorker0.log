@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 16312 MB
+OS: 'Windows 10 Home China; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16263 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/UnityProject/TX_ShaderLab
+G:/TX_ShaderLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58009
-Successfully changed project path to: D:/UnityProject/TX_ShaderLab
-D:/UnityProject/TX_ShaderLab
+62050
+Successfully changed project path to: G:/TX_ShaderLab
+G:/TX_ShaderLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProject/TX_ShaderLab/Assets
+[Subsystems] Discovering subsystems at path G:/TX_ShaderLab/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
     Vendor:   
     VRAM:     6052 MB
-    Driver:   27.21.14.6192
+    Driver:   27.21.14.6230
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001453 seconds.
+Registered in 0.001968 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.128 seconds
+- Completed reload, in  1.026 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3128ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (435ms)
-			LoadAssemblies (115ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (168ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (161ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (27ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022441 seconds.
+Registered in 0.002268 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1003ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.76 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.2 MB.
-System memory in use after: 142.3 MB.
+Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 2.249300 ms (FindLiveObjects: 0.147200 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.987700 ms  DeleteObjects: 0.075600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 2.102800 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.847500 ms  DeleteObjects: 0.066900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,757 +126,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Labs/Explosion/Shaders/ExplosionSphere.shader
-  artifactKey: Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/ExplosionSphere.shader using Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d102d178b3926420036367c63fcb224') in 0.041577 seconds 
-  Import took 0.064637 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(acdbb118923c49b4cb18ad347174d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(acdbb118923c49b4cb18ad347174d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4336506d05d9c4d736a4a32f15c71b1') in 0.040506 seconds 
+  Import took 0.073879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 298.538659 seconds.
+  Time since last request: 0.000278 seconds.
   path: Assets/Labs/Explosion/Scene.unity
   artifactKey: Guid(f4b15006d8338a84d9568928b1328576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Scene.unity using Guid(f4b15006d8338a84d9568928b1328576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f108b9521bef6180ee6716942f29af') in 0.004735 seconds 
-  Import took 0.025252 seconds .
+Start importing Assets/Labs/Explosion/Scene.unity using Guid(f4b15006d8338a84d9568928b1328576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530c460b68c8aa1dead738be122b081b') in 0.044628 seconds 
+  Import took 0.124484 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.835563 seconds.
-  path: Assets/Labs/Explosion/Scene.unity
-  artifactKey: Guid(f4b15006d8338a84d9568928b1328576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Scene.unity using Guid(f4b15006d8338a84d9568928b1328576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2478422127e76f47014fb840a7caf8c8') in 0.003692 seconds 
-  Import took 0.012008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.447606 seconds.
-  path: Assets/Labs/Explosion/Smoke
-  artifactKey: Guid(e65f2c5f1ac4eb74cba04893c53a4508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Smoke using Guid(e65f2c5f1ac4eb74cba04893c53a4508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0159f1f70ed3fcd9530361ed5e6e4282') in 0.003907 seconds 
-  Import took 0.025125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.078325 seconds.
+  Time since last request: 0.001641 seconds.
   path: Assets/Labs/Explosion/2.unity
   artifactKey: Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/2.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c3d2f5179fbbf612dceffb5dda84e5') in 0.004049 seconds 
-  Import took 0.020047 seconds .
+Start importing Assets/Labs/Explosion/2.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c2bea8fbf7ac77d37698b42a9b9a39') in 0.001906 seconds 
+  Import took 0.094772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 358.310693 seconds.
-  path: Assets/Labs/Explosion/Shaders/Unlit_ExplosionSphere.mat
-  artifactKey: Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Unlit_ExplosionSphere.mat using Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd2852aff2d8cb9c36bdefa98e86fe') in 0.094907 seconds 
-  Import took 0.110040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 308.526837 seconds.
-  path: Assets/Labs/Explosion/Shaders/ExplosionSphere.shader
-  artifactKey: Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/ExplosionSphere.shader using Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2378f747206b7464895d6c2233cecd63') in 0.004066 seconds 
-  Import took 0.010795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 838.521389 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere
-  artifactKey: Guid(6a83b659b428b3f4f8796f8fd6a834f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere using Guid(6a83b659b428b3f4f8796f8fd6a834f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2e170ad9de27d67f5fec623a8302d4') in 0.003878 seconds 
-  Import took 0.025197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 651.998313 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1554f4c8b6a6335337ed925f94257d') in 0.173917 seconds 
-  Import took 0.236384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 235.391839 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21fcbddc870a9b641196eda0b40c7ba') in 0.016600 seconds 
-  Import took 0.049768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005860 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21fcbddc870a9b641196eda0b40c7ba') in 0.022526 seconds 
-  Import took 0.042784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.413510 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1887bea847b87ea3da26c46a770aaafc') in 0.012845 seconds 
-  Import took 0.044073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.642014 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62493820f01d9f0486e50702b8e72017') in 0.017390 seconds 
-  Import took 0.025590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.814524 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7bca4a92c41d58a08d727c0256c06a') in 0.014563 seconds 
-  Import took 0.034619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012226 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7bca4a92c41d58a08d727c0256c06a') in 0.010180 seconds 
-  Import took 0.013152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.605413 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ba5925077c82eaee4e8f3b8b2a00f7') in 0.012387 seconds 
-  Import took 0.039461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004055 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ba5925077c82eaee4e8f3b8b2a00f7') in 0.010403 seconds 
-  Import took 0.013344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1084.252767 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Tex0.png
-  artifactKey: Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Tex0.png using Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f328e76969a0ab2fa1f97bfa48dfde3b') in 0.013215 seconds 
-  Import took 0.024144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Tex1.png
-  artifactKey: Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Tex1.png using Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df24cd14b3510e337278430e95f3efa') in 0.011357 seconds 
-  Import took 0.014152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.666188 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Tex0.png
-  artifactKey: Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Tex0.png using Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d80ca36f67cbf5ebbc3cb7c58604d3') in 0.012736 seconds 
-  Import took 0.027637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Tex1.png
-  artifactKey: Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Tex1.png using Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbebc8f83308152d6c9509e24be379b6') in 0.012649 seconds 
-  Import took 0.034636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Tex0.png
-  artifactKey: Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Tex0.png using Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d80ca36f67cbf5ebbc3cb7c58604d3') in 0.013473 seconds 
-  Import took 0.016362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.208330 seconds.
-  path: Assets/Labs/Explosion/Materials/New Material.mat
-  artifactKey: Guid(94343405cf3bbc147bf46994ffa7215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Materials/New Material.mat using Guid(94343405cf3bbc147bf46994ffa7215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12335c02a2cbec16179d29628730d7a2') in 0.415063 seconds 
-  Import took 0.427006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5029.330192 seconds.
-  path: Assets/Labs/Explosion/Shaders/Explosion.shader
-  artifactKey: Guid(0f9912b9d7b716c4ebf7ffce78bff92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Explosion.shader using Guid(0f9912b9d7b716c4ebf7ffce78bff92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd6fb9cdb38f8d3d865d371df1a71e0') in 0.006397 seconds 
-  Import took 0.012271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5933.529584 seconds.
-  path: Assets/Labs/Explosion/Models
-  artifactKey: Guid(8cfac1350e92da841856a6e1d2f41ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models using Guid(8cfac1350e92da841856a6e1d2f41ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f28a16913a68cfa0776175fdedc6d81') in 0.007135 seconds 
-  Import took 0.031977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.403685 seconds.
-  path: Assets/Labs/Explosion/Models/Smoke.blend1
-  artifactKey: Guid(8c8d026a9b196dd40a920b8940048b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Smoke.blend1 using Guid(8c8d026a9b196dd40a920b8940048b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3292d4a2d1cc884918e667c1371674') in 0.027063 seconds 
-  Import took 0.043081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.375512 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a96edaf78f65f6c8d0725a8a62a24') in 0.345262 seconds 
-  Import took 0.348603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.829325 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e9a17c8a52e8475be5252e377c1e64') in 0.018538 seconds 
-  Import took 0.035250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 256.391111 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b17178a05158d7aa4ecec13dbc207f') in 0.017732 seconds 
-  Import took 0.021414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.137640 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b75d2502e0f10ee53d667dec9d7fe7b') in 0.018229 seconds 
-  Import took 0.032486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 390.071981 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f891984b51be7234a0591e16180b34d7') in 0.018415 seconds 
-  Import took 0.038010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.746270 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd8403bb2864421b457b99040ea1280') in 0.027779 seconds 
-  Import took 0.040909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 772.197466 seconds.
-  path: Assets/Labs/Explosion/Materials/Sphere
-  artifactKey: Guid(f6ee92b095995ed4381108477bc04e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Materials/Sphere using Guid(f6ee92b095995ed4381108477bc04e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912d225b33c943d645dcbed872700a87') in 0.004408 seconds 
-  Import took 0.023395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.344751 seconds.
-  path: Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere.mat
-  artifactKey: Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere.mat using Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f7f25f0388f902dfc9000e274a943') in 0.019248 seconds 
-  Import took 0.031303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.033078 seconds.
-  path: Assets/Labs/Explosion/Shaders/Sphere
-  artifactKey: Guid(b02714b5c72f8ec4cb0f8a05479b98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Sphere using Guid(b02714b5c72f8ec4cb0f8a05479b98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f9878ba04984bb7fdabce6beb59c0f') in 0.003813 seconds 
-  Import took 0.038951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.428944 seconds.
-  path: Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader
-  artifactKey: Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader using Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0e4305801333be24832217181343a') in 0.020767 seconds 
-  Import took 0.028602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader
-  artifactKey: Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader using Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0e4305801333be24832217181343a') in 0.004338 seconds 
-  Import took 0.006625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.837821 seconds.
-  path: Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader
-  artifactKey: Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Shaders/Sphere/FlameSphere.shader using Guid(7bddb25df383c4f47982f7457e074e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e049bec609b74e950e5dcfbef9d2164') in 0.005537 seconds 
-  Import took 0.024986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 737.419670 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5e1b63b741100e396e506ea90b4835') in 0.038684 seconds 
-  Import took 0.050864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004719 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5e1b63b741100e396e506ea90b4835') in 0.014836 seconds 
-  Import took 0.017355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.374904 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcae3afe5302864eefda64cc1c55c21d') in 0.013003 seconds 
-  Import took 0.016295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008526 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcae3afe5302864eefda64cc1c55c21d') in 0.009739 seconds 
-  Import took 0.012553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 389.898819 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47e5e333da45df1aa9b7f46f644c75d') in 0.014922 seconds 
-  Import took 0.027103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003180 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47e5e333da45df1aa9b7f46f644c75d') in 0.012060 seconds 
-  Import took 0.014429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.549429 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339e488f0c740a3967c006c15d1413ae') in 0.023007 seconds 
-  Import took 0.039577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006350 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339e488f0c740a3967c006c15d1413ae') in 0.011434 seconds 
-  Import took 0.014219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.324403 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecfe4bc159a2cc680a958c71f5a74ab') in 0.013774 seconds 
-  Import took 0.057583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004457 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecfe4bc159a2cc680a958c71f5a74ab') in 0.016949 seconds 
-  Import took 0.019509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.425769 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517f84058fc9bee9afd2d6c19a3f402e') in 0.014710 seconds 
-  Import took 0.017478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007830 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
-  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517f84058fc9bee9afd2d6c19a3f402e') in 0.015394 seconds 
-  Import took 0.018294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2061.462682 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3323e651e2299355b6eeae07a8ec46b') in 0.018993 seconds 
-  Import took 0.038620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001971 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
-  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3323e651e2299355b6eeae07a8ec46b') in 0.009591 seconds 
-  Import took 0.012431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.278206 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame
-  artifactKey: Guid(3a717251dc32e84459d283110a641341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame using Guid(3a717251dc32e84459d283110a641341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7798ee2f196a65a63e602b1d6869c328') in 0.004403 seconds 
-  Import took 0.018856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.667687 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/0.png
-  artifactKey: Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/0.png using Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4592155559874907cfb7e9e08da97e') in 0.020203 seconds 
-  Import took 0.023599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png
-  artifactKey: Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png using Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8224f10f3b31a5ff66d39ab06b153dd') in 0.012137 seconds 
-  Import took 0.015086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/2.png
-  artifactKey: Guid(02ad319021b86c24daf4d29febfb4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/2.png using Guid(02ad319021b86c24daf4d29febfb4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eab1c758a87d9a7f32732d667ff11b8') in 0.012665 seconds 
-  Import took 0.020037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4.png
-  artifactKey: Guid(2ce97b7a7cd876547a13ba76e4b7569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4.png using Guid(2ce97b7a7cd876547a13ba76e4b7569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ba05fea367ac8c42f9e08f84c15c8') in 0.012850 seconds 
-  Import took 0.027772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/0.png
-  artifactKey: Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/0.png using Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4592155559874907cfb7e9e08da97e') in 0.010069 seconds 
-  Import took 0.013005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/3.png
-  artifactKey: Guid(c13ab9eafc1ffa64083835b94c058301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/3.png using Guid(c13ab9eafc1ffa64083835b94c058301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9c23fd1e7b9e2091946913047c932') in 0.017356 seconds 
-  Import took 0.019888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/1.png
-  artifactKey: Guid(1939a985955c59f4e96313759b89fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/1.png using Guid(1939a985955c59f4e96313759b89fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b2336c71a1d925a8d1741b8ed869cd') in 0.012793 seconds 
-  Import took 0.015353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.401392 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png
-  artifactKey: Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png using Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9659306c1a3014e1a544c560f7f62810') in 0.012653 seconds 
-  Import took 0.015936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2924.259467 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/0-C.png
-  artifactKey: Guid(3e51849f6c64d3240965e13842add0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/0-C.png using Guid(3e51849f6c64d3240965e13842add0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06903cff352fbe242b47bf0ff0c9a147') in 0.040330 seconds 
-  Import took 0.060779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/2-C.png
-  artifactKey: Guid(9dfa11c0818f2c64fbb24fca11e90758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/2-C.png using Guid(9dfa11c0818f2c64fbb24fca11e90758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889bb39bcacdbbc9bf2fe1e96ea49e72') in 0.021358 seconds 
-  Import took 0.024270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/1-C.png
-  artifactKey: Guid(7fa3758c4a585fc4fb2fe5f4732b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/1-C.png using Guid(7fa3758c4a585fc4fb2fe5f4732b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b857610e61b31e4cc09c62cb18459cda') in 0.015097 seconds 
-  Import took 0.018610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
+  Time since last request: 62.753274 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
   artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ed6ecaf21717453e97e07cd3320f06') in 0.011660 seconds 
-  Import took 0.014748 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0885dcb8c67125b7164c0f394cdc06f') in 0.111751 seconds 
+  Import took 0.114486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png
-  artifactKey: Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png using Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191d871c1a25e5180a9f385dc045b399') in 0.013204 seconds 
-  Import took 0.016519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/FlowMap.png
-  artifactKey: Guid(4eab8fee89798b5409e4eae719627167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/FlowMap.png using Guid(4eab8fee89798b5409e4eae719627167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9810594ef9d07f48d626a03f7beb38e') in 0.013416 seconds 
-  Import took 0.024780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/3-C.png
-  artifactKey: Guid(225541f6606099a4c882763e45ad1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/3-C.png using Guid(225541f6606099a4c882763e45ad1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a48af22a086bfd4b8810434eb74de12') in 0.013059 seconds 
-  Import took 0.015593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 294.978001 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
-  artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a700c5f31bb77f959b9c1136c0f9ad') in 0.012484 seconds 
-  Import took 0.016780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 313.458078 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png
-  artifactKey: Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png using Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4e144d66b6a29d3b757691102373c4') in 0.017578 seconds 
-  Import took 0.029810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
+  Time since last request: 0.000301 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png
   artifactKey: Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png using Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8551c0cbf4d8b88bd83c53b6c908b6c') in 0.010522 seconds 
-  Import took 0.013501 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png using Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289eac22805817922f3705b5b369fddb') in 0.009412 seconds 
+  Import took 0.149840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
+  Time since last request: 0.000260 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
   artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e704618a068634a8211a6be252114') in 0.010752 seconds 
-  Import took 0.013044 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1e82176f0852efca79350ab4ceb078') in 0.145931 seconds 
+  Import took 0.148640 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
+  Time since last request: 0.000207 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
   artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0450f6cda353c2cbae834d00f06252e9') in 0.010498 seconds 
-  Import took 0.012683 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d14ad6ddec759a8b609c7593e3b6bc') in 0.025204 seconds 
+  Import took 0.137486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.837668 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91968c2ad32cf671f64b34d83a1ebc1a') in 0.054846 seconds 
-  Import took 0.058096 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
+  artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1e82176f0852efca79350ab4ceb078') in 0.007239 seconds 
+  Import took 0.009342 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000249 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere2.blend
-  artifactKey: Guid(76803dc8bd33e1446be04e885034b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere2.blend using Guid(76803dc8bd33e1446be04e885034b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9712c11ea72308fabe37bb7a91e33056') in 0.018792 seconds 
-  Import took 0.023701 seconds .
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
+  artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d14ad6ddec759a8b609c7593e3b6bc') in 0.008878 seconds 
+  Import took 0.012139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Labs/Explosion/Models/Sphere.blend
-  artifactKey: Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Models/Sphere.blend using Guid(9bfdf59f951450549a3b077b0f297dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91968c2ad32cf671f64b34d83a1ebc1a') in 0.017689 seconds 
-  Import took 0.019948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.244776 seconds.
+  Time since last request: 0.000343 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
   artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fae81fe8222b46a272f596ccad5561a') in 0.012205 seconds 
-  Import took 0.032285 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0885dcb8c67125b7164c0f394cdc06f') in 0.007318 seconds 
+  Import took 0.009786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.747343 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png
-  artifactKey: Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png using Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3991e2032a437cf97906c78fc6ff027') in 0.011963 seconds 
-  Import took 0.037024 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png
+  artifactKey: Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png using Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebce0d6344ee977bc8298861aea2eea') in 0.007610 seconds 
+  Import took 0.104013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png
-  artifactKey: Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png using Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b71e1b62e87adac200662f0374e9f67') in 0.009818 seconds 
-  Import took 0.012581 seconds .
+  Time since last request: 0.000543 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png
+  artifactKey: Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png using Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebce0d6344ee977bc8298861aea2eea') in 0.024130 seconds 
+  Import took 0.026280 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
+  Time since last request: 391.030453 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
   artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dae578e81fe1f7f7120fa9eb4e1cbc') in 0.010061 seconds 
-  Import took 0.016579 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c80a50f70bd1f8552250e2500b4c22') in 0.008788 seconds 
+  Import took 0.012193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png
+  artifactKey: Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png using Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd46d6ec740b12f6da077fc9cc84ba38') in 0.008437 seconds 
+  Import took 0.012153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
   artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d113cb1908526b0478a7bef77c9e1d6') in 0.010185 seconds 
-  Import took 0.031670 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03474e4ec102cdb4719dd80def44fede') in 0.007264 seconds 
+  Import took 0.010721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003626 seconds.
+  Time since last request: 0.039129 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
+  artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c80a50f70bd1f8552250e2500b4c22') in 0.007112 seconds 
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.030263 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
+  artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf38b5ccb1a1a0df87bdfafd189b52e') in 0.023987 seconds 
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
   path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
   artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d113cb1908526b0478a7bef77c9e1d6') in 0.010271 seconds 
-  Import took 0.012462 seconds .
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71f168f0f621beb230ab38dee7891f0') in 0.009182 seconds 
+  Import took 0.026473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 518.590525 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
-  artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3ca909a54b05d2b0b9ca1de649148e') in 0.013844 seconds 
-  Import took 0.038750 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
+  artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf38b5ccb1a1a0df87bdfafd189b52e') in 0.006163 seconds 
+  Import took 0.009664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5705.213891 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a5984735ff8b0df41a6a8fda4066544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a5984735ff8b0df41a6a8fda4066544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab36a238fb23fc2dc0b1e67ae6f9e603') in 0.003912 seconds 
-  Import took 0.028833 seconds .
+  Time since last request: 0.000558 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
+  artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71f168f0f621beb230ab38dee7891f0') in 0.008019 seconds 
+  Import took 0.011072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.915247 seconds.
-  path: Assets/Labs/TerrainTest
-  artifactKey: Guid(f3388d61b1b92934ea8b701f037002cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest using Guid(f3388d61b1b92934ea8b701f037002cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e758ce15259269c23e436b15f60f5b') in 0.004223 seconds 
-  Import took 0.006948 seconds .
+  Time since last request: 98.407870 seconds.
+  path: Assets/Labs/Explosion/Textures/NoiseSmoke.png
+  artifactKey: Guid(0a5812fe2d20e484a84c4f0302534ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/NoiseSmoke.png using Guid(0a5812fe2d20e484a84c4f0302534ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b276d1ad77b592a111d0d6f43d0ec2') in 0.132718 seconds 
+  Import took 0.135440 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.155121 seconds.
-  path: Assets/Labs/TerrainTest/Terrain.unity
-  artifactKey: Guid(41e66b64db900714ca9e77d56122a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/Terrain.unity using Guid(41e66b64db900714ca9e77d56122a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165a5380186eac836c34b079a7c4399') in 0.008901 seconds 
-  Import took 0.027631 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/Labs/Explosion/Textures/SmokeRamp.psd
+  artifactKey: Guid(c4a8d158a855af94d8f88af842df6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/SmokeRamp.psd using Guid(c4a8d158a855af94d8f88af842df6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14196b2c640cc448ce246b54403b9b63') in 0.087700 seconds 
+  Import took 0.096352 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.081850 seconds.
-  path: Assets/Labs/TerrainTest/TerrianPainter.shader
-  artifactKey: Guid(9b613d3671f1b654ab15bcc72b2c3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/TerrianPainter.shader using Guid(9b613d3671f1b654ab15bcc72b2c3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db72cc8dd1beefe3c90dfd187c87d296') in 0.009957 seconds 
-  Import took 0.012710 seconds .
+  Time since last request: 0.000340 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Normal.png
+  artifactKey: Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Normal.png using Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed6bc16fd5c8831117e921d6004de6') in 0.114375 seconds 
+  Import took 0.127551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.446858 seconds.
-  path: Assets/Labs/TerrainTest/Unlit_TerrianPainter.mat
-  artifactKey: Guid(a0df67278bf0d174fabf97784c1bd467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/Unlit_TerrianPainter.mat using Guid(a0df67278bf0d174fabf97784c1bd467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529b8ef1482530d9e7e08e89aa52d33a') in 0.046984 seconds 
-  Import took 0.049377 seconds .
+  Time since last request: 0.004161 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Normal.png
+  artifactKey: Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Normal.png using Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed6bc16fd5c8831117e921d6004de6') in 0.008137 seconds 
+  Import took 0.010360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 363.834064 seconds.
-  path: Assets/Labs/TerrainTest/TerrianPainter.shader
-  artifactKey: Guid(9b613d3671f1b654ab15bcc72b2c3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/TerrianPainter.shader using Guid(9b613d3671f1b654ab15bcc72b2c3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbd9719417ae90d6048a50ee46c434c') in 0.017313 seconds 
-  Import took 0.020725 seconds .
+  Time since last request: 162.528755 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b852a04eb5d82de51f198225092545a') in 0.018148 seconds 
+  Import took 0.029300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 795.705904 seconds.
-  path: Assets/Labs/TerrainTest/Unlit_TerrianPainter.mat
-  artifactKey: Guid(a0df67278bf0d174fabf97784c1bd467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/Unlit_TerrianPainter.mat using Guid(a0df67278bf0d174fabf97784c1bd467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d9829f751e423870bf3bcceb9021bd') in 0.022089 seconds 
-  Import took 0.025009 seconds .
+  Time since last request: 0.000887 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b852a04eb5d82de51f198225092545a') in 0.017621 seconds 
+  Import took 0.021926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.962338 seconds.
-  path: Assets/Labs/TerrainTest/New Scene.unity
-  artifactKey: Guid(d82c1e9b4bfe1184c98c3067370335b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/New Scene.unity using Guid(d82c1e9b4bfe1184c98c3067370335b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d01af53b042cb41beb894627f450f85') in 0.004651 seconds 
-  Import took 0.007708 seconds .
+  Time since last request: 4.459896 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4d56243e6ce7b92b8099e9f7cfed6a') in 0.008111 seconds 
+  Import took 0.022661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.545917 seconds.
-  path: Assets/Labs/TerrainTest/Terrain.unity
-  artifactKey: Guid(41e66b64db900714ca9e77d56122a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/TerrainTest/Terrain.unity using Guid(41e66b64db900714ca9e77d56122a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363375378f5d0aa1402e53abfbc627f1') in 0.004377 seconds 
-  Import took 0.007122 seconds .
+  Time since last request: 3.198586 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195053621e0f1909965076ae406fb12b') in 0.071708 seconds 
+  Import took 0.138825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4153.652561 seconds.
-  path: Assets/Labs/Explosion/2.unity
-  artifactKey: Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/2.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdb218ae3e9fd499a8f7cf831b3981a') in 0.013288 seconds 
-  Import took 0.031618 seconds .
+  Time since last request: 0.004354 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195053621e0f1909965076ae406fb12b') in 0.009306 seconds 
+  Import took 0.011786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 112.716782 seconds.
-  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
-  artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079cdf17024bbabc228825d71453ace0') in 0.046374 seconds 
-  Import took 0.055858 seconds .
+  Time since last request: 3.057336 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bae6f741109c3c7878cec7c0700b0e') in 0.006318 seconds 
+  Import took 0.018248 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4.000861 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f1a3a67ddb0e9f7dcb4b5dd1d4517a') in 0.039844 seconds 
+  Import took 0.042826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011843 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f1a3a67ddb0e9f7dcb4b5dd1d4517a') in 0.007814 seconds 
+  Import took 0.012719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.060944 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e3d053471cbb37869a14a1f4a398f0') in 0.008036 seconds 
+  Import took 0.011761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002262 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e3d053471cbb37869a14a1f4a398f0') in 0.021659 seconds 
+  Import took 0.024335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.071131 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp.psd
+  artifactKey: Guid(4b5aa889dad6417439e8d0e3e6147764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp.psd using Guid(4b5aa889dad6417439e8d0e3e6147764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a95b5257f52f3c78a13867c3361736') in 0.009209 seconds 
+  Import took 0.011886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9151b2732f76cef8284ed4c00b0b0a') in 0.006094 seconds 
+  Import took 0.008441 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -19,11 +19,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _GroundMask:
+        m_Texture: {fileID: 2800000, guid: 808471aa894be3b4ba543f257fa5e4d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - _CliffThreshold: 0.358
+    - _WaterThreshold: 35.7
     m_Colors:
+    - _CliffColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Ground0Color: {r: 0.5787681, g: 0.8867924, b: 0.31372374, a: 1}
+    - _Ground1Color: {r: 1, g: 1, b: 1, a: 1}
+    - _GroundColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor: {r: 0.25516194, g: 0.65605557, b: 0.8867924, a: 1}
   m_BuildTextureStacks: []

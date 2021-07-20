@@ -29,11 +29,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FlameTex0:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 8, y: 8}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _FlameTex1:
         m_Texture: {fileID: 2800000, guid: 26d0d21af4c75fa4e83c53821db921a9, type: 3}
-        m_Scale: {x: 8, y: 8}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlameTex2:
         m_Texture: {fileID: 2800000, guid: e9ae43102edb994488f00d4e50c759b1, type: 3}
@@ -41,11 +41,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FlameTex3:
         m_Texture: {fileID: 2800000, guid: e503ef06dd2f6214c90c6b85f9e7cc0c, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlameTex4:
         m_Texture: {fileID: 2800000, guid: e9ae43102edb994488f00d4e50c759b1, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
@@ -93,11 +93,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.647
-    - _FlameTex0Speed: 0.5
-    - _FlameTex1Speed: 0.5
-    - _FlameTex2Speed: 0.5
-    - _FlameTex3Speed: 1
-    - _FlameTex4Speed: 0.1
+    - _FlameTex0Speed: 0
+    - _FlameTex1Speed: 0.3
+    - _FlameTex2Speed: 0.2
+    - _FlameTex3Speed: 0.1
+    - _FlameTex4Speed: 0
     - _FresnelIntensity: 1.8
     - _FresnelSize: 0.654
     - _RotateSpeed: 0

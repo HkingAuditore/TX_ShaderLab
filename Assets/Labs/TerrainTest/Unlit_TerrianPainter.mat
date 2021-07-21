@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CliffThreshold: 0.358
+    - _CliffThreshold: 0.337
     - _WaterThreshold: 35.7
     m_Colors:
     - _CliffColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}

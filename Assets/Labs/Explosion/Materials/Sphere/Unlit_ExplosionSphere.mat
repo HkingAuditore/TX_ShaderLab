@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BurnTex:
-        m_Texture: {fileID: 2800000, guid: cf8bf475a35a1dc49a600aa470d0b050, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0346f11aabbe6584aa4442037621443e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlameTex0:
@@ -68,15 +68,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex0:
-        m_Texture: {fileID: 2800000, guid: d5941740b2f935d45881622bcdf7cecc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0346f11aabbe6584aa4442037621443e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex0Ramp:
-        m_Texture: {fileID: 2800000, guid: 831ddb2a058bd5241a0359db9957e26c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 940acd8f126456946bcf3b71515c3204, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1:
-        m_Texture: {fileID: 2800000, guid: fdb24decbe17e9349bcfbcf20967abc9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65ed451c0f8893f40b2b6786f091ed8d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1Ramp:
@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransitionTex:
-        m_Texture: {fileID: 2800000, guid: 0a5812fe2d20e484a84c4f0302534ac0, type: 3}
+        m_Texture: {fileID: 2800000, guid: a0c2079d92662a24aa0044e6b674f3ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -104,8 +104,8 @@ Material:
     - _Rotation: 0
     - _SmokeIntensity: 1
     - _Transformer: 1
-    - _Transition: 1
+    - _Transition: 0
     m_Colors:
-    - _Color0: {r: 2.6041894, g: 1.8424582, b: 1.8303031, a: 0.42745098}
-    - _Color1: {r: 2.270603, g: 2.270603, b: 2.270603, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 2.7361488, g: 1.566127, b: 2.887121, a: 1}
   m_BuildTextureStacks: []

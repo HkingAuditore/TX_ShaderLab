@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmokeTex:
-        m_Texture: {fileID: 2800000, guid: c4a8d158a855af94d8f88af842df6a3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37f0bb5341251194d8447ef4e580e7de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmokeTransTex:
@@ -62,7 +62,7 @@ Material:
     m_Floats:
     - _Cutoff: 0.084
     - _FresnelIntensity: 0.285
-    - _SmokeIntensity: 0
+    - _SmokeIntensity: 0.944
     m_Colors:
     - _BurnTex: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 1}

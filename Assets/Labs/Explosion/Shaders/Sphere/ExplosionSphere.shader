@@ -98,37 +98,43 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 return o;
             }
 
-            fixed2 rotateUV(fixed2 uv, float rotation)
+            float2 rotateUV(float2 uv, float rotation)
             {
-                float mid = 0.5;
-                return fixed2(
+                float mid = .5f;
+                return float2(
                     cos(rotation) * (uv.x - mid) + sin(rotation) * (uv.y - mid) + mid,
                     cos(rotation) * (uv.y - mid) - sin(rotation) * (uv.x - mid) + mid
                 );
             }
 
+            float clampNoise(float v)
+            {
+                return clamp(0.01,0.99,v);
+            }
+
             fixed4 frag(v2f i) : SV_Target
             {
-                fixed2 uv = rotateUV(i.uv,_RotateSpeed * _Time.y);
+                float2 uv = rotateUV(i.uv,_RotateSpeed * _Time.y);
                 float3 N = normalize(i.worldNormal);
                 fixed NdotV = dot(N,i.viewDir);
                 fixed NdotL = dot(N,i.worldLight);
 
                 fixed transition = tex2D(_TransitionTex,uv);
+                
                 transition = saturate((transition - (_Transition-0.5) * 2));
                 
                 //Style 0
-                fixed s0 = tex2D(_Tex0,uv);
+                fixed s0 = clampNoise(tex2D(_Tex0,uv));
                 fixed4 c0 = tex2D(_Tex0Ramp,fixed2(s0,0));
                 c0 *= _Color0;
                 
                 //Style 1
-                fixed s1 = tex2D(_Tex1,uv);
+                fixed s1 = clampNoise(tex2D(_Tex1,uv));
                 fixed4 c1 = tex2D(_Tex1Ramp,fixed2(s1,0));
                 c1 *= _Color1;
 
                 //Burn
-                half burn = tex2D(_BurnTex,uv);
+                half burn =tex2D(_BurnTex,uv);
 
                 //Fresnel
                 fixed fresnel = 1-saturate(NdotV);
@@ -136,11 +142,13 @@ Shader "Explosion/Sphere/ExplosionSphere"
 
 
                 
-                clip(burn - _Cutoff);
+                clip((burn - _Cutoff*1.01));
                 fixed4 col = lerp(c0,c1,transition);
+                fixed alpha =  saturate(pow(1 + (burn - _Cutoff * .5 - _Cutoff),10));
+
                 // return fixed4(smokeValue,smokeValue,smokeValue,1);
                 // return fixed4(transition,transition,transition,1);
-                return fixed4(col.rgba);
+                return fixed4(col.rgb,alpha);
             }
             ENDCG
         }

@@ -1,4 +1,4 @@
-Shader "Unlit/Explosion"
+Shader "Explosion/Explosion"
 {
     Properties
     {
@@ -91,19 +91,22 @@ Shader "Unlit/Explosion"
                 fixed fresnel =  1 - saturate(NdotV);
                 fresnel = pow(fresnel,_FresnelIntensity);
                 fresnel *= (1+burn*.5);
-                fresnel = clamp(fresnel,0.01,0.99);
+                fresnel = clamp(fresnel,0.05,0.95);
                 fixed4 col =tex2D(_RampTex,fixed2(fresnel,0));
 
-                fixed4 smokeCol =tex2D(_SmokeTex,fixed2(( .5 * NdotL + .5),0));           
-                fixed smokeValue = tex2D(_SmokeTransTex,i.uv);
-                fixed s0 = smokeValue - _SmokeIntensity;
-                col.rgb= lerp(col.rgb,smokeCol.rgb,1-saturate(s0/smokeValue));
-                col *= i.color;
-
+                fixed4 smokeCol =tex2D(_SmokeTex,fixed2(( .5 * NdotL + .5),0));
                 
-                clip(fresnel - _Cutoff);
+                fixed transition = tex2D(_SmokeTransTex,i.uv);
+                transition = saturate((transition - (_SmokeIntensity-0.5) * 2));
+                fixed alpha =  saturate(pow(1 + (burn - _Cutoff * .25 - _Cutoff),10));
+                
+                col.rgb= lerp(col.rgb,smokeCol.rgb,transition);
+                col *= i.color;
+                
+                
+                clip(burn - _Cutoff*1.01);
                 // return fixed4(smokeValue,smokeValue,smokeValue,1);
-                return fixed4(col.rgb,col.a);
+                return fixed4(col.rgb,alpha);
             }
             ENDCG
         }

@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BurnTex:
-        m_Texture: {fileID: 2800000, guid: c86eaf3d550da4f479156b7cf9aee7da, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0346f11aabbe6584aa4442037621443e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortSpeedTex:
@@ -60,9 +60,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.084
+    - _Cutoff: 0
     - _FresnelIntensity: 0.285
-    - _SmokeIntensity: 0.944
+    - _SmokeIntensity: 0
     m_Colors:
     - _BurnTex: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 1}

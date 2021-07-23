@@ -3944,3 +3944,4 @@ Received Import Request.
 Start importing Assets/Labs/Explosion/2.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9ffb9e97cab8e940e2f54fd415df14') in 0.278957 seconds 
   Import took 0.316801 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

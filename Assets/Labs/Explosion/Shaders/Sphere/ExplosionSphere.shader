@@ -114,7 +114,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
 
             fixed4 frag(v2f i) : SV_Target
             {
-                float2 uv = rotateUV(i.uv,_RotateSpeed * _Time.y);
+                float2 uv = rotateUV(i.uv,_Time.y * _RotateSpeed);
                 float3 N = normalize(i.worldNormal);
                 fixed NdotV = dot(N,i.viewDir);
                 fixed NdotL = dot(N,i.worldLight);

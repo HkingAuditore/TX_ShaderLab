@@ -111,10 +111,10 @@ Shader "Explosion/Sphere/FlameSphere"
                 return o;
             }
 
-            fixed2 rotateUV(fixed2 uv, float rotation)
+            float2 rotateUV(float2 uv, float rotation)
             {
                 float mid = 0.5;
-                return fixed2(
+                return float2(
                     cos(rotation) * (uv.x - mid) + sin(rotation) * (uv.y - mid) + mid,
                     cos(rotation) * (uv.y - mid) - sin(rotation) * (uv.x - mid) + mid
                 );
@@ -128,9 +128,9 @@ Shader "Explosion/Sphere/FlameSphere"
                 return uv + frac(dir * newDist);
             }
             
-            fixed2 transformUpUV(fixed2 uv, float dist)
+            float2 transformUpUV(float2 uv, float dist)
             {
-                return uv - fixed2(0,dist);
+                return uv - float2(0,dist);
             }
 
             fixed4 frag(v2f i) : SV_Target

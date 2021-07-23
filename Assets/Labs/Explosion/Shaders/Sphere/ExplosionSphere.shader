@@ -142,12 +142,9 @@ Shader "Explosion/Sphere/ExplosionSphere"
 
 
                 
-                clip((burn - _Cutoff*1.01));
                 fixed4 col = lerp(c0,c1,transition);
-                fixed alpha =  saturate(pow(1 + (burn - _Cutoff * .25 - _Cutoff),10));
-
-                // return fixed4(smokeValue,smokeValue,smokeValue,1);
-                // return fixed4(transition,transition,transition,1);
+                float alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),10));
+                alpha *= col.a;
                 return fixed4(col.rgb,alpha);
             }
             ENDCG

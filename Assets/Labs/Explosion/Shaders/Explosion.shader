@@ -40,7 +40,7 @@ Shader "Explosion/Explosion"
                 float3 normal : NORMAL;
                 float4 uv : TEXCOORD0;
                 fixed4 color : COLOR;
-               
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct v2f
@@ -52,22 +52,31 @@ Shader "Explosion/Explosion"
 	            float3  worldNormal : TEXCOORD2;
 	            float3  worldLight : TEXCOORD3;
                 float3  viewDir : TEXCOORD4;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
-            sampler2D _BurnTex;
-            sampler2D _RampTex;
-            sampler2D _SmokeTex;
-            sampler2D _SmokeNormal;
-            sampler2D _SmokeTransTex;
-            float4 _BurnTex_ST;
+            UNITY_INSTANCING_BUFFER_START(Props)
+                UNITY_DEFINE_INSTANCED_PROP(sampler2D, _BurnTex)
+                UNITY_DEFINE_INSTANCED_PROP(sampler2D, _RampTex)
+                UNITY_DEFINE_INSTANCED_PROP(sampler2D, _SmokeTex)
+                UNITY_DEFINE_INSTANCED_PROP(sampler2D, _SmokeNormal)
+                UNITY_DEFINE_INSTANCED_PROP(sampler2D, _SmokeTransTex)
+                UNITY_DEFINE_INSTANCED_PROP(float4, _BurnTex_ST)
+            
+                UNITY_DEFINE_INSTANCED_PROP(half, _FresnelIntensity)
+                UNITY_DEFINE_INSTANCED_PROP(half, _Cutoff)
+                UNITY_DEFINE_INSTANCED_PROP(half, _SmokeIntensity)
+            UNITY_INSTANCING_BUFFER_END(Props)
 
-            half _FresnelIntensity;
-            half _Cutoff;
-            half _SmokeIntensity;
+
+
+
 
             v2f vert(appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_TRANSFER_INSTANCE_ID(v, o);
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _BurnTex);
                 o.color = v.color;
@@ -81,6 +90,7 @@ Shader "Explosion/Explosion"
 
             fixed4 frag(v2f i) : SV_Target
             {
+                UNITY_SETUP_INSTANCE_ID(i);
                 float3 normal = UnpackNormalWithScale(tex2D(_SmokeNormal,i.uv),1);
 
                 half burn = tex2D(_BurnTex,i.uv);
@@ -98,15 +108,15 @@ Shader "Explosion/Explosion"
                 
                 fixed transition = tex2D(_SmokeTransTex,i.uv);
                 transition = saturate((transition - (_SmokeIntensity-0.5) * 2));
-                fixed alpha =  saturate(pow(1 + (burn - _Cutoff * .25 - _Cutoff),10));
+                fixed alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),10));
                 
                 col.rgb= lerp(col.rgb,smokeCol.rgb,transition);
                 col *= i.color;
                 
-                
-                clip(burn - _Cutoff*1.01);
+                return UNITY_ACCESS_INSTANCED_PROP(Props,  fixed4(col.rgb,alpha*i.color.a));
+                // clip(burn - _Cutoff*1.01);
                 // return fixed4(smokeValue,smokeValue,smokeValue,1);
-                return fixed4(col.rgb,alpha);
+                return fixed4(col.rgb,alpha*i.color.a);
             }
             ENDCG
         }

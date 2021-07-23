@@ -5,7 +5,7 @@ Shader "Explosion/ExplosionSmoke"
         _RampTex ("Ramp Texture", 2D) = "white" {}
         _RampPower("Ramp Power", Range(1, 10)) = 0
         _RampOffset("Ramp Offset", Range(-1, 1)) = 0
-        _Noise("Noise Texture", 2D) = "white" {}
+
         
         _FresnelThreshold("Fresnel Threshold", Range(0.01, 1)) = 0.5
         _RampSize("Ramp Size", Range(0, 1)) = .5
@@ -15,7 +15,6 @@ Shader "Explosion/ExplosionSmoke"
         
         
         _SmokeNormal ("Smoke Normal Map", 2D) = "bump" {}
-        _SmokeIntensity("Smoke Intensity", Range(0, 1)) = 0.5
         
         
         _Cutoff("_Cutoff", Range(0, 1)) = 0.5
@@ -25,8 +24,8 @@ Shader "Explosion/ExplosionSmoke"
     {
         Tags
         {
-            "RenderType" = "Transparent"
-            "Queue" = "Transparent+1"
+            "RenderType" = "AlphaTest"
+            "Queue" = "AlphaTest"
         }
         LOD 100
         Lighting On
@@ -48,11 +47,13 @@ Shader "Explosion/ExplosionSmoke"
                 float3 normal : NORMAL;
                 float4 uv : TEXCOORD0;
                 fixed4 color : COLOR;
-               
+                UNITY_VERTEX_INPUT_INSTANCE_ID
+
             };
 
             struct v2f
             {
+                
 	            float4 pos : SV_POSITION;				
 	            fixed4 color : COLOR;
 	            float2 uv : TEXCOORD0;
@@ -60,10 +61,10 @@ Shader "Explosion/ExplosionSmoke"
 	            float3  worldNormal : TEXCOORD2;
 	            float3  worldLight : TEXCOORD3;
                 float3  viewDir : TEXCOORD4;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             sampler2D _BurnTex;
-            sampler2D _Noise;
             sampler2D _RampTex;
             sampler2D _SmokeNormal;
             float4 _BurnTex_ST;
@@ -75,11 +76,12 @@ Shader "Explosion/ExplosionSmoke"
             half _LightIntensity;
             half _RampSize;
             half _Cutoff;
-            half _SmokeIntensity;
 
             v2f vert(appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_TRANSFER_INSTANCE_ID(v, o);
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _BurnTex);
                 o.color = v.color;
@@ -93,8 +95,8 @@ Shader "Explosion/ExplosionSmoke"
 
             fixed4 frag(v2f i) : SV_Target
             {
+                UNITY_SETUP_INSTANCE_ID(i);
                 float3 normal = UnpackNormalWithScale(tex2D(_SmokeNormal,i.uv),1);
-                fixed3 noise = tex2D(_Noise,i.uv);
 
                 half burn = tex2D(_BurnTex,i.uv).g;
                 float3 N = normalize(i.worldNormal);
@@ -104,24 +106,20 @@ Shader "Explosion/ExplosionSmoke"
                 float fresnel =  1 - saturate(NdotV);
                 fresnel = pow(1+(fresnel-_FresnelThreshold),_FresnelIntensity);
                 fresnel = saturate(fresnel-_FresnelThreshold);
-                // fresnel = fresnel*.5+.5;
                 fresnel = lerp(fresnel,1-((NdotL*.5)+.5)*_LightIntensity,.5);
-                // fresnel *= (1-((NdotL*.5)+.5))*_LightIntensity;
                 fresnel = saturate((fresnel - (_RampSize- .5) * 2));
-                fresnel *= noise.g;
                 fresnel = saturate(pow(fresnel,_RampPower));
                 fresnel = saturate(fresnel + _RampOffset);
                 
                 fixed4 col =tex2D(_RampTex,fixed2(fresnel,0));
 
-                fixed alpha =  saturate(pow(1 + (burn - _Cutoff * .25 - _Cutoff),10)) * i.color.a;
+                fixed alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),10)) ;
                 
-                // col.rgb *= i.color;
                 col *= i.color;
                 
                 
                 clip(burn - _Cutoff*1.01);
-                // return fixed4(shadow,shadow,shadow,1);
+                return UNITY_ACCESS_INSTANCED_PROP(Props,  fixed4(col.rgb,alpha*i.color.a));
                 return fixed4(col.rgb,alpha);
             }
             ENDCG

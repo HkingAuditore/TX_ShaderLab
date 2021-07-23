@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Unlit_Explosion 1
-  m_Shader: {fileID: 4800000, guid: 0f9912b9d7b716c4ebf7ffce78bff92a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7eece6cf5e46a75428f7e4d64bec05eb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BurnTex:
-        m_Texture: {fileID: 2800000, guid: 0346f11aabbe6584aa4442037621443e, type: 3}
+        m_Texture: {fileID: 2800000, guid: cf8bf475a35a1dc49a600aa470d0b050, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortSpeedTex:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 831ddb2a058bd5241a0359db9957e26c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37f0bb5341251194d8447ef4e580e7de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmokeNormal:
@@ -62,6 +62,11 @@ Material:
     m_Floats:
     - _Cutoff: 0
     - _FresnelIntensity: 0.285
+    - _FresnelThreshold: 0.5
+    - _LightIntensity: 1
+    - _RampOffset: 0
+    - _RampPower: 1.5
+    - _RampSize: 0.5
     - _SmokeIntensity: 0
     m_Colors:
     - _BurnTex: {r: 1, g: 1, b: 1, a: 1}

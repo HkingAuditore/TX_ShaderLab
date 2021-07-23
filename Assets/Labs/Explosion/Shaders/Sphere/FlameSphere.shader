@@ -160,11 +160,9 @@ Shader "Explosion/Sphere/FlameSphere"
 
                 fixed4 fireCol = tex2D(_RampTex,fixed2(1-flame,0));
                 
-                clip(flame - _Cutoff*1.01);
-                fixed alpha =  saturate(pow(1 + (flame - .3*_Cutoff - _Cutoff),2.5));
+                // clip(flame - _Cutoff*1.01);
+                fixed alpha =  saturate(pow(saturate(1 + (flame - .3*_Cutoff - _Cutoff)),5.5));
                 fireCol.a = alpha;
-                // return fixed4(alpha,alpha,alpha,1);
-                // fixed4 col = lerp(c0,c1,transition);
                 return fireCol;
             }
             ENDCG

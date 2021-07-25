@@ -98,8 +98,8 @@ Material:
     - _FlameTex2Speed: 5
     - _FlameTex3Speed: 5
     - _FlameTex4Speed: 5
-    - _FresnelIntensity: 1.8
-    - _FresnelSize: 0.763
+    - _FresnelIntensity: 2.08
+    - _FresnelSize: 0.214
     - _RotateSpeed: 0
     - _Rotation: 0
     - _SmokeIntensity: 1

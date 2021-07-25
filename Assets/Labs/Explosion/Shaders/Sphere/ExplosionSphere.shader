@@ -1,14 +1,15 @@
 Shader "Explosion/Sphere/ExplosionSphere"
 {
+    
     Properties
     {
         _Tex0 ("Tex 0", 2D) = "white" {}
         _Tex0Ramp ("Tex 0 Ramp", 2D) = "white" {}
         [HDR]_Color0("Color 0",Color) = (1,1,1,1)
+        
         _Tex1 ("Tex 1", 2D) = "white" {}
         _Tex1Ramp ("Tex 1 Ramp", 2D) = "white" {}
         [HDR]_Color1("Color 1",Color) = (1,1,1,1)
-        
         _Transition("Transition", Range(0, 1)) = 0.5
         _TransitionTex("TransitionTex", 2D) = "white" {}
 
@@ -17,11 +18,13 @@ Shader "Explosion/Sphere/ExplosionSphere"
         _FresnelSize("Fresnel Size", Range(0.01, 1)) = 0.5
         
         _Cutoff("_Cutoff", Range(0, 1)) = 0.5
+        _Rotation("Rotation", float) = 0
         _RotateSpeed("_Rotate Speed", Range(-10, 10)) = 5
         _BurnTex("Burn Tex",2D) = "white" {}
     }
     SubShader
     {
+        
         Tags
         {
             "RenderType" = "Transparent"
@@ -38,6 +41,10 @@ Shader "Explosion/Sphere/ExplosionSphere"
             #pragma fragment frag
             // make fog work
             #pragma multi_compile_fog
+
+            //shader feature
+            #pragma shader_feature USE_TRANSITION
+            #pragma shader_feature USE_FRESNEL
 
             #include "UnityCG.cginc"
       
@@ -80,6 +87,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
             half _Cutoff;
             
             half _Transition;
+            float _Rotation;
             sampler2D _TransitionTex;
             
             
@@ -114,7 +122,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
 
             fixed4 frag(v2f i) : SV_Target
             {
-                float2 uv = rotateUV(i.uv,_Time.y * _RotateSpeed);
+                float2 uv = rotateUV(i.uv,_Time.y * _RotateSpeed + _Rotation);
                 float3 N = normalize(i.worldNormal);
                 fixed NdotV = dot(N,i.viewDir);
                 fixed NdotL = dot(N,i.worldLight);
@@ -136,9 +144,11 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 //Burn
                 half burn =tex2D(_BurnTex,uv);
 
+                #if USE_FRESNEL
                 //Fresnel
                 fixed fresnel = 1-saturate(NdotV);
                 fresnel = pow(fresnel/_FresnelSize,_FresnelIntensity);
+                #endif
 
 
                 
@@ -150,4 +160,5 @@ Shader "Explosion/Sphere/ExplosionSphere"
             ENDCG
         }
     }
+    CustomEditor "ExplosionSphereShaderGUI"
 }

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Dust
   m_Shader: {fileID: 4800000, guid: a4f8823dc520a1b4c8563553c7291693, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: USE_FLOWMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -48,6 +48,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 9e879473a34c4e943af3368dd7191c03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMapTiling:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -76,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex0Ramp:
-        m_Texture: {fileID: 2800000, guid: 940acd8f126456946bcf3b71515c3204, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4f6eaf2eee0a4f46ab69618c451b105, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1:
@@ -96,23 +100,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.332
+    - _Cutoff: 0.664
     - _FlameTex0Speed: 5
     - _FlameTex1Speed: 5
     - _FlameTex2Speed: 5
     - _FlameTex3Speed: 5
     - _FlameTex4Speed: 5
+    - _FlowIntensity: 0.513
+    - _FlowMapOffset: 0
+    - _FlowMapTiling: 0
+    - _FlowTimeScale: 0.065
     - _FresnelIntensity: 1.8
     - _FresnelSize: 0.763
-    - _RotateSpeed: 0.29
+    - _RotateSpeed: 0.702
     - _Rotation: 0
     - _SmokeIntensity: 1
     - _Transformer: 1
     - _Transition: 0
-    - _UJump: 0.25
-    - _VJump: 0.25
+    - _UJump: 0
+    - _VJump: 0
     m_Colors:
-    - _Color0: {r: 6.498019, g: 3.2139096, b: 0, a: 1}
+    - _Color0: {r: 1.1261748, g: 1.1486983, b: 0, a: 1}
     - _Color1: {r: 0.84313726, g: 0.84313726, b: 0.84313726, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

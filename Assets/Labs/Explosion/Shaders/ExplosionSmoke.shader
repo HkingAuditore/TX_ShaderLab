@@ -5,19 +5,18 @@ Shader "Explosion/ExplosionSmoke"
         _RampTex ("Ramp Texture", 2D) = "white" {}
         _RampPower("Ramp Power", Range(1, 10)) = 0
         _RampOffset("Ramp Offset", Range(-1, 1)) = 0
+        _RampSize("Ramp Size", Range(0, 1)) = .5
 
         
         _FresnelThreshold("Fresnel Threshold", Range(0.01, 1)) = 0.5
-        _RampSize("Ramp Size", Range(0, 1)) = .5
         _FresnelIntensity("Fresnel Intensity", Range(0, 1)) = .5
+        
         _LightIntensity("Light Intensity", Range(0.01, 1)) = .5
+
+        [Normal]_SmokeNormal ("Smoke Normal Map", 2D) = "bump" {}
+        _NormalIntensity("Normal Intensity", Range(0, 1)) = 0.5
         
-        
-        
-        _SmokeNormal ("Smoke Normal Map", 2D) = "bump" {}
-        
-        
-        _Cutoff("_Cutoff", Range(0, 1)) = 0.5
+        _Cutoff("Cut off", Range(0, 1)) = 0.5
         _BurnTex("Burn Tex",2D) = "white" {}
     }
     SubShader
@@ -37,6 +36,11 @@ Shader "Explosion/ExplosionSmoke"
             #pragma fragment frag
             // make fog work
             #pragma multi_compile_fog
+
+             //shader feature=
+            #pragma shader_feature USE_LIGHTING
+
+
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
 
@@ -76,6 +80,7 @@ Shader "Explosion/ExplosionSmoke"
             half _LightIntensity;
             half _RampSize;
             half _Cutoff;
+            half _NormalIntensity;
 
             v2f vert(appdata v)
             {
@@ -96,17 +101,21 @@ Shader "Explosion/ExplosionSmoke"
             fixed4 frag(v2f i) : SV_Target
             {
                 UNITY_SETUP_INSTANCE_ID(i);
-                float3 normal = UnpackNormalWithScale(tex2D(_SmokeNormal,i.uv),1);
+                float3 normal = UnpackNormalWithScale(tex2D(_SmokeNormal,i.uv),_NormalIntensity);
 
                 half burn = tex2D(_BurnTex,i.uv).g;
                 float3 N = normalize(i.worldNormal);
                 fixed NdotV = dot(N,i.viewDir);
                 fixed NdotL = dot(N+normal,i.worldLight);
-                
+
                 float fresnel =  1 - saturate(NdotV);
                 fresnel = pow(1+(fresnel-_FresnelThreshold),_FresnelIntensity);
                 fresnel = saturate(fresnel-_FresnelThreshold);
+                
+                #if USE_LIGHTING
                 fresnel = lerp(fresnel,1-((NdotL*.5)+.5)*_LightIntensity,.5);
+                #endif
+                
                 fresnel = saturate((fresnel - (_RampSize- .5) * 2));
                 fresnel = saturate(pow(fresnel,_RampPower));
                 fresnel = saturate(fresnel + _RampOffset);
@@ -126,4 +135,5 @@ Shader "Explosion/ExplosionSmoke"
         }
         
     }
+    CustomEditor "ExplosionSmokeShaderGUI"
 }

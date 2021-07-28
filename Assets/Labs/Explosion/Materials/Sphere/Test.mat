@@ -110,8 +110,8 @@ Material:
     - _FlowMapOffset: 0
     - _FlowMapTiling: 0
     - _FlowTimeScale: 0.753
-    - _FresnelIntensity: 0.01
-    - _FresnelSize: 0.52
+    - _FresnelIntensity: 2.62
+    - _FresnelSize: 0.54
     - _RotateSpeed: -0.55
     - _Rotation: -0.52
     - _SmokeIntensity: 1

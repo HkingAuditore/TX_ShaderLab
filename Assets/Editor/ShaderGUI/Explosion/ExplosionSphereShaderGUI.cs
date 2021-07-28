@@ -99,8 +99,8 @@ public class ExplosionSphereShaderGUI : ExplosionShaderGUI
             var fresnelColor = FindThisProperty("_FresnelColor");
 
             MaterialEditor.ShaderProperty(fresnelColor, GetLabel("边缘光颜色"));
-            MaterialEditor.ShaderProperty(fresnelIntensity, GetLabel("边缘光强度"));
-            MaterialEditor.ShaderProperty(fresnelSize, GetLabel("边缘光尺寸"));
+            MaterialEditor.ShaderProperty(fresnelIntensity, GetLabel("边缘光硬度"));
+            MaterialEditor.ShaderProperty(fresnelSize, GetLabel("边缘光范围"));
 
             EditorGUILayout.EndVertical();
         }

@@ -15,7 +15,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
         _TransitionTex("TransitionTex", 2D) = "white" {}
 
         [HDR]_FresnelColor("Fresnel Color",Color) = (1,1,1,1)
-        _FresnelIntensity("Fresnel Intensity", Range(0.01, 3)) = 0.5
+        _FresnelIntensity("Fresnel Intensity", Range(0, 1)) = 0.5
         _FresnelSize("Fresnel Size", Range(0.01, 1)) = 0.5
         
         _FlowMap("Flow Map", 2D) = "black" {}
@@ -193,7 +193,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 #if USE_FRESNEL
                 float fresnel = 1-saturate(NdotV);
                 // fresnel = pow(fresnel,_FresnelIntensity);
-            	fresnel = pow(saturate(fresnel - (1 - _FresnelSize)),1 -_FlowIntensity);
+            	fresnel = pow(saturate(fresnel - (1 - _FresnelSize)),1 -clamp(_FresnelIntensity,0.00001,0.99999));
                 fresnel = saturate(fresnel);
                 float4 fresnelColor = float4(_FresnelColor.rgb,fresnel);
                 #endif

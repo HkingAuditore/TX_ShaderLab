@@ -45,19 +45,19 @@ public class ExplosionSphereShaderGUI : ExplosionShaderGUI
 
 
         GUILayout.Space(10);
-        GUILayout.Label("旋转", EditorStyles.boldLabel);
+        GUILayout.Label("UV滚动", EditorStyles.boldLabel);
         var USE_OFFSET = TargetMat.IsKeywordEnabled("USE_OFFSET");
         var rotationType = USE_OFFSET ? RotationType.UseOffset : RotationType.UseSpeed;
-        rotationType = (RotationType) EditorGUILayout.Popup("旋转操作单位", (int) rotationType, new[] {"旋转量", "旋转速度"});
+        rotationType = (RotationType) EditorGUILayout.Popup("UV滚动操作单位", (int) rotationType, new[] {"UV滚动量", "UV滚动速度"});
         switch (rotationType)
         {
             case RotationType.UseOffset:
                 var rotation = FindThisProperty("_Rotation");
-                MaterialEditor.ShaderProperty(rotation, GetLabel("旋转量"));
+                MaterialEditor.ShaderProperty(rotation, GetLabel("UV滚动量"));
                 break;
             case RotationType.UseSpeed:
                 var rotationSpeed = FindThisProperty("_RotateSpeed");
-                MaterialEditor.ShaderProperty(rotationSpeed, GetLabel("旋转速度"));
+                MaterialEditor.ShaderProperty(rotationSpeed, GetLabel("UV滚动速度"));
 
                 break;
             default:
@@ -66,7 +66,7 @@ public class ExplosionSphereShaderGUI : ExplosionShaderGUI
 
         if (EditorGUI.EndChangeCheck())
         {
-            MaterialEditor.RegisterPropertyChangeUndo("旋转操作单位");
+            MaterialEditor.RegisterPropertyChangeUndo("UV滚动操作单位");
             switch (rotationType)
             {
                 case RotationType.UseOffset:

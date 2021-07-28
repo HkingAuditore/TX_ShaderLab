@@ -25,8 +25,10 @@ Shader "Explosion/Sphere/ExplosionSphere"
 		_VJump ("V jump per phase", Range(-0.25, 0.25)) = 0.25
         
         _Cutoff("_Cutoff", Range(0, 1)) = 0.5
+    	
         _Rotation("Rotation", float) = 0
-        _RotateSpeed("_Rotate Speed", Range(-1, 1)) = 5
+        _RotateSpeed("_Rotate Speed", float) = 0
+    	
         _BurnTex("Burn Tex",2D) = "white" {}
     }
     SubShader
@@ -100,11 +102,12 @@ Shader "Explosion/Sphere/ExplosionSphere"
             half _FresnelIntensity;
             half  _FresnelSize;
             
+            float _Rotation;
             half  _RotateSpeed;
             half _Cutoff;
             
             half _Transition;
-            float _Rotation;
+            
             sampler2D _TransitionTex;
             
             
@@ -189,7 +192,8 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 //Fresnel
                 #if USE_FRESNEL
                 float fresnel = 1-saturate(NdotV);
-                fresnel = pow(fresnel/_FresnelSize,_FresnelIntensity);
+                // fresnel = pow(fresnel,_FresnelIntensity);
+            	fresnel = pow(saturate(fresnel - (1 - _FresnelSize)),1 -_FlowIntensity);
                 fresnel = saturate(fresnel);
                 float4 fresnelColor = float4(_FresnelColor.rgb,fresnel);
                 #endif
@@ -241,8 +245,9 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 col.rgb = col.rgb * (1 - fresnelColor.a) + fresnelColor.rgb * fresnelColor.a;
                 #endif
 
-            	clip(burn - _Cutoff*0.9);
-                float alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),2));
+                float alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),8));
+            	clip(alpha - _Cutoff);
+
                 alpha *= col.a;
                 return fixed4(col.rgb,alpha);
             }

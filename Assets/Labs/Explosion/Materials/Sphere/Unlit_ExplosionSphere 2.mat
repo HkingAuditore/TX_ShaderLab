@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1Ramp:
-        m_Texture: {fileID: 2800000, guid: c4a8d158a855af94d8f88af842df6a3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5226c17e0aa81c544b4f6e9777155ad7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransformerTex:
@@ -100,7 +100,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.115
+    - _Cutoff: 0.855
     - _FlameTex0Speed: 5
     - _FlameTex1Speed: 5
     - _FlameTex2Speed: 5

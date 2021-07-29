@@ -36,7 +36,7 @@ public class ExplosionSmokeShaderGUI  : ExplosionShaderGUI
         EditorGUI.indentLevel++;
         MaterialEditor.ShaderProperty(rampPower,GetLabel("强度"));
         MaterialEditor.ShaderProperty(rampOffset,GetLabel("采样偏移"));
-        MaterialEditor.ShaderProperty(rampSize,GetLabel("矫正系数"));
+        MaterialEditor.ShaderProperty(rampSize,GetLabel("高光系数"));
         EditorGUI.indentLevel--;
         MaterialEditor.TexturePropertySingleLine(GetLabel("法线"), normal,normalIntensity);
         MaterialEditor.TexturePropertySingleLine(GetLabel("溶解"), burnTex, cutoff);

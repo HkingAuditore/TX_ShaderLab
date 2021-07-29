@@ -112,7 +112,7 @@ Material:
     - _FlowTimeScale: 0.065
     - _FresnelIntensity: 1.8
     - _FresnelSize: 0.763
-    - _RotateSpeed: 0.702
+    - _RotateSpeed: 1.01
     - _Rotation: 0
     - _SmokeIntensity: 1
     - _Transformer: 1

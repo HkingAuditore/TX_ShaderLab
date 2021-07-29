@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44709098, g: 0.4969979, b: 0.575107, a: 1}
+  m_IndirectSpecularColor: {r: 0.45091033, g: 0.500803, b: 0.57452905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &295395060
 Transform:
   m_ObjectHideFlags: 0
@@ -5857,7 +5857,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 5
-      minScalar: 4
+      minScalar: 5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -15569,6 +15569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76803dc8bd33e1446be04e885034b96a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76803dc8bd33e1446be04e885034b96a, type: 3}
 --- !u!1 &1299189186
@@ -15805,8 +15809,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 16
-      minScalar: 16
+      scalar: 17
+      minScalar: 17
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -17992,7 +17996,7 @@ ParticleSystem:
           outWeight: 0.12498766
         - serializedVersion: 3
           time: 1
-          value: 0.034859605
+          value: 0.16084379
           inSlope: -0.7622061
           outSlope: -0.7622061
           tangentMode: 0
@@ -20513,7 +20517,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 79.8
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -20538,8 +20542,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426006078}
-  m_LocalRotation: {x: 0.036500428, y: -0.9236029, z: 0.09120651, w: 0.3705493}
-  m_LocalPosition: {x: -3.6071634, y: 2.2321029, z: 15.511227}
+  m_LocalRotation: {x: 0.011218766, y: 0.9071634, z: -0.023892634, w: 0.41994986}
+  m_LocalPosition: {x: -11.44, y: 3.06, z: 9.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20577,7 +20581,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 1426006081}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 2
@@ -20708,8 +20712,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570151535}
-  m_LocalRotation: {x: 0.40457574, y: -0.15753123, z: 0.07110777, w: 0.8980234}
-  m_LocalPosition: {x: 3.6821058, y: 11.04655, z: -8.890802}
+  m_LocalRotation: {x: 0.23169166, y: 0.5959114, z: -0.18482125, w: 0.7463576}
+  m_LocalPosition: {x: -13.840592, y: 11.438202, z: -3.8620663}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26234,8 +26238,8 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.4
-      minScalar: 0.4
+      scalar: 0.5
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:

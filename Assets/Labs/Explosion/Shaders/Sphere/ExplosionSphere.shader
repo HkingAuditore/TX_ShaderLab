@@ -16,11 +16,11 @@ Shader "Explosion/Sphere/ExplosionSphere"
 
         [HDR]_FresnelColor("Fresnel Color",Color) = (1,1,1,1)
         _FresnelIntensity("Fresnel Intensity", Range(0, 1)) = 0.5
-        _FresnelSize("Fresnel Size", Range(0.01, 1)) = 0.5
+        _FresnelSize("Fresnel Size", Range(0, 1)) = 0.5
         
         _FlowMap("Flow Map", 2D) = "black" {}
-        _FlowIntensity("Flow Intensity", Range(0, 1)) = 0
-        _FlowTimeScale("Flow Time Scale", Range(0, 2)) = 0
+        _FlowIntensity("Flow Intensity", Range(-1, 1)) = 0
+        _FlowTimeScale("Flow Time Scale", float) = 1
         _UJump ("U jump per phase", Range(-0.25, 0.25)) = 0.25
 		_VJump ("V jump per phase", Range(-0.25, 0.25)) = 0.25
         
@@ -147,7 +147,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
 	            float phaseOffset = flowB ? 0.5 : 0;
 	            float progress = frac(time + phaseOffset);
 	            float3 uvw;
-	            uvw.xy = uv - flowVector * intensity * (progress + flowOffset);
+	            uvw.xy = uv + flowVector * intensity * (progress + flowOffset);
 	            uvw.xy *= tiling;
 	            uvw.xy += phaseOffset * intensity;
 	            uvw.xy += (time - progress) * jump;

@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex0Ramp:
-        m_Texture: {fileID: 2800000, guid: c4a8d158a855af94d8f88af842df6a3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21be5271cd986bb44a98cc7cd6266f11, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1:
@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex1Ramp:
-        m_Texture: {fileID: 2800000, guid: c4a8d158a855af94d8f88af842df6a3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21be5271cd986bb44a98cc7cd6266f11, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransformerTex:
@@ -120,7 +120,7 @@ Material:
     - _UJump: 1.11
     - _VJump: 1.11
     m_Colors:
-    - _Color0: {r: 0.26907614, g: 0.05174541, b: 0.6675158, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.84313726, g: 0.84313726, b: 0.84313726, a: 1}
     - _FresnelColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

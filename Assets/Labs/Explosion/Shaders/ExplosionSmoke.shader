@@ -3,7 +3,7 @@ Shader "Explosion/ExplosionSmoke"
     Properties
     {
         _RampTex ("Ramp Texture", 2D) = "white" {}
-        _RampPower("Ramp Power", Range(1, 10)) = 0
+        _RampPower("Ramp Power", Range(1, 30)) = 0
         _RampOffset("Ramp Offset", Range(-1, 1)) = 0
         _RampSize("Ramp Size", Range(0, 1)) = .5
 
@@ -14,7 +14,7 @@ Shader "Explosion/ExplosionSmoke"
         _LightIntensity("Light Intensity", Range(0.01, 1)) = .5
 
         [Normal]_SmokeNormal ("Smoke Normal Map", 2D) = "bump" {}
-        _NormalIntensity("Normal Intensity", Range(0, 1)) = 0.5
+        _NormalIntensity("Normal Intensity", float) = 1
         
         _Cutoff("Cut off", Range(0, 1)) = 0.5
         _BurnTex("Burn Tex",2D) = "white" {}
@@ -113,12 +113,16 @@ Shader "Explosion/ExplosionSmoke"
                 fresnel = saturate(fresnel-_FresnelThreshold);
                 
                 #if USE_LIGHTING
-                fresnel = lerp(fresnel,1-((NdotL*.5)+.5)*_LightIntensity,.5);
+                float light = ((NdotL*.5)+.5);
+                // fresnel *= light;
+                fresnel -= _LightIntensity * light;
+                // return float4(fresnel,fresnel,fresnel,1);
                 #endif
                 
-                fresnel = saturate((fresnel - (_RampSize- .5) * 2));
+                fresnel = saturate(fresnel + _RampSize);
                 fresnel = saturate(pow(fresnel,_RampPower));
                 fresnel = saturate(fresnel + _RampOffset);
+
                 
                 fixed4 col =tex2D(_RampTex,fixed2(fresnel,0));
 

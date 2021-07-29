@@ -173,11 +173,12 @@ public class ExplosionSphereShaderGUI : ExplosionShaderGUI
 
 
             MaterialEditor.TexturePropertySingleLine(GetLabel("扰动图"), flowMap,flowIntensity);
-            MaterialEditor.ShaderProperty(flowTimeScale,GetLabel("扰动速度"));
             EditorGUI.indentLevel++;
             MaterialEditor.TextureScaleOffsetProperty(flowMap);
             EditorGUI.indentLevel--;
-            _uvJump = EditorGUILayout.Vector2Field("UV跳跃", _uvJump);
+            MaterialEditor.ShaderProperty(flowTimeScale,GetLabel("扰动速度"));
+
+            _uvJump = EditorGUILayout.Vector2Field("UV跳跃", new Vector2(TargetMat.GetFloat("_UJump"),TargetMat.GetFloat("_VJump")));
 
             EditorGUILayout.EndVertical();
         }
@@ -187,12 +188,13 @@ public class ExplosionSphereShaderGUI : ExplosionShaderGUI
             if (USE_FLOWMAP)
             {
                 TargetMat.EnableKeyword("USE_FLOWMAP");
+                TargetMat.SetFloat("_UJump",_uvJump.x);
+                TargetMat.SetFloat("_VJump",_uvJump.y);
             }else
             {
                 TargetMat.DisableKeyword("USE_FLOWMAP");
             }
-            TargetMat.SetFloat("_UJump",_uvJump.x);
-            TargetMat.SetFloat("_VJump",_uvJump.y);
+            
         }
 
     }

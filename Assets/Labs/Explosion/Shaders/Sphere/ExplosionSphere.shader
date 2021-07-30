@@ -1,4 +1,4 @@
-Shader "Explosion/Sphere/ExplosionSphere"
+Shader "Explosion/ExplosionSphere"
 {
     
     Properties
@@ -6,7 +6,6 @@ Shader "Explosion/Sphere/ExplosionSphere"
         _Tex0 ("Tex 0", 2D) = "white" {}
         _Tex0Ramp ("Tex 0 Ramp", 2D) = "white" {}
         [HDR]_Color0("Color 0",Color) = (1,1,1,1)
-        
         
         _Tex1 ("Tex 1", 2D) = "white" {}
         _Tex1Ramp ("Tex 1 Ramp", 2D) = "white" {}
@@ -24,12 +23,12 @@ Shader "Explosion/Sphere/ExplosionSphere"
         _UJump ("U jump per phase", Range(-0.25, 0.25)) = 0.25
 		_VJump ("V jump per phase", Range(-0.25, 0.25)) = 0.25
         
+    	_BurnTex("Burn Tex",2D) = "white" {}
         _Cutoff("_Cutoff", Range(0, 1)) = 0.5
     	
         _Rotation("Rotation", float) = 0
         _RotateSpeed("_Rotate Speed", float) = 0
     	
-        _BurnTex("Burn Tex",2D) = "white" {}
     }
     SubShader
     {
@@ -48,7 +47,6 @@ Shader "Explosion/Sphere/ExplosionSphere"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
             #pragma multi_compile_fog
 
             //shader feature
@@ -78,7 +76,6 @@ Shader "Explosion/Sphere/ExplosionSphere"
 	            float3  worldNormal : TEXCOORD2;
 	            float3  worldLight : TEXCOORD3;
                 float3  viewDir : TEXCOORD4;
-
             };
 
             sampler2D _Tex0;
@@ -95,6 +92,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
             half _FlowIntensity;
 			half _FlowTimeScale;
             
+            half _Cutoff;
             sampler2D _BurnTex;
             float4 _BurnTex_ST;
 
@@ -104,10 +102,9 @@ Shader "Explosion/Sphere/ExplosionSphere"
             
             float _Rotation;
             half  _RotateSpeed;
-            half _Cutoff;
+            
             
             half _Transition;
-            
             sampler2D _TransitionTex;
             
             
@@ -126,6 +123,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 return o;
             }
 
+            //旋转UV
             float2 rotateUV(float2 uv, float rotation)
             {
                 float mid = .5f;
@@ -135,11 +133,7 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 );
             }
 
-            float clampNoise(float v)
-            {
-                return clamp(0.01,0.99,v);
-            }
-            
+            //UV扭曲
             float3 FlowUVW (
 	            float2 uv, float2 flowVector, float intensity, float2 jump,
 	            float flowOffset, float tiling, float time, bool flowB
@@ -157,13 +151,17 @@ Shader "Explosion/Sphere/ExplosionSphere"
             
             fixed4 frag(v2f i) : SV_Target
             {
+            	 float3 N = normalize(i.worldNormal);
+                half NdotV = abs(dot(N,i.viewDir));
+
+            	//UV滚动
             	#if USE_OFFSET
             	float2 uv = i.uv + float2(_Rotation,0);
             	#else
 				float2 uv = i.uv + float2(_Time.y * _RotateSpeed,0);
             	#endif
             	
-            	
+            	//UV扭曲
                 #if USE_FLOWMAP
                 float2 flow = tex2D(_FlowMap, uv).rg;
                 float2 jump = float2(_UJump, _VJump);
@@ -175,51 +173,41 @@ Shader "Explosion/Sphere/ExplosionSphere"
 				    uv, flow.xy , .1*_FlowIntensity, jump,
 				    _FlowMap_ST.zw, _FlowMap_ST.xy,  _FlowTimeScale *_Time.y, true
 			    );
-                #endif
-                
-                // float2 uv = rotateUV(i.uv,_Time.y * _RotateSpeed + _Rotation);
-               
-            	#if USE_FLOWMAP
             	float2 uv0 = uvw0.xy;
             	float2 uv1 = uvw1.xy;
-            	// #else
-            	// float2 uv = i.uv + float2(_Time.y * _RotateSpeed + _Rotation,0);
-            	#endif
-                float3 N = normalize(i.worldNormal);
-                half NdotV = abs(dot(N,i.viewDir));
-                half NdotL = dot(N,i.worldLight);
+                #endif
 
-                //Fresnel
+                //菲涅尔
                 #if USE_FRESNEL
                 float fresnel = 1-saturate(NdotV);
-                // fresnel = pow(fresnel,_FresnelIntensity);
             	fresnel = pow(saturate(fresnel - (1 - _FresnelSize)),1 -clamp(_FresnelIntensity,0.00001,0.99999));
                 fresnel = saturate(fresnel);
                 float4 fresnelColor = float4(_FresnelColor.rgb,fresnel);
                 #endif
         
-                //Style 0
+                //基本颜色
             	#if USE_FLOWMAP
-            	float s00 = clampNoise(tex2D(_Tex0,uv0)) * uvw0.z;
-            	float s01 = clampNoise(tex2D(_Tex0,uv1)) * uvw1.z;
+            	float s00 = (tex2D(_Tex0,uv0)) * uvw0.z;
+            	float s01 = (tex2D(_Tex0,uv1)) * uvw1.z;
+            	
             	float4 c0 = tex2D(_Tex0Ramp,float2(s00+s01,0));
             	#else
-            	float s0 = clampNoise(tex2D(_Tex0,uv));
+            	float s0 = (tex2D(_Tex0,uv));
             	float4 c0 = tex2D(_Tex0Ramp,float2(s0,0));
             	#endif
 
                 c0 *= _Color0;
                 
-                //Style 1
+                //过渡
                 #if USE_TRANSITION
             	
             	#if USE_FLOWMAP
-            	float s10 = clampNoise(tex2D(_Tex1,uv0)) * uvw0.z;
-            	float s11 = clampNoise(tex2D(_Tex1,uv1)) * uvw1.z;
+            	float s10 = (tex2D(_Tex1,uv0)) * uvw0.z;
+            	float s11 = (tex2D(_Tex1,uv1)) * uvw1.z;
             	float4 c1 = tex2D(_Tex1Ramp,float2(s10+s11,0));
             	half transition = tex2D(_TransitionTex,uv0) * uvw0.z + tex2D(_TransitionTex,uv1) * uvw1.z ;
             	#else
-            	float s1 = clampNoise(tex2D(_Tex1,uv));
+            	float s1 = (tex2D(_Tex1,uv));
             	float4 c1 = tex2D(_Tex1Ramp,float2(s1,0));
             	half transition = tex2D(_TransitionTex,uv);
             	#endif
@@ -229,14 +217,15 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 #endif
                 
 
-                //Burn
+                //溶解
             	#if USE_FLOWMAP
             	half burn =tex2D(_BurnTex,uv0) * uvw0.z + tex2D(_BurnTex,uv1) * uvw1.z ;
             	#else
             	half burn =tex2D(_BurnTex,uv);
             	#endif
+
+            	//组合
                 fixed4 col = c0;
-                
                 #if USE_TRANSITION
                 col = lerp(c0,c1,transition);
                 #endif
@@ -245,9 +234,9 @@ Shader "Explosion/Sphere/ExplosionSphere"
                 col.rgb = col.rgb * (1 - fresnelColor.a) + fresnelColor.rgb * fresnelColor.a;
                 #endif
 
+            	//边缘模糊
                 float alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),8));
             	clip(alpha - _Cutoff);
-
                 alpha *= col.a;
                 return fixed4(col.rgb,alpha);
             }

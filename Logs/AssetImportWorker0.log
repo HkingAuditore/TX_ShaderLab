@@ -1,0 +1,1575 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/TX_ShaderLab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50249
+Successfully changed project path to: D:/UnityProject/TX_ShaderLab
+D:/UnityProject/TX_ShaderLab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/TX_ShaderLab/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001334 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3184ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.00 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 163.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.715000 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.457200 ms  DeleteObjects: 0.055300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8264f11b4bd56323c55c944ec901da') in 0.137670 seconds 
+  Import took 0.172359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.450324 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3832aabdf0778ac7704f8de60d244d03') in 0.029267 seconds 
+  Import took 0.044195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.582938 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e78acd4f3e94b8f96a6dcee78b60dbf') in 0.023837 seconds 
+  Import took 0.051118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.043845 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff358f73cac920bcfa5235b6276ff8') in 0.024492 seconds 
+  Import took 0.030940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.473035 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fc98c69c54df8d6026c648a1060917') in 0.026462 seconds 
+  Import took 0.051893 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.702500 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.473000 ms  DeleteObjects: 0.011800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 3.246000 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.037800 ms MarkObjects: 3.016600 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.7 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 1.662900 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.458300 ms  DeleteObjects: 0.016300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.124363 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1455ms)
+			LoadAssemblies (511ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.7 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 3.499400 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.111700 ms MarkObjects: 3.108300 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21287.968630 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise6.png
+  artifactKey: Guid(9afe54b3a21d0644aa9ed9ac8458dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise6.png using Guid(9afe54b3a21d0644aa9ed9ac8458dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6a33fd778351c69add1b83bc3c8572') in 0.516428 seconds 
+  Import took 0.571643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Labs/Explosion/Textures/SmokeRamp3.psd
+  artifactKey: Guid(21be5271cd986bb44a98cc7cd6266f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/SmokeRamp3.psd using Guid(21be5271cd986bb44a98cc7cd6266f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df3ffd29beebfc9a73104e9303def5a') in 0.022747 seconds 
+  Import took 0.025584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise6.png
+  artifactKey: Guid(9afe54b3a21d0644aa9ed9ac8458dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise6.png using Guid(9afe54b3a21d0644aa9ed9ac8458dca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6a33fd778351c69add1b83bc3c8572') in 0.120884 seconds 
+  Import took 0.124968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Labs/Explosion/Textures/SmokeRamp3.psd
+  artifactKey: Guid(21be5271cd986bb44a98cc7cd6266f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/SmokeRamp3.psd using Guid(21be5271cd986bb44a98cc7cd6266f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df3ffd29beebfc9a73104e9303def5a') in 0.033962 seconds 
+  Import took 0.037432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise8.png
+  artifactKey: Guid(9e879473a34c4e943af3368dd7191c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise8.png using Guid(9e879473a34c4e943af3368dd7191c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f28810820343b6678d8a88c7a6349') in 0.096028 seconds 
+  Import took 0.110440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007850 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise8.png
+  artifactKey: Guid(9e879473a34c4e943af3368dd7191c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise8.png using Guid(9e879473a34c4e943af3368dd7191c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f28810820343b6678d8a88c7a6349') in 0.050350 seconds 
+  Import took 0.052794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.725785 seconds.
+  path: Assets/Labs/Explosion/Materials/Sphere/Dust.mat
+  artifactKey: Guid(80b656894190ec64c8927649d210cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Sphere/Dust.mat using Guid(80b656894190ec64c8927649d210cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c52b2549e00cbf09fa44cd76bf0374f') in 0.627207 seconds 
+  Import took 0.630282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Labs/Explosion/Materials/Sphere/Test.mat
+  artifactKey: Guid(aa51c572a93238a4292113d2ec40e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Sphere/Test.mat using Guid(aa51c572a93238a4292113d2ec40e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287730de06e55edaac43cc8bc6b1778d') in 0.226214 seconds 
+  Import took 0.242376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere 2.mat
+  artifactKey: Guid(eaa17eb969ecad64786f9cc5dec5dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere 2.mat using Guid(eaa17eb969ecad64786f9cc5dec5dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8b756f5f8b3e01332129deb2bb8e3b') in 0.198050 seconds 
+  Import took 0.209718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Labs/Explosion/Textures/flowmap.png
+  artifactKey: Guid(9571f2283091ffd4d8a98c699322e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/flowmap.png using Guid(9571f2283091ffd4d8a98c699322e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd533a9506e54829c2dfa446c7013aa96') in 0.011887 seconds 
+  Import took 0.014797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere.mat
+  artifactKey: Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere.mat using Guid(465c4d335ecf27a468397b4085f7226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6701eff423caeacac83ed41354e081') in 0.249178 seconds 
+  Import took 0.252486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise7.png
+  artifactKey: Guid(7d51671919b1cf3438109f6864974f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise7.png using Guid(7d51671919b1cf3438109f6864974f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a8a1caf138d9e20d14bff3545aad44') in 0.054397 seconds 
+  Import took 0.065784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp.psd
+  artifactKey: Guid(4b5aa889dad6417439e8d0e3e6147764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp.psd using Guid(4b5aa889dad6417439e8d0e3e6147764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf71710202d94707320db92a31ec5ef1') in 0.020557 seconds 
+  Import took 0.023941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp5.psd
+  artifactKey: Guid(682b8a1fd912d9d4bbca31d4e83c6376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp5.psd using Guid(682b8a1fd912d9d4bbca31d4e83c6376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f69d4acff167427bd2631b0efaf7c4') in 0.029996 seconds 
+  Import took 0.033705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere 3.mat
+  artifactKey: Guid(e66b6ebe151bd7f4798843de6cd1ce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Sphere/Unlit_ExplosionSphere 3.mat using Guid(e66b6ebe151bd7f4798843de6cd1ce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de070ca909a0bbe7e3bac97e8220f574') in 0.155667 seconds 
+  Import took 0.206051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.250677 seconds.
+  path: Assets/Labs/Explosion/Materials/Range/Range.mat
+  artifactKey: Guid(5342eaa541cd37c42986ef85dd6bf73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Range/Range.mat using Guid(5342eaa541cd37c42986ef85dd6bf73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cecc4b29824e43a79e6760f174a043') in 0.143196 seconds 
+  Import took 0.145835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932231 seconds.
+  path: Assets/Labs/Explosion/Textures/Range/Range.png
+  artifactKey: Guid(61e1355adf18aef4eb02a90c17ed5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Range/Range.png using Guid(61e1355adf18aef4eb02a90c17ed5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a015e779cd5d0eaf6cf74f691a1a4') in 0.052564 seconds 
+  Import took 0.055629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp3.psd
+  artifactKey: Guid(37f0bb5341251194d8447ef4e580e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp3.psd using Guid(37f0bb5341251194d8447ef4e580e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45ab88515cda8ad6145605b4bcc8a38') in 0.020821 seconds 
+  Import took 0.023583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.357535 seconds.
+  path: Assets/Labs/Explosion/Materials/Smoke/Test.mat
+  artifactKey: Guid(2105668345715e64db03a39c619f0093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Smoke/Test.mat using Guid(2105668345715e64db03a39c619f0093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d8297809a6ecae17caafc63eb674ce') in 0.153295 seconds 
+  Import took 0.156039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Labs/Explosion/Materials/Smoke/Unlit_Explosion 4.mat
+  artifactKey: Guid(c527fbb1a8033f4468d69a19bfbb4883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Materials/Smoke/Unlit_Explosion 4.mat using Guid(c527fbb1a8033f4468d69a19bfbb4883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed1cdb4418404f279d8ef732df07600') in 0.360684 seconds 
+  Import took 0.362975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.2 MB.
+System memory in use after: 162.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 1.848200 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.660600 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 664.538864 seconds.
+  path: Assets/Labs/Explosion/Prefab
+  artifactKey: Guid(77fdd529904953844a8866275a20fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Prefab using Guid(77fdd529904953844a8866275a20fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750b358696e6b21eb1aac33f811e1fe') in 0.006723 seconds 
+  Import took 0.020759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.126840 seconds.
+  path: Assets/Labs/Explosion/Prefabs
+  artifactKey: Guid(77fdd529904953844a8866275a20fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Prefabs using Guid(77fdd529904953844a8866275a20fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6113bf9f2405c83bedd71f6821d15807') in 0.004260 seconds 
+  Import took 0.007178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.229506 seconds.
+  path: Assets/Labs/Explosion/Prefabs/Explosion.prefab
+  artifactKey: Guid(689aa2194ed952745ac5af82b9f6c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Prefabs/Explosion.prefab using Guid(689aa2194ed952745ac5af82b9f6c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee92a08ff05be4d2f63cfddeb73b9a5c') in 0.940854 seconds 
+  Import took 0.946495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.534352 seconds.
+  path: Assets/Labs/Explosion/2.unity
+  artifactKey: Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/2.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82d48cc85a46c4b43c356e8862e34db') in 0.005308 seconds 
+  Import took 0.008598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.123814 seconds.
+  path: Assets/Labs/Explosion/SampleScene.unity
+  artifactKey: Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/SampleScene.unity using Guid(39527fadef6ee6c4eb70cce5726bddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e7f79a8e33c5a1a4116b285250d09') in 0.004426 seconds 
+  Import took 0.007587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.771362 seconds.
+  path: Assets/Labs/Explosion/Textures/cratered-rock-normal.png
+  artifactKey: Guid(80e532f47e1c41c4e82dba8fc2032605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/cratered-rock-normal.png using Guid(80e532f47e1c41c4e82dba8fc2032605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798121dae1a6b56220dddacc923cf0ca') in 0.123290 seconds 
+  Import took 0.130344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp4.psd
+  artifactKey: Guid(bf72e9f2efaaefa418076564d53bbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp4.psd using Guid(bf72e9f2efaaefa418076564d53bbb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593133abed8e66b74e703a512b8450a4') in 0.044234 seconds 
+  Import took 0.047335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Labs/Explosion/Textures/SmokeRamp.psd
+  artifactKey: Guid(c4a8d158a855af94d8f88af842df6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/SmokeRamp.psd using Guid(c4a8d158a855af94d8f88af842df6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b664d9e5578551428aee989cbd150d40') in 0.027059 seconds 
+  Import took 0.030487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Albedo3.png
+  artifactKey: Guid(164ba17df78ad6a4c935095e731b384e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Albedo3.png using Guid(164ba17df78ad6a4c935095e731b384e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1c18130b4ca237151135ebe82538fc') in 0.056594 seconds 
+  Import took 0.070729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Heat3.png
+  artifactKey: Guid(d2465ad543c602e45898c39df3dede02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Heat3.png using Guid(d2465ad543c602e45898c39df3dede02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fc4094638b0b92d83b58ecb8cf135') in 0.041338 seconds 
+  Import took 0.043896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Normal.png
+  artifactKey: Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Normal.png using Guid(419970f579887ce4d9819791a57a86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f4ff0d60744d461252e3600a5f293') in 0.069621 seconds 
+  Import took 0.072145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Labs/Explosion/Textures/SmokeRamp2.psd
+  artifactKey: Guid(5226c17e0aa81c544b4f6e9777155ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/SmokeRamp2.psd using Guid(5226c17e0aa81c544b4f6e9777155ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7dd657bc35ef524f7a9f75926c788') in 0.030129 seconds 
+  Import took 0.033026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp2.psd
+  artifactKey: Guid(940acd8f126456946bcf3b71515c3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp2.psd using Guid(940acd8f126456946bcf3b71515c3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb03728f47b3045de96d5c58aba7fb0') in 0.066708 seconds 
+  Import took 0.069088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp4.psd
+  artifactKey: Guid(f873264a04f22b84fa0dc5932f42aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp4.psd using Guid(f873264a04f22b84fa0dc5932f42aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b17b759d6054d97d4bda4998c1b0525') in 0.022912 seconds 
+  Import took 0.025587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Labs/Explosion/Textures/normal.png
+  artifactKey: Guid(747a4c432f7ca494587658505ff7fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/normal.png using Guid(747a4c432f7ca494587658505ff7fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939fba538025ccef7144d7747a01670b') in 0.103195 seconds 
+  Import took 0.106299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Labs/Explosion/Textures/Noise.png
+  artifactKey: Guid(c86eaf3d550da4f479156b7cf9aee7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Noise.png using Guid(c86eaf3d550da4f479156b7cf9aee7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291aea73cecf2413d1d63fc06923a1ed') in 0.044852 seconds 
+  Import took 0.047254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Labs/Explosion/Textures/NoiseSmoke.png
+  artifactKey: Guid(0a5812fe2d20e484a84c4f0302534ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/NoiseSmoke.png using Guid(0a5812fe2d20e484a84c4f0302534ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2918513cc51499436193389a2bb8422') in 0.052655 seconds 
+  Import took 0.055160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Albedo3 1.png
+  artifactKey: Guid(9d4cb697dff584d498adbe5d5af424b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Albedo3 1.png using Guid(9d4cb697dff584d498adbe5d5af424b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a44acc8618b96a29a452d04a6018697') in 0.045394 seconds 
+  Import took 0.059325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp7.psd
+  artifactKey: Guid(d4f6eaf2eee0a4f46ab69618c451b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp7.psd using Guid(d4f6eaf2eee0a4f46ab69618c451b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa1727fb11df1e56353b7ff8babd0e') in 0.033481 seconds 
+  Import took 0.035812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Velocity3.png
+  artifactKey: Guid(2f3fd1693f5df804cbb2b2bca11f4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Velocity3.png using Guid(2f3fd1693f5df804cbb2b2bca11f4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8726f5db6e821a6664733d65dad024') in 0.052623 seconds 
+  Import took 0.054841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Density3.png
+  artifactKey: Guid(87f1c54fedf3a274f8a3d1cf97ffa5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Density3.png using Guid(87f1c54fedf3a274f8a3d1cf97ffa5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7a7aa88dbe27a4b3a795208a1eb0f5') in 0.073771 seconds 
+  Import took 0.076197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp5.psd
+  artifactKey: Guid(f0be6f3c2ef6bbb409838238fb11994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp5.psd using Guid(f0be6f3c2ef6bbb409838238fb11994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6d739d16985ec12747c0c7c484629') in 0.021634 seconds 
+  Import took 0.024193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Labs/Explosion/Textures/Smoke_Normal3.png
+  artifactKey: Guid(9e5a48928a7758942bee43550daa9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Smoke_Normal3.png using Guid(9e5a48928a7758942bee43550daa9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccf202059d8a6d573aefd67d2ad5e94') in 0.046450 seconds 
+  Import took 0.049459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramp.psd
+  artifactKey: Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramp.psd using Guid(831ddb2a058bd5241a0359db9957e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db9cba9928cca68881f2c2711130f53') in 0.032039 seconds 
+  Import took 0.035071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.579318 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Albedo.png
+  artifactKey: Guid(640bf8739ff9aab4691f887ddaebf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Albedo.png using Guid(640bf8739ff9aab4691f887ddaebf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc6cd73d72e3dfbe65e8c00b9c699a7') in 0.034246 seconds 
+  Import took 0.037155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Albedo3.png
+  artifactKey: Guid(ddb2848bae3bcbe4aab4c96adfb2493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Albedo3.png using Guid(ddb2848bae3bcbe4aab4c96adfb2493c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f08f587884d0b9c5f6120b8d70d611f') in 0.041603 seconds 
+  Import took 0.043997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Labs/Explosion/Smoke/草稿-0.psd
+  artifactKey: Guid(6e22d6db531c8de4e859fc5b4ba0e315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/草稿-0.psd using Guid(6e22d6db531c8de4e859fc5b4ba0e315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d08254b8750c4d1637c2f205183f2b5') in 0.053119 seconds 
+  Import took 0.056164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Density3.png
+  artifactKey: Guid(ede676e0e8009b0408a6aecc37b505c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Density3.png using Guid(ede676e0e8009b0408a6aecc37b505c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a05fbda53b7f5bbc57dade447e06b01') in 0.051294 seconds 
+  Import took 0.053978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Heat3.png
+  artifactKey: Guid(15f24cddda0f1274f894f39582e1070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Heat3.png using Guid(15f24cddda0f1274f894f39582e1070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d22b9463273ae4bdc029dbf4e803b3') in 0.044436 seconds 
+  Import took 0.046904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Normal3.png
+  artifactKey: Guid(c99be67813974c640903d0370ebdcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Normal3.png using Guid(c99be67813974c640903d0370ebdcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0614e92bfa112175f1e0f142c8fffc96') in 0.038308 seconds 
+  Import took 0.040445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_velocity.png
+  artifactKey: Guid(2938f45ba8dd3284aa45e47e915b5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_velocity.png using Guid(2938f45ba8dd3284aa45e47e915b5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49230d98d9d83b5c62f39ec184e88611') in 0.044897 seconds 
+  Import took 0.047516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Albedo2.png
+  artifactKey: Guid(749922a48cdc6ac4d9c6fb0eeedf5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Albedo2.png using Guid(749922a48cdc6ac4d9c6fb0eeedf5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce61a1e7b44f2b2de834c50eb696a98') in 0.050175 seconds 
+  Import took 0.058150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Labs/Explosion/Smoke/Smoke_Velocity3.png
+  artifactKey: Guid(94e739f88bc0e614da9bded55338c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/Smoke_Velocity3.png using Guid(94e739f88bc0e614da9bded55338c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca51deb78d196227961144ed3567d377') in 0.048274 seconds 
+  Import took 0.050785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Labs/Explosion/Smoke/草稿-1.psd
+  artifactKey: Guid(539384cc3e8a5044ea1560c2c6d3ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Smoke/草稿-1.psd using Guid(539384cc3e8a5044ea1560c2c6d3ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69514370265727518c4e00fc431a9bc') in 0.043479 seconds 
+  Import took 0.045700 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.3 MB.
+System memory in use after: 162.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 2.033800 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.818600 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.329218 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png
+  artifactKey: Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base-C.png using Guid(7786e65ed2d309341bcfcebb2ba7c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bea7a58afb132db8c1d0b14f86998e') in 0.151069 seconds 
+  Import took 0.154975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png
+  artifactKey: Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map3.png using Guid(e503ef06dd2f6214c90c6b85f9e7cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0d0896f625d71e27a01468118030ea') in 0.020505 seconds 
+  Import took 0.023068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png
+  artifactKey: Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map1.png using Guid(26d0d21af4c75fa4e83c53821db921a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2ca4d65e93009e84f895e8206a3e6f') in 0.021084 seconds 
+  Import took 0.023699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
+  artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5717a5f48a5d6ec0ce4bfbf181065') in 0.022435 seconds 
+  Import took 0.025729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png
+  artifactKey: Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png using Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2804ddb3a279617012e405dda49c20b') in 0.055605 seconds 
+  Import took 0.059664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png
+  artifactKey: Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map2.png using Guid(e9ae43102edb994488f00d4e50c759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5717a5f48a5d6ec0ce4bfbf181065') in 0.021081 seconds 
+  Import took 0.023951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png
+  artifactKey: Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4-C.png using Guid(24c6459f63d8a0842ab648b66e82b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2804ddb3a279617012e405dda49c20b') in 0.051593 seconds 
+  Import took 0.054004 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.3 MB.
+System memory in use after: 162.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 1.959900 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.701000 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229.045781 seconds.
+  path: Assets/Labs/Explosion/Textures/FireRamp6.psd
+  artifactKey: Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/FireRamp6.psd using Guid(07045ad57aedbef44bb056d76d90c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc35ef5b69bba184eb203f18f9e4d744') in 0.058025 seconds 
+  Import took 0.061245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.196670 seconds.
+  path: Assets/Labs/Explosion/Textures/T_Noises_01.TGA
+  artifactKey: Guid(bc6923034e288f547a166d1581636c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/T_Noises_01.TGA using Guid(bc6923034e288f547a166d1581636c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada5471e12887c30a8d9223e2b2954a9') in 0.137850 seconds 
+  Import took 0.140642 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.3 MB.
+System memory in use after: 162.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 2.190100 ms (FindLiveObjects: 0.143000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.973300 ms  DeleteObjects: 0.030000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.367573 seconds.
+  path: Assets/Labs/Explosion/2_Profiles
+  artifactKey: Guid(f3df6307a8178c94ca3e76cd02a1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/2_Profiles using Guid(f3df6307a8178c94ca3e76cd02a1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ae7e34f91f9812a2b8bf30d20a79ac') in 0.005862 seconds 
+  Import took 0.009191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.223580 seconds.
+  path: Assets/Labs/Explosion/Profiles
+  artifactKey: Guid(f3df6307a8178c94ca3e76cd02a1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Profiles using Guid(f3df6307a8178c94ca3e76cd02a1280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feed3a3d025ea9dc56f45e8727dc6ec') in 0.004109 seconds 
+  Import took 0.006831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.380194 seconds.
+  path: Assets/Labs/Explosion/Profiles/Main Camera Profile.asset
+  artifactKey: Guid(550ff39752289764ea9235f1e3714ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Profiles/Main Camera Profile.asset using Guid(550ff39752289764ea9235f1e3714ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c417654a706628fcab5fed208bcc3683') in 0.021293 seconds 
+  Import took 0.024277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003704 seconds.
+  path: Assets/Labs/Explosion/Profiles/Main Camera Profile.asset
+  artifactKey: Guid(550ff39752289764ea9235f1e3714ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Profiles/Main Camera Profile.asset using Guid(550ff39752289764ea9235f1e3714ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c417654a706628fcab5fed208bcc3683') in 0.004313 seconds 
+  Import took 0.007061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.098948 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png
+  artifactKey: Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/FlameNoise.png using Guid(808471aa894be3b4ba543f257fa5e4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb337d8d3c0b4efcdc80ba33a8f2068') in 0.117191 seconds 
+  Import took 0.131603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/flowmap.png
+  artifactKey: Guid(20510d0a0760a94468f58f651fd83399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/flowmap.png using Guid(20510d0a0760a94468f58f651fd83399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add44d5d795a093a26aab61852eca55d') in 0.145393 seconds 
+  Import took 0.147598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise0.png
+  artifactKey: Guid(65ed451c0f8893f40b2b6786f091ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise0.png using Guid(65ed451c0f8893f40b2b6786f091ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ca7a6d7792d0eea61de901bb515f37') in 0.051693 seconds 
+  Import took 0.064310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Test0.png
+  artifactKey: Guid(9f6d4f28fe04e5a459554dca6f87e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Test0.png using Guid(9f6d4f28fe04e5a459554dca6f87e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cac9361be246429a5cc458ec377e970') in 0.078873 seconds 
+  Import took 0.087611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/flowmapTest.png
+  artifactKey: Guid(06e2c96becf437240b7c8acdcaf9ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/flowmapTest.png using Guid(06e2c96becf437240b7c8acdcaf9ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43886bffb6b88ab1783db01a104b3d6f') in 0.094029 seconds 
+  Import took 0.096419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise3.png
+  artifactKey: Guid(c16603cffdb515e43bc2c6c061c36670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise3.png using Guid(c16603cffdb515e43bc2c6c061c36670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1f62449072aa6432ba4d21b8089bbc') in 0.050839 seconds 
+  Import took 0.053149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise4.png
+  artifactKey: Guid(a0c2079d92662a24aa0044e6b674f3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise4.png using Guid(a0c2079d92662a24aa0044e6b674f3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a51cc2bc5e88d77ca987e3895b925d') in 0.056483 seconds 
+  Import took 0.058789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Test.png
+  artifactKey: Guid(2285c639feb0c504d80045ca247fcac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Test.png using Guid(2285c639feb0c504d80045ca247fcac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b7345820ef4e223e00d49e411e6cb6') in 0.064393 seconds 
+  Import took 0.066944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise1.png
+  artifactKey: Guid(18291cf1e28afd3489a87cdaaaec19cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise1.png using Guid(18291cf1e28afd3489a87cdaaaec19cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59741d01b44379ad73efb5d32434d747') in 0.096203 seconds 
+  Import took 0.098569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Toon3.png
+  artifactKey: Guid(d4ce89932d5fdf546bc37d913a7c43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Toon3.png using Guid(d4ce89932d5fdf546bc37d913a7c43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05ff29c8e225ff0e5608c6f3355de89') in 0.086641 seconds 
+  Import took 0.089065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Toon2.png
+  artifactKey: Guid(1df40ba3eaa4afd4495a42c1bdeb3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Toon2.png using Guid(1df40ba3eaa4afd4495a42c1bdeb3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91732bf874a3a324d629bb1b7f8d14e8') in 0.107296 seconds 
+  Import took 0.109756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Tex1.png
+  artifactKey: Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Tex1.png using Guid(fdb24decbe17e9349bcfbcf20967abc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d60f6588ab99b6d2057877736e327b') in 0.071578 seconds 
+  Import took 0.074180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Tex0.png
+  artifactKey: Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Tex0.png using Guid(d5941740b2f935d45881622bcdf7cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a555f58ce3ebe1856223001abde51f5a') in 0.076009 seconds 
+  Import took 0.078254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise5.png
+  artifactKey: Guid(24c63c6d4a2c2bf4f972b6f7cfb8af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise5.png using Guid(24c63c6d4a2c2bf4f972b6f7cfb8af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a58dfe2fa235ed10f40c755f65ddd75') in 0.049951 seconds 
+  Import took 0.052232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Toon.png
+  artifactKey: Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Toon.png using Guid(cf8bf475a35a1dc49a600aa470d0b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70db980b14e4a490fc83ecb4e80bda6e') in 0.085835 seconds 
+  Import took 0.092027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Noise2.png
+  artifactKey: Guid(0346f11aabbe6584aa4442037621443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Noise2.png using Guid(0346f11aabbe6584aa4442037621443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d042541d516565b4b14749a3b832cec') in 0.193950 seconds 
+  Import took 0.204282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Test2.png
+  artifactKey: Guid(039e0da85e35d7943a350383399f1dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Test2.png using Guid(039e0da85e35d7943a350383399f1dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db236ca79b52da520900f8b28ef1de05') in 0.091791 seconds 
+  Import took 0.094558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Test1.png
+  artifactKey: Guid(943eab06b4e2d324789c35f7bf09be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Test1.png using Guid(943eab06b4e2d324789c35f7bf09be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89fb4aa97907599ce29587523059700') in 0.104177 seconds 
+  Import took 0.107201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.015234 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/0-C.png
+  artifactKey: Guid(3e51849f6c64d3240965e13842add0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/0-C.png using Guid(3e51849f6c64d3240965e13842add0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd231b10c6f17ff507e7e91c7deb3fed2') in 0.130172 seconds 
+  Import took 0.133032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/2-C.png
+  artifactKey: Guid(9dfa11c0818f2c64fbb24fca11e90758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/2-C.png using Guid(9dfa11c0818f2c64fbb24fca11e90758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a6113cd788771d3c56ac4b92367361') in 0.077249 seconds 
+  Import took 0.079629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png
+  artifactKey: Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/Base.png using Guid(416b06f7f196089418af3ed5cce90ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ff1f29accbb5072b266e6028ddcfb') in 0.137858 seconds 
+  Import took 0.144331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/1-C.png
+  artifactKey: Guid(7fa3758c4a585fc4fb2fe5f4732b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/1-C.png using Guid(7fa3758c4a585fc4fb2fe5f4732b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c10d0420895464a8bda97ed63c2b44b') in 0.076091 seconds 
+  Import took 0.078430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/2.png
+  artifactKey: Guid(02ad319021b86c24daf4d29febfb4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/2.png using Guid(02ad319021b86c24daf4d29febfb4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44186c9d7e5cd9de9c93674e10a204d') in 0.082876 seconds 
+  Import took 0.085379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/4.png
+  artifactKey: Guid(2ce97b7a7cd876547a13ba76e4b7569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/4.png using Guid(2ce97b7a7cd876547a13ba76e4b7569c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a58716d5f03334a02a2de4f3b15043') in 0.079103 seconds 
+  Import took 0.081343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png
+  artifactKey: Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/map0.png using Guid(02b818b56a1560b43ab221a1aeb3f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bb49871ccdc5774a85481daa071d14') in 0.037953 seconds 
+  Import took 0.050015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/0.png
+  artifactKey: Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/0.png using Guid(5e6bd9bf10ee90043a33ee5a9b808317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733cc387ac53720b163cc3d4953c66a6') in 0.077922 seconds 
+  Import took 0.080731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/3.png
+  artifactKey: Guid(c13ab9eafc1ffa64083835b94c058301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/3.png using Guid(c13ab9eafc1ffa64083835b94c058301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5756ba8c41b11821296779243a84d61f') in 0.066837 seconds 
+  Import took 0.069373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/1.png
+  artifactKey: Guid(1939a985955c59f4e96313759b89fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/1.png using Guid(1939a985955c59f4e96313759b89fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c62f500cc9c1e7a77d9e21ff88c4daf') in 0.081263 seconds 
+  Import took 0.083479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/FlowMap.png
+  artifactKey: Guid(4eab8fee89798b5409e4eae719627167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/FlowMap.png using Guid(4eab8fee89798b5409e4eae719627167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea52d3ef4a9ad48cba35143e403a6fc') in 0.066598 seconds 
+  Import took 0.068822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Labs/Explosion/Textures/Sphere/Flame/3-C.png
+  artifactKey: Guid(225541f6606099a4c882763e45ad1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Sphere/Flame/3-C.png using Guid(225541f6606099a4c882763e45ad1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947fda0b9274be41116f6a7bffcbc370') in 0.081199 seconds 
+  Import took 0.091760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.888886 seconds.
+  path: Assets/Labs/Explosion/Textures/Range
+  artifactKey: Guid(53b453ab7abeb6245bd7719fb401abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Range using Guid(53b453ab7abeb6245bd7719fb401abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c60d9c613233b6efaa95698d4e1ca') in 0.019216 seconds 
+  Import took 0.032078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.125422 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramps
+  artifactKey: Guid(a359e39503ed16d4bb19d7558dc21634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramps using Guid(a359e39503ed16d4bb19d7558dc21634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e45e8c3dd111d9ab06b5767823c4d') in 0.004268 seconds 
+  Import took 0.007345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003997 seconds.
+  path: Assets/Labs/Explosion/Textures/Ramps
+  artifactKey: Guid(a359e39503ed16d4bb19d7558dc21634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/Ramps using Guid(a359e39503ed16d4bb19d7558dc21634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e45e8c3dd111d9ab06b5767823c4d') in 0.003740 seconds 
+  Import took 0.006920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.019648 seconds.
+  path: Assets/Labs/Explosion/Textures/ToonNoise.resources
+  artifactKey: Guid(970730463aed0d94ba2b188c92bf98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/ToonNoise.resources using Guid(970730463aed0d94ba2b188c92bf98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f3494fb742e9509ecadfa1f33f1f0c') in 0.004137 seconds 
+  Import took 0.006743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066608 seconds.
+  path: Assets/Labs/Explosion/Textures/ToonNoise.resources/XXXXXX-cratered-rock-normal.tif
+  artifactKey: Guid(81cd4b173e9310c43816bafc3e68cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Textures/ToonNoise.resources/XXXXXX-cratered-rock-normal.tif using Guid(81cd4b173e9310c43816bafc3e68cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2f9abf5c2ee43901b08bfa5301eb31') in 0.099145 seconds 
+  Import took 0.102049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.720135 seconds.
+  path: Assets/Labs/Explosion/Shaders/Sphere/ExplosionSphere.shader
+  artifactKey: Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Shaders/Sphere/ExplosionSphere.shader using Guid(a4f8823dc520a1b4c8563553c7291693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e04194ae87409903c85689a57208d7d') in 0.004802 seconds 
+  Import took 0.007067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002396 seconds.
+  path: Assets/Labs/Explosion/Animation/Smoke.anim
+  artifactKey: Guid(3af167dfa37ade84fb3b43f4406b0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/Smoke.anim using Guid(3af167dfa37ade84fb3b43f4406b0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb90e2aa1dae5e57e8599398a26192cd') in 0.054481 seconds 
+  Import took 0.056854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128592 seconds.
+  path: Assets/Labs/Explosion/Animation/Root.controller
+  artifactKey: Guid(cb3a4c97e0a260e4d9ca910c3361d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/Root.controller using Guid(cb3a4c97e0a260e4d9ca910c3361d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42abea2dbdfb72b5be7b8d6d13921953') in 0.015421 seconds 
+  Import took 0.017811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113980 seconds.
+  path: Assets/Labs/Explosion/TimeLine/ExplosionSmokeTimeline.playable
+  artifactKey: Guid(94dfc0929dff33d45a0f97d6b0860efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/TimeLine/ExplosionSmokeTimeline.playable using Guid(94dfc0929dff33d45a0f97d6b0860efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63560e09ac7bcdbd76c100227321256e') in 0.008805 seconds 
+  Import took 0.011086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003621 seconds.
+  path: Assets/Labs/Explosion/TimeLine/RootTimeline.playable
+  artifactKey: Guid(aa28fba114a03454498fcacc51620239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/TimeLine/RootTimeline.playable using Guid(aa28fba114a03454498fcacc51620239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04df10fa936250481133e21219ef61fa') in 0.016587 seconds 
+  Import took 0.019268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012268 seconds.
+  path: Assets/Labs/Explosion/Animation/Range.controller
+  artifactKey: Guid(b0a6c6d1234ad80489678e3f87d7cadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/Range.controller using Guid(b0a6c6d1234ad80489678e3f87d7cadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5266d9bd5e77211409807895841b4269') in 0.005719 seconds 
+  Import took 0.008110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274842 seconds.
+  path: Assets/Labs/Explosion/Animation/ExplosionSmoke 1.controller
+  artifactKey: Guid(4f347a9e52fc9914a99e758fc33ac6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/ExplosionSmoke 1.controller using Guid(4f347a9e52fc9914a99e758fc33ac6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4d9f65de1618ad8aa871dadf61e2f5') in 0.005950 seconds 
+  Import took 0.008325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003228 seconds.
+  path: Assets/Labs/Explosion/Shaders/ExplosionSmoke.shader
+  artifactKey: Guid(7eece6cf5e46a75428f7e4d64bec05eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Shaders/ExplosionSmoke.shader using Guid(7eece6cf5e46a75428f7e4d64bec05eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2930be93e2cf2265b3e913b5596b019c') in 0.003465 seconds 
+  Import took 0.005749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005940 seconds.
+  path: Assets/Labs/Explosion/Animation/Range.anim
+  artifactKey: Guid(c00555f39d38ac948bdcdf4a9133b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/Range.anim using Guid(c00555f39d38ac948bdcdf4a9133b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c113c5e26793630b186bd4d3733c07ea') in 0.003315 seconds 
+  Import took 0.005676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037373 seconds.
+  path: Assets/Labs/Explosion/Animation/SphereExplosion.anim
+  artifactKey: Guid(0ff45949da54f9342a13ccd1c2b718bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/Explosion/Animation/SphereExplosion.anim using Guid(0ff45949da54f9342a13ccd1c2b718bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba16d54d44e60707c94b337efa63512') in 0.006575 seconds 
+  Import took 0.012452 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 2.797200 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.482000 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2129.081077 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+  artifactKey: Guid(5f51e0b22aa8cb84b9f422576ce87ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png using Guid(5f51e0b22aa8cb84b9f422576ce87ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306b9dbc5c5b51f29060a7cb891dbe6e') in 0.017783 seconds 
+  Import took 0.022722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  artifactKey: Guid(34845e0ca016b7448842e965db5890a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute using Guid(34845e0ca016b7448842e965db5890a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ca417a1be8280df53e1363657ea012') in 0.028565 seconds 
+  Import took 0.041980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  artifactKey: Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute using Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bdfb35bbcd7848932e74ce59bad518') in 0.004507 seconds 
+  Import took 0.012885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  artifactKey: Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute using Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747e2cd557745ea1aa00b2d8d8d7a5eb') in 0.004890 seconds 
+  Import took 0.015972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  artifactKey: Guid(600d6212b59bb40409d19d750b5fd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute using Guid(600d6212b59bb40409d19d750b5fd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ce5db6b0b8b0ea7f938b4f704b83b8') in 0.005003 seconds 
+  Import took 0.016110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  artifactKey: Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute using Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f437d5a33a87931c925119cf060afe9f') in 0.004257 seconds 
+  Import took 0.011120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  artifactKey: Guid(d82512f9c8e5d4a4d938b575d47f88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset using Guid(d82512f9c8e5d4a4d938b575d47f88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af8c186082e2f8dbe5ac68ab69e184b') in 0.138806 seconds 
+  Import took 0.154887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  artifactKey: Guid(e4d3e4779e48a374f91d48d4c0aedb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute using Guid(e4d3e4779e48a374f91d48d4c0aedb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44a979f980118752208dc549d8cfd24') in 0.004720 seconds 
+  Import took 0.008190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  artifactKey: Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute using Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8387c733b24a26b33eccdef19175a8a') in 0.004569 seconds 
+  Import took 0.007720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  artifactKey: Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute using Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4fafd287b48dcd37fc3a90d5c39702') in 0.005069 seconds 
+  Import took 0.008426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.609137 seconds.
+  path: Assets/Editor/ShaderGUI/Explosion/ExplosionSmokeShaderGUI.cs
+  artifactKey: Guid(be9f3e6a7d88bc34f9aa31559c98cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ShaderGUI/Explosion/ExplosionSmokeShaderGUI.cs using Guid(be9f3e6a7d88bc34f9aa31559c98cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9295c968091f1c5b99b6c2f73bd98dbc') in 0.012176 seconds 
+  Import took 0.015451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904726 seconds.
+  path: Assets/Editor/ShaderGUI/Explosion/ExplosionSphereShaderGUI.cs
+  artifactKey: Guid(e66b8f3642aca5042b29c1732ebed722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ShaderGUI/Explosion/ExplosionSphereShaderGUI.cs using Guid(e66b8f3642aca5042b29c1732ebed722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd90488cf9be0aa6ed0be1de8497715f') in 0.004169 seconds 
+  Import took 0.007482 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

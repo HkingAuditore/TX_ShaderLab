@@ -6,7 +6,6 @@ Shader "Explosion/ExplosionSmoke"
         _RampPower("Ramp Power", Range(1, 30)) = 0
         _RampOffset("Ramp Offset", Range(-1, 1)) = 0
         _RampSize("Ramp Size", Range(0, 1)) = .5
-
         
         _FresnelThreshold("Fresnel Threshold", Range(0.01, 1)) = 0.5
         _FresnelIntensity("Fresnel Intensity", Range(0, 1)) = .5
@@ -34,7 +33,6 @@ Shader "Explosion/ExplosionSmoke"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
             #pragma multi_compile_fog
 
              //shader feature=
@@ -68,18 +66,22 @@ Shader "Explosion/ExplosionSmoke"
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
-            sampler2D _BurnTex;
+            
             sampler2D _RampTex;
-            sampler2D _SmokeNormal;
-            float4 _BurnTex_ST;
-
+            half _RampSize;
             half _RampOffset;
             half _RampPower;
+            
             half _FresnelThreshold;
             half _FresnelIntensity;
+            
             half _LightIntensity;
-            half _RampSize;
+            
+            sampler2D _BurnTex;
+            float4 _BurnTex_ST;
             half _Cutoff;
+            
+            sampler2D _SmokeNormal;
             half _NormalIntensity;
 
             v2f vert(appdata v)
@@ -102,38 +104,35 @@ Shader "Explosion/ExplosionSmoke"
             {
                 UNITY_SETUP_INSTANCE_ID(i);
                 float3 normal = UnpackNormalWithScale(tex2D(_SmokeNormal,i.uv),_NormalIntensity);
-
-                half burn = tex2D(_BurnTex,i.uv).g;
                 float3 N = normalize(i.worldNormal);
-                fixed NdotV = dot(N,i.viewDir);
-                fixed NdotL = dot(N+normal,i.worldLight);
+                half NdotV = dot(N,i.viewDir);
+                half NdotL = dot(N+normal,i.worldLight);
 
-                float fresnel =  1 - saturate(NdotV);
-                fresnel = pow(1+(fresnel-_FresnelThreshold),_FresnelIntensity);
-                fresnel = saturate(fresnel-_FresnelThreshold);
-                
+                //菲涅尔
+                float shade =  1 - saturate(NdotV);
+                shade = pow(1+(shade-_FresnelThreshold),_FresnelIntensity);
+                shade = saturate(shade-_FresnelThreshold);
+
+                //光照
                 #if USE_LIGHTING
-                float light = ((NdotL*.5)+.5);
-                // fresnel *= light;
-                fresnel -= _LightIntensity * light;
-                // return float4(fresnel,fresnel,fresnel,1);
+                half light = ((NdotL*.5)+.5);
+                shade -= _LightIntensity * light;
                 #endif
-                
-                fresnel = saturate(fresnel + _RampSize);
-                fresnel = saturate(pow(fresnel,_RampPower));
-                fresnel = saturate(fresnel + _RampOffset);
 
+                //重散布
+                shade = saturate(shade + _RampSize);
+                shade = saturate(pow(shade,_RampPower));
+                shade = saturate(shade + _RampOffset);
                 
-                fixed4 col =tex2D(_RampTex,fixed2(fresnel,0));
+                float4 col =tex2D(_RampTex,fixed2(shade,0));
 
-                fixed alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),10)) ;
-                
+                //溶解与边缘模糊
+                half burn = tex2D(_BurnTex,i.uv);
+                half alpha =  saturate(pow(saturate(1 + (burn - _Cutoff * .25 - _Cutoff)),10)) ;
+               
                 col *= i.color;
-                
-                
                 clip(burn - _Cutoff*1.01);
                 return UNITY_ACCESS_INSTANCED_PROP(Props,  fixed4(col.rgb,alpha*i.color.a));
-                return fixed4(col.rgb,alpha);
             }
             ENDCG
         }

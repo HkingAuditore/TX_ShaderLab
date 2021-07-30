@@ -110,7 +110,7 @@ Material:
     - _FlowMapOffset: 0
     - _FlowMapTiling: 0
     - _FlowTimeScale: 0.753
-    - _FresnelIntensity: 3
+    - _FresnelIntensity: 0
     - _FresnelSize: 0.591
     - _RotateSpeed: 0.113
     - _Rotation: 0

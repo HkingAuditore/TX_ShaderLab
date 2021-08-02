@@ -1,0 +1,1483 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProject/TX_ShaderLab
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61092
+Successfully changed project path to: D:/UnityProject/TX_ShaderLab
+D:/UnityProject/TX_ShaderLab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/TX_ShaderLab/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001192 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (142ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2419ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2190ms)
+			LoadAssemblies (1542ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.78 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 163.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 2.116100 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.076900 ms MarkObjects: 1.779000 ms  DeleteObjects: 0.079000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213bc15d68cb505968f59fccac82397d') in 0.131485 seconds 
+  Import took 0.200258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2148.755669 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e777581894c3aabfcf6295673527d8e') in 0.009762 seconds 
+  Import took 0.012841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.519409 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e463b23354f76e692633b96598d94d') in 0.015306 seconds 
+  Import took 0.021553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.495313 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1299defe3a034d6f594a66feac4d1dd') in 0.009755 seconds 
+  Import took 0.024257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.792644 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Cliff.png
+  artifactKey: Guid(bc01f38cdf467774985fd1a5afd5a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Cliff.png using Guid(bc01f38cdf467774985fd1a5afd5a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e97f92767645e53788eafaee480ee') in 0.372560 seconds 
+  Import took 0.385415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Grass.png
+  artifactKey: Guid(4a3f1dbdb424aca46995975e0aa2ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Grass.png using Guid(4a3f1dbdb424aca46995975e0aa2ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91323826d1633c7bb566507ba043bad9') in 0.123045 seconds 
+  Import took 0.131420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Cliff.png
+  artifactKey: Guid(bc01f38cdf467774985fd1a5afd5a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Cliff.png using Guid(bc01f38cdf467774985fd1a5afd5a0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e97f92767645e53788eafaee480ee') in 0.049065 seconds 
+  Import took 0.052364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Grass.png
+  artifactKey: Guid(4a3f1dbdb424aca46995975e0aa2ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Grass.png using Guid(4a3f1dbdb424aca46995975e0aa2ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91323826d1633c7bb566507ba043bad9') in 0.064515 seconds 
+  Import took 0.067198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Labs/ShaderFramework/TestScene/ReflectionProbe-0.exr
+  artifactKey: Guid(a30b53f2b69e0704786db9b42a486ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/TestScene/ReflectionProbe-0.exr using Guid(a30b53f2b69e0704786db9b42a486ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd303bc5f3a8a7722f5ec173e4da323fa') in 0.050699 seconds 
+  Import took 0.078596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Mask.png
+  artifactKey: Guid(95bb0599d6ba09d459ee492f01cb56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Mask.png using Guid(95bb0599d6ba09d459ee492f01cb56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2096386e290bc8c7088859d8ca056b') in 0.113908 seconds 
+  Import took 0.213736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Labs/TerrainTest/Textures/Sand.png
+  artifactKey: Guid(1c49b0a64e7b2a547a184afab9e21298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/TerrainTest/Textures/Sand.png using Guid(1c49b0a64e7b2a547a184afab9e21298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f7ffe8bc945ac75ad90df64d00180') in 0.088274 seconds 
+  Import took 0.097840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.083061 seconds.
+  path: Assets/Labs/ShaderFramework
+  artifactKey: Guid(696e41f8a743c4a49afcb484a259535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework using Guid(696e41f8a743c4a49afcb484a259535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd658960401ca46ceee9b4787ac61fe2') in 0.004038 seconds 
+  Import took 0.029300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.885113 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders
+  artifactKey: Guid(e0ee6160c513ca94f87e9064e3aa4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders using Guid(e0ee6160c513ca94f87e9064e3aa4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb508d03929be8fc433986c266df841') in 0.003145 seconds 
+  Import took 0.019967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.219589 seconds.
+  path: Assets/Labs/ShaderFramework/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e49d934770d32b1562f7baa4ddf47') in 0.005504 seconds 
+  Import took 0.019360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Labs/ShaderFramework/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e49d934770d32b1562f7baa4ddf47') in 0.002940 seconds 
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.991978 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2945a7e20f8dcf7d1c30be83981061c2') in 0.030893 seconds 
+  Import took 0.034016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.209697 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot.png
+  artifactKey: Guid(4a2ea9d2ff8b0bd48bee3138ac0344b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot.png using Guid(4a2ea9d2ff8b0bd48bee3138ac0344b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d8469bdacd5614a855b274fb96136e') in 0.086288 seconds 
+  Import took 0.105392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_e.png
+  artifactKey: Guid(b2c22f05715349e4bb5cfb88a934f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_e.png using Guid(b2c22f05715349e4bb5cfb88a934f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc40f197660bbc808193557f1d3953e7') in 0.031781 seconds 
+  Import took 0.039732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_m.png
+  artifactKey: Guid(c7ac14b620c3ba345b2112ddb1a7a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_m.png using Guid(c7ac14b620c3ba345b2112ddb1a7a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72dedfb451ca6b7e39bb8ba0b17b59e') in 0.042077 seconds 
+  Import took 0.045394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001836 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_m.png
+  artifactKey: Guid(c7ac14b620c3ba345b2112ddb1a7a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_m.png using Guid(c7ac14b620c3ba345b2112ddb1a7a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72dedfb451ca6b7e39bb8ba0b17b59e') in 0.010473 seconds 
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243403 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_n.png
+  artifactKey: Guid(20497c37ed7d5824bb3f95db3d607547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_n.png using Guid(20497c37ed7d5824bb3f95db3d607547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d91f40c6141d0b4552b9e2140d28096') in 0.040946 seconds 
+  Import took 0.044426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_n.png
+  artifactKey: Guid(20497c37ed7d5824bb3f95db3d607547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/UnitySpriteShaders/SpriteShaders/DemoScene/Textures/spr_robot_n.png using Guid(20497c37ed7d5824bb3f95db3d607547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d91f40c6141d0b4552b9e2140d28096') in 0.010065 seconds 
+  Import took 0.012694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.547925 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1427298f4eb23d73cddc02b3317b5c13') in 0.022360 seconds 
+  Import took 0.025410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.882569 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18eeb25a63cc95acc772eb8bdcd0fa3') in 0.026186 seconds 
+  Import took 0.037940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.634945 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7350af0adb4586c467bbd73207f56f') in 0.022824 seconds 
+  Import took 0.026030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003716 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7350af0adb4586c467bbd73207f56f') in 0.020767 seconds 
+  Import took 0.024044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2066.409914 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed758c1df15fd4a9e64ccfb97bcd061') in 0.030238 seconds 
+  Import took 0.033286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.287735 seconds.
+  path: Assets/Labs/ShaderFramework/Meshes
+  artifactKey: Guid(f59c872a337c0404b9106753cf5e53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Meshes using Guid(f59c872a337c0404b9106753cf5e53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c5089ddb4f0fd8f5baf6d8a13abf4') in 0.003732 seconds 
+  Import took 0.009768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/Labs/ShaderFramework/Meshes
+  artifactKey: Guid(f59c872a337c0404b9106753cf5e53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Meshes using Guid(f59c872a337c0404b9106753cf5e53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c5089ddb4f0fd8f5baf6d8a13abf4') in 0.002736 seconds 
+  Import took 0.005111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.214106 seconds.
+  path: Assets/Labs/ShaderFramework/Meshes/Skin.blend
+  artifactKey: Guid(20650c481c363cf4a8c32238860ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Meshes/Skin.blend using Guid(20650c481c363cf4a8c32238860ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afce65a4c70091ac5775cdb9c4762e4d') in 0.098627 seconds 
+  Import took 0.101300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9666.840957 seconds.
+  path: Assets/Labs/ShaderFramework/Meshes/Skin.blend
+  artifactKey: Guid(20650c481c363cf4a8c32238860ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Meshes/Skin.blend using Guid(20650c481c363cf4a8c32238860ab315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a4fc7e72f32c8fdc6c23942ed2e451') in 0.049574 seconds 
+  Import took 0.053798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.859111 seconds.
+  path: Assets/Labs/ShaderFramework/Meshes/Pisciasa_finalPose.fbx
+  artifactKey: Guid(8108951d890b744449e9b09d4e0305f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Meshes/Pisciasa_finalPose.fbx using Guid(8108951d890b744449e9b09d4e0305f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919b0abf7c5df0ed8af21eec9073321f') in 1.837947 seconds 
+  Import took 1.851835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.086618 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf63b1670115e2c91ea0ed46a8520348') in 0.121845 seconds 
+  Import took 0.136894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.179181 seconds.
+  path: Assets/Labs/ShaderFramework/Textures
+  artifactKey: Guid(7fce01cee830edd4893b09f8438632a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures using Guid(7fce01cee830edd4893b09f8438632a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd3ba4b8c2b9acb60ccc134284b42c0') in 0.005148 seconds 
+  Import took 0.022881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.399098 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/New Folder
+  artifactKey: Guid(209271bd272339f4f8b1985f4f9b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/New Folder using Guid(209271bd272339f4f8b1985f4f9b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce433b25581e85b82ec883ef33d5a7ab') in 0.014405 seconds 
+  Import took 0.024047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.538543 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles
+  artifactKey: Guid(209271bd272339f4f8b1985f4f9b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles using Guid(209271bd272339f4f8b1985f4f9b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a91b1a4dbb659a49e94a4007a01564') in 0.011532 seconds 
+  Import took 0.024717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 345.372467 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/body_texture.jpg
+  artifactKey: Guid(c5c01a0c8c68c7d428d64c55d0d11aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/body_texture.jpg using Guid(c5c01a0c8c68c7d428d64c55d0d11aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b53b9db793d38b5bc669cf90d821e2') in 0.128359 seconds 
+  Import took 0.132973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_depth.jpg
+  artifactKey: Guid(febd473415948f14790e36873ad891d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_depth.jpg using Guid(febd473415948f14790e36873ad891d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e21768e0696c44cd98011d99637face') in 0.027605 seconds 
+  Import took 0.041240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_spec.jpg
+  artifactKey: Guid(11bb90c83393436459c351089f743fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_spec.jpg using Guid(11bb90c83393436459c351089f743fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d83c0a4e6bc17aaaea515e980a381') in 0.051032 seconds 
+  Import took 0.064859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eyeLashes_texture.jpg
+  artifactKey: Guid(e8dc178b6de39644087b5058a76eed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eyeLashes_texture.jpg using Guid(e8dc178b6de39644087b5058a76eed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4d543f0b355d00934efc3798db57d7') in 0.022966 seconds 
+  Import took 0.026847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_S.jpg
+  artifactKey: Guid(13285d5d943cced47bb3e163af8b3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_S.jpg using Guid(13285d5d943cced47bb3e163af8b3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae0d10acf256cdc6d759c555e2c21d9') in 0.036703 seconds 
+  Import took 0.053628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_texture.jpg
+  artifactKey: Guid(596ea4378bdf17d44bf89a78921992f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_texture.jpg using Guid(596ea4378bdf17d44bf89a78921992f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970a14a56138d823e74bcf53f6fb7997') in 0.051158 seconds 
+  Import took 0.054832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eyeLashes_R.jpg
+  artifactKey: Guid(f615e3e047fdd5d44b663a60295c7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eyeLashes_R.jpg using Guid(f615e3e047fdd5d44b663a60295c7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4556118e62702cc58cec68d80c93036f') in 0.052512 seconds 
+  Import took 0.055806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg
+  artifactKey: Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg using Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d860c9f664b1cc351574c348f9bd20a') in 0.047215 seconds 
+  Import took 0.061909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_S.jpg
+  artifactKey: Guid(e0c30a8be4dc4644c96ace2e06ac2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_S.jpg using Guid(e0c30a8be4dc4644c96ace2e06ac2aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f584d11d9201b9354f5b333c08623ce') in 0.051282 seconds 
+  Import took 0.055135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_M.jpg
+  artifactKey: Guid(d1412286ca9b4c943a653c0a5502bee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_M.jpg using Guid(d1412286ca9b4c943a653c0a5502bee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30023ef0f8ae5a6d424778cb8e9bdfcb') in 0.049492 seconds 
+  Import took 0.052448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_glow.jpg
+  artifactKey: Guid(3213c7fed8fd95c4ab219e5b6172160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_glow.jpg using Guid(3213c7fed8fd95c4ab219e5b6172160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad5cc7e99589f9486ff7cd819d8653c') in 0.052788 seconds 
+  Import took 0.056191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_R.jpg
+  artifactKey: Guid(21fac7ec7e5963044b2398d4f847ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_R.jpg using Guid(21fac7ec7e5963044b2398d4f847ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbeb52a725a5744986e06e70b823f4b') in 0.019340 seconds 
+  Import took 0.045696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_texture.jpg
+  artifactKey: Guid(e2114e0d1e621bd4e9faf44d5513a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_texture.jpg using Guid(e2114e0d1e621bd4e9faf44d5513a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52c4ded5b1f6269a20ef3c0fa27f74') in 0.019244 seconds 
+  Import took 0.032490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_R.jpg
+  artifactKey: Guid(21fac7ec7e5963044b2398d4f847ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/eye_R.jpg using Guid(21fac7ec7e5963044b2398d4f847ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbeb52a725a5744986e06e70b823f4b') in 0.017542 seconds 
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.993635 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg
+  artifactKey: Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg using Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5b8fd6a58b88b74eada0fc95063980') in 0.048339 seconds 
+  Import took 0.073755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_R.jpg
+  artifactKey: Guid(69314f44ef4e1d04983446bf0aa4fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_R.jpg using Guid(69314f44ef4e1d04983446bf0aa4fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca109220b98d912b0fd47b522d7fedb') in 0.053387 seconds 
+  Import took 0.071645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_S.jpg
+  artifactKey: Guid(2cd06f7a44d71334fafaca5bd14a6aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_S.jpg using Guid(2cd06f7a44d71334fafaca5bd14a6aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5c6f0753d86637f5fc663423812ce4') in 0.050496 seconds 
+  Import took 0.053791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249731 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_texture.jpg
+  artifactKey: Guid(de18d4888f31b464b8565b67ec709dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_texture.jpg using Guid(de18d4888f31b464b8565b67ec709dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7a5daf1deb78bbb3ad131ef06afa31') in 0.048291 seconds 
+  Import took 0.050747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_BaseColor.jpg
+  artifactKey: Guid(969d8bb4d843a4848a0c5a1573921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_BaseColor.jpg using Guid(969d8bb4d843a4848a0c5a1573921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8737a57486d408b1e0518707fa31a7ba') in 0.051491 seconds 
+  Import took 0.054113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_Normal.jpg
+  artifactKey: Guid(78417445de213a246a3e29b65ea0b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_Normal.jpg using Guid(78417445de213a246a3e29b65ea0b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0068ab1b5cb0e9f98ef14fd7232187') in 0.051338 seconds 
+  Import took 0.062578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238988 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_OcclusionRoughnessMetallic.jpg
+  artifactKey: Guid(79e5530df26bd75458eaf6b39e5c2ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_OcclusionRoughnessMetallic.jpg using Guid(79e5530df26bd75458eaf6b39e5c2ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285df5ccadbe9c87f158ac98f749475') in 0.060100 seconds 
+  Import took 0.066986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_BaseColor.jpg
+  artifactKey: Guid(fde386d1628269445a397f86f068b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_BaseColor.jpg using Guid(fde386d1628269445a397f86f068b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36becdf4a16b7881c71ad4a69394a834') in 0.055742 seconds 
+  Import took 0.058223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg
+  artifactKey: Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg using Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122cb6d19d6e6f10d98cedd7f9b5c3a5') in 0.050756 seconds 
+  Import took 0.054347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258734 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_OcclusionRoughnessMetallic.jpg
+  artifactKey: Guid(e2311e6241961f44589f8f37e8a71299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_OcclusionRoughnessMetallic.jpg using Guid(e2311e6241961f44589f8f37e8a71299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82dec39c1aae616e683dd8902cc9cb1') in 0.062810 seconds 
+  Import took 0.074676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_Mask.jpg
+  artifactKey: Guid(b2a13a4a41439e041a07e41fb1eaed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_Mask.jpg using Guid(b2a13a4a41439e041a07e41fb1eaed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13127dca41a60798931120506fb46f8') in 0.060754 seconds 
+  Import took 0.063891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg
+  artifactKey: Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg using Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1835a0e2c57a1389e57e27ce5df6f06f') in 0.049921 seconds 
+  Import took 0.052640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_depthMask.jpg
+  artifactKey: Guid(693539c58c0b4e64c91bc4967af53e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_depthMask.jpg using Guid(693539c58c0b4e64c91bc4967af53e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0048267e07c5c5d982edd36950f57fd') in 0.048696 seconds 
+  Import took 0.051449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_R.jpg
+  artifactKey: Guid(2272ea5807408a54597d24dfe0c5ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_R.jpg using Guid(2272ea5807408a54597d24dfe0c5ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421d2f1b22b43389a5653e70a20bd701') in 0.052314 seconds 
+  Import took 0.055267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_F.jpg
+  artifactKey: Guid(dd67f4a5822053c4983581a3da41c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_F.jpg using Guid(dd67f4a5822053c4983581a3da41c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad31c1244da07d33fff6bce24864a0') in 0.054277 seconds 
+  Import took 0.060907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778385 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_S.jpg
+  artifactKey: Guid(52a77f9d2a44dec46bf657db048529d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_S.jpg using Guid(52a77f9d2a44dec46bf657db048529d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a1b81ebcf437c17e02ead2dd292079') in 0.053859 seconds 
+  Import took 0.057762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_texture.jpg
+  artifactKey: Guid(f31520e5bcbcf1b4d87a30572ab2fe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_texture.jpg using Guid(f31520e5bcbcf1b4d87a30572ab2fe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9709b7973de4550f55119e5428eef2') in 0.053922 seconds 
+  Import took 0.057086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.422685 seconds.
+  path: Assets/Labs/ShaderFramework/Unlit_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Unlit_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb42707796ccefaebbaeaeb75d34f1') in 0.021508 seconds 
+  Import took 0.033995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.671353 seconds.
+  path: Assets/Labs/ShaderFramework/Materials
+  artifactKey: Guid(b33f2228eabce8449a24b543c6a71f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials using Guid(b33f2228eabce8449a24b543c6a71f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed14b9366e069bfffdf4f7fc4b16195') in 0.029351 seconds 
+  Import took 0.044779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.946901 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b037d0f90902239519f6a33452d5228a') in 0.020788 seconds 
+  Import took 0.024286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.804286 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441320f10becbec4b62daf4010bdaafa') in 0.024273 seconds 
+  Import took 0.027103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.419966 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626d6bfede6634768905ca2fbee89bd8') in 0.064116 seconds 
+  Import took 0.081172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.952554 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b7fc70ca867932a8f43fac52b6b00c') in 0.020307 seconds 
+  Import took 0.022843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.319005 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb486d6a4394ccd4e807f4178d777675') in 0.066421 seconds 
+  Import took 0.069488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4a2ce709975ee9392d5c03bc3a231') in 0.061048 seconds 
+  Import took 0.063979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.329743 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d829c2d006d820c7cab82af2f62da') in 0.067840 seconds 
+  Import took 0.090100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.244163 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299e8352a14bea88b2f544b00919c1cf') in 0.032287 seconds 
+  Import took 0.056933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.816748 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34098001cf1b1c93d35136f7c6f518c') in 0.021500 seconds 
+  Import took 0.024368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.452846 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161d5b2e0e2d5004ad5879210a99252') in 0.027454 seconds 
+  Import took 0.046742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.133484 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32b3210736977ecd31f945eadd8ee88') in 0.021467 seconds 
+  Import took 0.039326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.080610 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2633b1f4ed49ede97205439d01a091') in 0.066205 seconds 
+  Import took 0.069924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb2ac40e2a84c618274fa4796e0da86') in 0.024165 seconds 
+  Import took 0.038935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3fa5f03ac8383acb20afc4872e97d1') in 0.065183 seconds 
+  Import took 0.070018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.891944 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0d1bd4e1b987712e9c437a051a9876') in 0.020850 seconds 
+  Import took 0.023431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.458714 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cb1f63a57110cdb36cb0376cf108ed') in 0.059624 seconds 
+  Import took 0.062075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.915597 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c2f8474fa192115e0a38501df41aa') in 0.060013 seconds 
+  Import took 0.070146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.985776 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9168c395b1ee6b11c9d55a0f9a810187') in 0.032890 seconds 
+  Import took 0.046466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.883842 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg
+  artifactKey: Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg using Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337c0270363a28a18cbd52446fad0b6d') in 0.061954 seconds 
+  Import took 0.079762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002152 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg
+  artifactKey: Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/dress_N.jpg using Guid(c886d062ead07b0418795d08bd0a76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337c0270363a28a18cbd52446fad0b6d') in 0.053843 seconds 
+  Import took 0.056289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.780230 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg
+  artifactKey: Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg using Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33cbd7bf5991529940a48c71011476e') in 0.057796 seconds 
+  Import took 0.061074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005416 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg
+  artifactKey: Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/face_N.jpg using Guid(1a19869af898bde49b532a6721477918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33cbd7bf5991529940a48c71011476e') in 0.054569 seconds 
+  Import took 0.057175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.210680 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae30cdd96d506e995f8533978976f46') in 0.065154 seconds 
+  Import took 0.083034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ede8db252f6105b73e417b919e8f5') in 0.031908 seconds 
+  Import took 0.036053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1c87709481e0b645d7153eb9f8cc16') in 0.060340 seconds 
+  Import took 0.063336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ede8db252f6105b73e417b919e8f5') in 0.033234 seconds 
+  Import took 0.036370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d02fbef07eae2dd09e7e5b2215929a2') in 0.031520 seconds 
+  Import took 0.057763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.526548 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530a2ea866443c8f13a3fa2d5bf2cb1a') in 0.018779 seconds 
+  Import took 0.030437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.520128 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2a2ae1550340e075c50d2e5c7a80e8') in 0.022683 seconds 
+  Import took 0.027890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b93c16375083bf9824b17578818b38') in 0.068485 seconds 
+  Import took 0.083330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 901.959245 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a605b042c5c0790385caa34eb6e01e5') in 0.072185 seconds 
+  Import took 0.075069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4515bb0a5d2aff903ff53a52e6e181a8') in 0.034973 seconds 
+  Import took 0.042334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1425f9767ec80f75f04deee2392810c0') in 0.060625 seconds 
+  Import took 0.075334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae91fc0ff5f18127036c7e9b19e0efa') in 0.020159 seconds 
+  Import took 0.023689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78542f73be264ce467857eb12e395a13') in 0.059021 seconds 
+  Import took 0.063413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb3d56c1a782297cc959ba77aecdc16') in 0.061922 seconds 
+  Import took 0.064871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6614a2137934cc399c13f184ad48d6d8') in 0.036098 seconds 
+  Import took 0.038426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.742689 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9a325b52daa74cd23a0156a747c16') in 0.063925 seconds 
+  Import took 0.078551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.058367 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6296b578a3b989a5154e130935b0cd02') in 0.034468 seconds 
+  Import took 0.037737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.950093 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2de2e8a8bd56c93f82b6b70fc41a686') in 0.075536 seconds 
+  Import took 0.078358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.388839 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
+  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace82ed64e75f6cc2c95a74221f41a5d') in 0.060479 seconds 
+  Import took 0.081643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.076492 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
+  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf86b5c97b99db26e68d7d2d7ced18da') in 0.072902 seconds 
+  Import took 0.087863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006474 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
+  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf86b5c97b99db26e68d7d2d7ced18da') in 0.069130 seconds 
+  Import took 0.072762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.224810 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aa57d4a21c13fd48e8b05775dcc50f') in 0.065960 seconds 
+  Import took 0.069052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7448265653fc2de7394476b28dd4cd2') in 0.036233 seconds 
+  Import took 0.038966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cdb8435503bae29b66b6a8761f19e3') in 0.061422 seconds 
+  Import took 0.088657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7448265653fc2de7394476b28dd4cd2') in 0.034181 seconds 
+  Import took 0.036393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c0b355afa231eba35d4842831487f6') in 0.021259 seconds 
+  Import took 0.023962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
+  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbcef94b79641dd5b7fd315e9be6db5') in 0.061227 seconds 
+  Import took 0.073240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124e1970dc318816f48d7685cb7387a9') in 0.062943 seconds 
+  Import took 0.065164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31be46afff09da6ac268f23dfc8c4c91') in 0.062721 seconds 
+  Import took 0.065898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7238a026162ead78ea13f3608560a49') in 0.035084 seconds 
+  Import took 0.038603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 747.860796 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731683c82c9e28632cb8b5f4a6f46cd') in 0.075612 seconds 
+  Import took 0.087877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec7fcd7eaea36b9d13e9a8788153332') in 0.068579 seconds 
+  Import took 0.085720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731683c82c9e28632cb8b5f4a6f46cd') in 0.065366 seconds 
+  Import took 0.068275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e06671437b06e5e72a60bd44cd67f') in 0.067738 seconds 
+  Import took 0.070094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001370 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e06671437b06e5e72a60bd44cd67f') in 0.061300 seconds 
+  Import took 0.063716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.255482 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f77cc30a05851e48cce8ba15667c5dc') in 0.024498 seconds 
+  Import took 0.027200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e7d4db1c3cb3e3cfd3ca300e92aaf3') in 0.069371 seconds 
+  Import took 0.071925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f77cc30a05851e48cce8ba15667c5dc') in 0.020098 seconds 
+  Import took 0.022581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e7d4db1c3cb3e3cfd3ca300e92aaf3') in 0.069566 seconds 
+  Import took 0.072040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.360640 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/ToonTest.mat
+  artifactKey: Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/ToonTest.mat using Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b5962396c50af9d1710b2f33d46a4') in 0.021499 seconds 
+  Import took 0.033627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 920.796430 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/ToonTest.mat
+  artifactKey: Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/ToonTest.mat using Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861fc4238549b9d6549a70c069932a4b') in 0.025611 seconds 
+  Import took 0.028788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.867678 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57a4653dff1d9398d4ad68cca6a422a') in 0.020315 seconds 
+  Import took 0.031434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 459.126700 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fedd39b222213cc1316abca40f8ebac') in 0.029074 seconds 
+  Import took 0.039853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.616916 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0a2d66d726464ffbc72c90c847d031') in 0.020460 seconds 
+  Import took 0.031009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0a2d66d726464ffbc72c90c847d031') in 0.020365 seconds 
+  Import took 0.023262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4054.178684 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e9e50f7a8baa9dcb0d0782248177f0') in 0.072963 seconds 
+  Import took 0.100400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.415574 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de8a8adfb87e6b9d58d0b19a49287d3') in 0.052438 seconds 
+  Import took 0.055153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.201993 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ce8ba4adb9f86829029399b7f90736') in 0.030276 seconds 
+  Import took 0.048253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013006 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ce8ba4adb9f86829029399b7f90736') in 0.021628 seconds 
+  Import took 0.024653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.500836 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb26c90edb0ec0f7ca871ae968e6b663') in 0.125220 seconds 
+  Import took 0.128390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e8e4f347bab041bc4578e4c50d48d8') in 0.073927 seconds 
+  Import took 0.088708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2061fb756a13ed1daa31b2de036045c') in 0.022495 seconds 
+  Import took 0.025650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb26c90edb0ec0f7ca871ae968e6b663') in 0.064888 seconds 
+  Import took 0.067663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aae5c9fbec2c0531805af7e46d3c566') in 0.035943 seconds 
+  Import took 0.064347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aae5c9fbec2c0531805af7e46d3c566') in 0.031276 seconds 
+  Import took 0.033770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7693.218667 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8714dea16a2f604774c5d2c15879224') in 0.081324 seconds 
+  Import took 0.084608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat
+  artifactKey: Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon 1.mat using Guid(22a4c6b21d9ae4140a523334cbb120b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1d7210688769aea4250e248cbcac83') in 0.065004 seconds 
+  Import took 0.068425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226180039538b9400923b8d28a02111f') in 0.060808 seconds 
+  Import took 0.063914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
+  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458fe025970c843ccb288f1590a48fb7') in 0.023674 seconds 
+  Import took 0.026564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/ToonTest.mat
+  artifactKey: Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/ToonTest.mat using Guid(93aa84ca1acc1274e879359bbb145513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e06226865e6e4920d24b5be034bd498') in 0.022626 seconds 
+  Import took 0.025620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
+  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88111a2312b8da415ea03468577271e') in 0.061451 seconds 
+  Import took 0.072299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4c6ec20e9ecc0e3d87c6bd3d02aca') in 0.058610 seconds 
+  Import took 0.060759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8369bf876c2928e8c7d6634781493') in 0.062632 seconds 
+  Import took 0.064841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat
+  artifactKey: Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Eyes_Toon.mat using Guid(02b9a6d4ac17c7b41b1c27dcd7729ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e3347bb4456bf01fad52ff244d5b66') in 0.035066 seconds 
+  Import took 0.038578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.934597 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effac3152a02c06b7215c2ad652cfd2e') in 0.060834 seconds 
+  Import took 0.078436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc7b07d6fe74b7098ddc4c8714cfbb5') in 0.065110 seconds 
+  Import took 0.067967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.828020 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c6f2eb85d649a2f29097f2c368ab88') in 0.061753 seconds 
+  Import took 0.064680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.927640 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
+  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14dd05d4fde4506c5dea1d6db95879b') in 0.058738 seconds 
+  Import took 0.061172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.192018 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521daed675e1253e0989142ff9c2ab23') in 0.061446 seconds 
+  Import took 0.079767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 524.165488 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg
+  artifactKey: Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg using Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415ab385fb8c541abfab1d0f94a3212') in 0.063676 seconds 
+  Import took 0.074383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002492 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg
+  artifactKey: Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/hair_N.jpg using Guid(05346948ebb578e4faa74bd92a1edf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415ab385fb8c541abfab1d0f94a3212') in 0.056611 seconds 
+  Import took 0.059276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.063627 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff853c0b0600dc0369886a2fc5f6e4a7') in 0.026187 seconds 
+  Import took 0.029028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002994 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff853c0b0600dc0369886a2fc5f6e4a7') in 0.019693 seconds 
+  Import took 0.022541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.074927 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720b11642f2e67e9a25465110db5936c') in 0.022720 seconds 
+  Import took 0.025523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001807 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd
+  artifactKey: Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp2.psd using Guid(60875fcb0fffca6488eee26258103161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720b11642f2e67e9a25465110db5936c') in 0.019400 seconds 
+  Import took 0.022784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1326.206554 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78159754b2b2d99c2f99ada1d8940f1') in 0.021542 seconds 
+  Import took 0.049237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.366158 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a67caa22fc748cb331a933ff620b326') in 0.020628 seconds 
+  Import took 0.023688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001942 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd
+  artifactKey: Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp1.psd using Guid(98ced39d5740a8647a9715ffe4e0df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a67caa22fc748cb331a933ff620b326') in 0.030409 seconds 
+  Import took 0.033104 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

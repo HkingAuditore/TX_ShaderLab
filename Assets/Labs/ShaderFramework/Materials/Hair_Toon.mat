@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair_Toon
+  m_Shader: {fileID: 4800000, guid: 144502b47dba414479dcd44a27b4e724, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropicNoise:
+        m_Texture: {fileID: 2800000, guid: 693539c58c0b4e64c91bc4967af53e5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f31520e5bcbcf1b4d87a30572ab2fe83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 05346948ebb578e4faa74bd92a1edf41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutLineNoise:
+        m_Texture: {fileID: 2800000, guid: 52a77f9d2a44dec46bf657db048529d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 60875fcb0fffca6488eee26258103161, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: 693539c58c0b4e64c91bc4967af53e5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientStrength: 0
+    - _AnisotropicIntensity: 0.635
+    - _AnisotropicPow: 0.101
+    - _LightIntensity: 0.492
+    - _LightSize: 0.536
+    - _NormalIntensity: 1
+    - _OutlineWidth: 0.32
+    - _RampOffset: 0.282
+    - _RimIntensity: 0.619
+    - _RimSize: 0.403
+    - _SpecSmooth: 0.369
+    - _SpecStrength: 0.04
+    - _TangentOffset: 0
+    m_Colors:
+    - _AnisotropicColor: {r: 0.3490566, g: 0.30963954, b: 0.24532752, a: 1}
+    - _AnisotropicNoiseVector: {r: 3.04, g: 0.94, b: 7.43, a: 25.64}
+    - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
+    - _OutLineColor: {r: 0.2264151, g: 0.19138484, b: 0.18262728, a: 1}
+    - _RimColor: {r: 0.5377358, g: 0.5116476, b: 0.42866677, a: 1}
+  m_BuildTextureStacks: []

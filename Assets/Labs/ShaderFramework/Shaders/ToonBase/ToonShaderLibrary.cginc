@@ -21,14 +21,6 @@
     /**********************************************/
 
 
-    /**********************************************/
-    /**************        法线贴图    *************/
-    /**********************************************/
-    float3 NormalMap(float3 oriNormal, sampler2D normalMap, float2 uv, float intensity)
-    {
-        float3 bump = UnpackNormalWithScale(tex2D(normalMap, uv), intensity);
-        return normalize(oriNormal) + bump;
-    }
 
     /**********************************************/
 
@@ -63,7 +55,7 @@
     /**********************************************/
 
 
-#if defined(_TOON_USE_STANDARD_MODEL)
+#if defined(_TOON_USE_STANDARD)
     #include "ToonLightModel.cginc"
 #endif
 

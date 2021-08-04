@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 144502b47dba414479dcd44a27b4e724, type: 3}
   m_ShaderKeywords: _TOON_SHADOW_RECEIVE
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -44,16 +44,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientStrength: 0
+    - _AmbientStrength: 0.119
     - _AnisotropicIntensity: 0
     - _AnisotropicPow: 0.421
-    - _LightIntensity: 0.401
-    - _LightSize: 0.325
+    - _LightIntensity: 0.247
+    - _LightSize: 0.234
     - _NormalIntensity: 1
     - _OutlineWidth: 0.37
-    - _RampOffset: 0.281
-    - _RimIntensity: 0.321
+    - _RampOffset: 0.243
+    - _RimIntensity: 0.4
     - _RimSize: 0.858
+    - _Roughness: 0.5
     - _ShadowReceivedIntensity: 0.786
     - _SpecSmooth: 0.781
     - _SpecStrength: 0.023
@@ -63,5 +64,5 @@ Material:
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
     - _OutLineColor: {r: 0.1981132, g: 0.09408901, b: 0.0719562, a: 1}
-    - _RimColor: {r: 0.9549963, g: 0.7432754, b: 0.7162472, a: 1}
+    - _RimColor: {r: 2.1982934, g: 1.7117859, b: 1.6487201, a: 1}
   m_BuildTextureStacks: []

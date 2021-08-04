@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fish_Toon 1
-  m_Shader: {fileID: 4800000, guid: 144502b47dba414479dcd44a27b4e724, type: 3}
-  m_ShaderKeywords: _TOON_SHADOW_RECEIVE _GPU_INSTANCE
+  m_Name: Fish_Toon 2
+  m_Shader: {fileID: 4800000, guid: d39c62397abb95f42bfe628a6ccca9f6, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 60875fcb0fffca6488eee26258103161, type: 3}
+        m_Texture: {fileID: 2800000, guid: 583dbacf14a15a949ba5b873aa625561, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
@@ -47,11 +47,11 @@ Material:
     - _AmbientStrength: 0.092
     - _AnisotropicIntensity: 0.693
     - _AnisotropicPow: 0.05
-    - _LightIntensity: 0.571
-    - _LightSize: 0.386
+    - _LightIntensity: 1
+    - _LightSize: 0.65
     - _NormalIntensity: 1
     - _OutlineWidth: 0.32
-    - _RampOffset: -0.359
+    - _RampOffset: 0.08
     - _RimIntensity: 1
     - _RimSize: 0.375
     - _Roughness: 0.776

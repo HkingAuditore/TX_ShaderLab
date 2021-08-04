@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Fish_Toon
   m_Shader: {fileID: 4800000, guid: 144502b47dba414479dcd44a27b4e724, type: 3}
-  m_ShaderKeywords: _TOON_SHADOW_RECEIVE
+  m_ShaderKeywords: _TOON_SHADOW_RECEIVE _GPU_INSTANCE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientStrength: 0.35
+    - _AmbientStrength: 0.241
     - _AnisotropicIntensity: 0.677
     - _AnisotropicPow: 0.05
     - _LightIntensity: 0.571
@@ -54,7 +54,7 @@ Material:
     - _RampOffset: -0.359
     - _RimIntensity: 1
     - _RimSize: 0.375
-    - _Roughness: 0.776
+    - _Roughness: 0.245
     - _ShadowReceivedIntensity: 0.862
     - _SpecSmooth: 0.545
     - _SpecStrength: 0.427

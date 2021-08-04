@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hat_Toon
-  m_Shader: {fileID: 4800000, guid: 144502b47dba414479dcd44a27b4e724, type: 3}
-  m_ShaderKeywords: _TOON_SHADOW_RECEIVE
+  m_Name: Eyes_Toon 2
+  m_Shader: {fileID: 4800000, guid: d39c62397abb95f42bfe628a6ccca9f6, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -24,45 +24,45 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 596ea4378bdf17d44bf89a78921992f5, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2114e0d1e621bd4e9faf44d5513a93f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: c886d062ead07b0418795d08bd0a76a3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutLineNoise:
-        m_Texture: {fileID: 2800000, guid: 11bb90c83393436459c351089f743fc4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 98ced39d5740a8647a9715ffe4e0df97, type: 3}
+        m_Texture: {fileID: 2800000, guid: 583dbacf14a15a949ba5b873aa625561, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
-        m_Texture: {fileID: 2800000, guid: e0c30a8be4dc4644c96ace2e06ac2aa1, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientStrength: 0.18
-    - _AnisotropicIntensity: 0.206
+    - _AmbientStrength: 0
+    - _AnisotropicIntensity: 0
     - _AnisotropicPow: 0.421
-    - _LightIntensity: 0.744
-    - _LightSize: 0.834
-    - _NormalIntensity: 2.58
-    - _OutlineWidth: 0.3
-    - _RampOffset: 0.004
-    - _RimIntensity: 0.788
-    - _RimSize: 0.542
+    - _LightIntensity: 1
+    - _LightSize: 0.65
+    - _NormalIntensity: 1
+    - _OutlineWidth: 0.28
+    - _RampOffset: 0.08
+    - _RimIntensity: 0.42
+    - _RimSize: 0.456
     - _Roughness: 0.5
     - _ShadowReceivedIntensity: 0.786
     - _SpecSmooth: 0.5
-    - _SpecStrength: 0.149
-    - _TangentOffset: 3.53
+    - _SpecStrength: 0
+    - _TangentOffset: 0
     m_Colors:
-    - _AnisotropicColor: {r: 0.8396226, g: 0.81272113, b: 0.24951048, a: 0.972549}
+    - _AnisotropicColor: {r: 1, g: 1, b: 1, a: 1}
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
-    - _OutLineColor: {r: 0.49056602, g: 0.33864054, b: 0.21520111, a: 1}
-    - _RimColor: {r: 15.196922, g: 12.111864, b: 4.8028007, a: 1}
+    - _OutLineColor: {r: 0.5754717, g: 0.35366964, b: 0.29587933, a: 1}
+    - _RimColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   m_BuildTextureStacks: []

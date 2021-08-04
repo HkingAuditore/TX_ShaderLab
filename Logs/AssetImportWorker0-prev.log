@@ -15,11 +15,11 @@ D:/UnityProject/TX_ShaderLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61638
+65375
 Successfully changed project path to: D:/UnityProject/TX_ShaderLab
 D:/UnityProject/TX_ShaderLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 149.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003832 seconds.
+Registered in 0.008583 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 419.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.445 seconds
+- Completed reload, in  3.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5446ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (3821ms)
+		BeginReloadAssembly (810ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2021ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (842ms)
+			RebuildTransferFunctionScriptingTraits (11ms)
+			SetupTypeCache (350ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (456ms)
-			SetupLoadedEditorAssemblies (1105ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (194ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (420ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (489ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.284786 seconds.
+Registered in 0.012332 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
+- Completed reload, in  1.488 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1743ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1499ms)
-			LoadAssemblies (571ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (457ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.41 seconds
-Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.14 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.4 MB.
-System memory in use after: 163.5 MB.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.6 MB.
+System memory in use after: 164.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 1.967700 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.663200 ms  DeleteObjects: 0.061900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 1.732100 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.454500 ms  DeleteObjects: 0.076800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,903 +133,660 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a42f6b6a92832cf66397443d89e072') in 0.036224 seconds 
-  Import took 0.050443 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c094da8bd1b75f3ead1a150439b18a0d') in 0.159660 seconds 
+  Import took 0.326046 seconds .
 
 ========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.385899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3401ms)
+		BeginReloadAssembly (354ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2735ms)
+			LoadAssemblies (1662ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 1.772700 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.521600 ms  DeleteObjects: 0.015100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.890000 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.544900 ms  DeleteObjects: 0.043500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 227.109671 seconds.
+  Time since last request: 1341.842505 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f3397ef6b674a28ef5b04dcf28e661') in 0.003562 seconds 
-  Import took 0.013363 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6c6d982ca497d96d72c32c584db4f9') in 0.014307 seconds 
+  Import took 0.091439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.656818 seconds.
+  Time since last request: 1262.070105 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abce4653c15a601db671acf7352b6336') in 0.003438 seconds 
-  Import took 0.025562 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a392caaea823e886b72ecbc7bb9476b3') in 0.158340 seconds 
+  Import took 0.313322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018414 seconds.
+  Time since last request: 177.363130 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abce4653c15a601db671acf7352b6336') in 0.014507 seconds 
-  Import took 0.057368 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c0e21f65053659036577e88413c38') in 0.042237 seconds 
+  Import took 0.302242 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.320857 seconds.
+  Time since last request: 152.466960 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b1f0e4b0b736f3fbd7a667b5883703') in 0.004922 seconds 
-  Import took 0.038465 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1703bd2077b0d8ccc14ac8e1fcac8b4a') in 0.004817 seconds 
+  Import took 0.051179 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003505 seconds.
+  Time since last request: 0.002580 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b1f0e4b0b736f3fbd7a667b5883703') in 0.004728 seconds 
-  Import took 0.008585 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1703bd2077b0d8ccc14ac8e1fcac8b4a') in 0.008219 seconds 
+  Import took 0.026588 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.792243 seconds.
+  Time since last request: 3.346847 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108799e073f2af0df53517f562d3886') in 0.003632 seconds 
-  Import took 0.013638 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15c3e58e9528e352139034e015d554') in 0.003725 seconds 
+  Import took 0.012399 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.192146 seconds.
+  Time since last request: 38.838054 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff8e746e45e685dbc5f5381b83e1d1a') in 0.002926 seconds 
-  Import took 0.027215 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a458824a44e06a700bebf3b705d7926') in 0.005937 seconds 
+  Import took 0.039482 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027152 seconds.
+  Time since last request: 192.949535 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff8e746e45e685dbc5f5381b83e1d1a') in 0.005003 seconds 
-  Import took 0.008355 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f6b47991c3989a422dab10d9b490a3') in 0.008104 seconds 
+  Import took 0.020087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.565246 seconds.
+  Time since last request: 118.872747 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
   artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aba30f3cfbc2194c10f5ad8be18ab2') in 0.004010 seconds 
-  Import took 0.007225 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318fff034f27f1b62fb5270208bb3a32') in 0.009296 seconds 
+  Import took 0.012961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1335.834911 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN
-  artifactKey: Guid(eb47b2dacc946e749958c0bc1ae5b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN using Guid(eb47b2dacc946e749958c0bc1ae5b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c394536874096c29f5c2c1fba645d6') in 0.004068 seconds 
-  Import took 0.007482 seconds .
+  Time since last request: 459.268232 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2faf3033bfe36cdb58c9f8f64df7a') in 0.003798 seconds 
+  Import took 0.024814 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.058825 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_BODY_Full.FBX
-  artifactKey: Guid(5b06df5a66751d1468886f108f61238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_BODY_Full.FBX using Guid(5b06df5a66751d1468886f108f61238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84d88dd541685b5ddb5b2505b66a472') in 0.292273 seconds 
-  Import took 0.309852 seconds .
+  Time since last request: 0.001978 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2faf3033bfe36cdb58c9f8f64df7a') in 0.003810 seconds 
+  Import took 0.007016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BANGS_v1.FBX
-  artifactKey: Guid(745f8984bca6b6045b525c3043be48e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BANGS_v1.FBX using Guid(745f8984bca6b6045b525c3043be48e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8c01af4869428d902f767ef75ed93a') in 0.044317 seconds 
-  Import took 0.076899 seconds .
+  Time since last request: 31.110417 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce88378396afd8e0c3352fe4ca8c6b') in 0.004414 seconds 
+  Import took 0.007737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BANGS_v2.FBX
-  artifactKey: Guid(493e8c8a4c795cd49b42f5299605c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BANGS_v2.FBX using Guid(493e8c8a4c795cd49b42f5299605c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e88fa043e8dfdab4888450396028f5') in 0.040162 seconds 
-  Import took 0.044652 seconds .
+  Time since last request: 9.499760 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986c21952f4e45f15aa07e39cd6b1fe9') in 0.006280 seconds 
+  Import took 0.029562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_SCALP.FBX
-  artifactKey: Guid(359bec2397c0e7f489ef7183408a5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_SCALP.FBX using Guid(359bec2397c0e7f489ef7183408a5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9037a456ceae2ea101f93d15b54d0e06') in 0.026262 seconds 
-  Import took 0.032857 seconds .
+  Time since last request: 2.323419 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b22700fe7c8cd8ea5899ddf6a00a433') in 0.003784 seconds 
+  Import took 0.023773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_SHOES.FBX
-  artifactKey: Guid(c82a18e5fd4246342a4901444c197dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_SHOES.FBX using Guid(c82a18e5fd4246342a4901444c197dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca2b5f6ac79e7feb0b8e3e089fc7a2') in 0.030359 seconds 
-  Import took 0.032579 seconds .
+  Time since last request: 8.107738 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ac92eb1a9e0f044b87b5f8463b63f5') in 0.005191 seconds 
+  Import took 0.034470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_DRESS.FBX
-  artifactKey: Guid(491e44c7f66db2445993e1d6409d9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_DRESS.FBX using Guid(491e44c7f66db2445993e1d6409d9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d044af0a29fe2ba021a8a2c1540bdb6') in 0.027438 seconds 
-  Import took 0.032166 seconds .
+  Time since last request: 130.193280 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291754cacbcbe6491815a0f34b01509a') in 0.005178 seconds 
+  Import took 0.008638 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HEAD.FBX
-  artifactKey: Guid(e1b45e8d43788304899858861d1c050c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HEAD.FBX using Guid(e1b45e8d43788304899858861d1c050c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e041366c640c5369f6f2c7d72a19629') in 0.243570 seconds 
-  Import took 0.258136 seconds .
+  Time since last request: 4.886946 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef8a306b57359bcdaa69da93dc95e92') in 0.004381 seconds 
+  Import took 0.016984 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BUN.FBX
-  artifactKey: Guid(77b92a0c691a6c640a2f2ca9e5402622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAIR_BUN.FBX using Guid(77b92a0c691a6c640a2f2ca9e5402622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a1e6b89aecd81e64a8408f855a47f8') in 0.025070 seconds 
-  Import took 0.037205 seconds .
+  Time since last request: 11.290617 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c971715decb978386b46d120c4e173') in 0.004800 seconds 
+  Import took 0.017152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_CROSS.FBX
-  artifactKey: Guid(663bf2a781c370e47945f047bd2b9e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_CROSS.FBX using Guid(663bf2a781c370e47945f047bd2b9e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65a9ecabd2bba96a8b3b832b1fd7277') in 0.026267 seconds 
-  Import took 0.040847 seconds .
+  Time since last request: 15.741785 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
+  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b387dad918adc731569a980d7fa68e') in 0.004417 seconds 
+  Import took 0.019052 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAT.FBX
-  artifactKey: Guid(0c16ade7dfa614c448dff9c908c05237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_HAT.FBX using Guid(0c16ade7dfa614c448dff9c908c05237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987c254edde7b740a7db46ca75bffc49') in 0.024814 seconds 
-  Import took 0.027727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_BODY_Opt.FBX
-  artifactKey: Guid(b10d07808bef9af419471c882844de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Meshes/NUN/SK_NUN_BODY_Opt.FBX using Guid(b10d07808bef9af419471c882844de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d81e21353d99c83da093d6430a7a6a') in 0.029116 seconds 
-  Import took 0.032213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 166.640657 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat
-  artifactKey: Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Dress_Toon.mat using Guid(2f08cb4ef36035f4e8ef5a31b8162ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59a2daf60d318dfdf8b0293bb27f979') in 0.396038 seconds 
-  Import took 0.404948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Face_Toon.mat
-  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c2506d1935a519286419f6ac6c7c88') in 0.202735 seconds 
-  Import took 0.215245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat
-  artifactKey: Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Skin_Toon.mat using Guid(ea52b1ef674c22243946306005119449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4534b5050f76b8d0fc42aa5a4b89ea') in 0.144818 seconds 
-  Import took 0.156105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat
-  artifactKey: Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Hat_Toon.mat using Guid(056a2c845a8f16e44abfb7374e284d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fd4876a4da32725f4433e419682cc8') in 0.273663 seconds 
-  Import took 0.294139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat
-  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2549a99308c3a7324d5a6efaafe21241') in 0.112753 seconds 
-  Import took 0.115534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat
+  Time since last request: 267.924873 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat
   artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170cb2ab0f4ed28f02c2e6a2fcbb23d4') in 0.344759 seconds 
-  Import took 0.360744 seconds .
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ffe74cf3e61d6b226ff8bf333d69b8') in 1.163793 seconds 
+  Import took 1.167272 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.991485 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/女战士
-  artifactKey: Guid(c3c89c63b7d5f8d45a805b3dc8178807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/女战士 using Guid(c3c89c63b7d5f8d45a805b3dc8178807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e105e870665bcd65ca9f72f22d0a13c3') in 0.003290 seconds 
-  Import took 0.005724 seconds .
+  Time since last request: 24.378666 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2362ac1f131d0f40c8def1e8b5bcc21a') in 0.270492 seconds 
+  Import took 0.273547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.401457 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/战士
-  artifactKey: Guid(c3c89c63b7d5f8d45a805b3dc8178807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/战士 using Guid(c3c89c63b7d5f8d45a805b3dc8178807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab51f93f9ba4c91461885bc9c1f6bb8f') in 0.003193 seconds 
-  Import took 0.005566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.125975 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/修女
-  artifactKey: Guid(5b7ca32ca43633546b01646374bc7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/修女 using Guid(5b7ca32ca43633546b01646374bc7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d894690bec9084a0900e73384cb716') in 0.004801 seconds 
-  Import took 0.008504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.047620 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/修女/New Material.mat
-  artifactKey: Guid(1e4af836d8d1fd540b357006608151f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/修女/New Material.mat using Guid(1e4af836d8d1fd540b357006608151f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec98cac09a260e2f88208fa1e6d15711') in 0.016875 seconds 
-  Import took 0.033391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.799267 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN
-  artifactKey: Guid(4940b440f6ea3d44ba29d2a378f27f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN using Guid(4940b440f6ea3d44ba29d2a378f27f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c520c82ac5f34614fd442ff1a128ad58') in 0.003060 seconds 
-  Import took 0.005655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000680 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN
-  artifactKey: Guid(4940b440f6ea3d44ba29d2a378f27f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN using Guid(4940b440f6ea3d44ba29d2a378f27f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c520c82ac5f34614fd442ff1a128ad58') in 0.002929 seconds 
-  Import took 0.005549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099979 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BASECOLOR_Nude_Censored.TGA
-  artifactKey: Guid(9ae7acec3fd9c5a43a2286620d0e4155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BASECOLOR_Nude_Censored.TGA using Guid(9ae7acec3fd9c5a43a2286620d0e4155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b650b8de09fb2c6a9e9211ea73612fcf') in 0.073933 seconds 
-  Import took 0.093998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_AO.TGA
-  artifactKey: Guid(506ab06a2c775924a8c68630480ed52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_AO.TGA using Guid(506ab06a2c775924a8c68630480ed52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7196776ee99d48e97ebf1b02865e587b') in 0.014029 seconds 
-  Import took 0.080015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored.TGA
-  artifactKey: Guid(65207a66bb42dec44963d7773a3a6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored.TGA using Guid(65207a66bb42dec44963d7773a3a6b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b7fc3a5926f7af4bfc98bba4653e62') in 0.054916 seconds 
-  Import took 0.060060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_NORMAL.TGA
-  artifactKey: Guid(34f7aa436ae9c924f84a60e12fee9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_NORMAL.TGA using Guid(34f7aa436ae9c924f84a60e12fee9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f560025d37cb3de478909b5491ac4') in 0.057113 seconds 
-  Import took 0.059739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_BaseColor.TGA
-  artifactKey: Guid(cebdbd054a4513247bdc264d29be68d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_BaseColor.TGA using Guid(cebdbd054a4513247bdc264d29be68d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45162934535f060d51a6ea189a05ff13') in 0.053406 seconds 
-  Import took 0.055983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Metallic.BMP
-  artifactKey: Guid(269ee5cc93eb2044daa77109e7d0bf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Metallic.BMP using Guid(269ee5cc93eb2044daa77109e7d0bf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223d39748769309979a98f42a4c87fe') in 0.072264 seconds 
-  Import took 0.112497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000718 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Alpha.BMP
-  artifactKey: Guid(d09146aafefcba844a3d9bfe891c66ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Alpha.BMP using Guid(d09146aafefcba844a3d9bfe891c66ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b831ea4ec1125cea9b40fb3866bcf59') in 0.070411 seconds 
-  Import took 0.100290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Roots.BMP
-  artifactKey: Guid(76cbd9d4dc5258d40aaa9923494232a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Roots.BMP using Guid(76cbd9d4dc5258d40aaa9923494232a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76e3dc7905b3e284ed2cf3e67fcd07') in 0.063087 seconds 
-  Import took 0.066689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_BaseColorBlue.TGA
-  artifactKey: Guid(b5f12b408e8065741ba0f0917cbe109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_BaseColorBlue.TGA using Guid(b5f12b408e8065741ba0f0917cbe109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1107e7df146a248875fe81c4a61b9') in 0.062541 seconds 
-  Import took 0.064674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_BaseColor_Dark.TGA
-  artifactKey: Guid(3533d637428e6c64680643fc322e0a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_BaseColor_Dark.TGA using Guid(3533d637428e6c64680643fc322e0a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2028a8a396d8e123c397658e7cbe882') in 0.062101 seconds 
-  Import took 0.075243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_BaseColor_Classic.TGA
-  artifactKey: Guid(f4c5c651f5bc1b2469bbb883830d20ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_BaseColor_Classic.TGA using Guid(f4c5c651f5bc1b2469bbb883830d20ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479c46c83285359ba744ce607bd844b') in 0.058236 seconds 
-  Import took 0.060653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BASECOLOR_Nude_Censored_Nude.TGA
-  artifactKey: Guid(4aa52dd7f4dc0e74499befe6e044877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BASECOLOR_Nude_Censored_Nude.TGA using Guid(4aa52dd7f4dc0e74499befe6e044877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd749b8dce00e621acce642825d70ac46') in 0.064139 seconds 
-  Import took 0.087902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_ROUGHNESS_Nude_Censored.TGA
-  artifactKey: Guid(2ac580ebd78a673439a36835ee15e551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_ROUGHNESS_Nude_Censored.TGA using Guid(2ac580ebd78a673439a36835ee15e551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79c527695eee2082379117089934a13') in 0.076991 seconds 
-  Import took 0.086150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_BaseColor_White.TGA
-  artifactKey: Guid(3c3751e9d3c38f946a9dcab4792481b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_BaseColor_White.TGA using Guid(3c3751e9d3c38f946a9dcab4792481b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bd334cf44450152ad3d9b2fd84def3') in 0.065616 seconds 
-  Import took 0.068557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_AO.TGA
-  artifactKey: Guid(a28f5a6de11ee2e40a6e3f1f28b0a689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_AO.TGA using Guid(a28f5a6de11ee2e40a6e3f1f28b0a689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498210c82e9ba4a7eae4bfa9c8c9bc1') in 0.076392 seconds 
-  Import took 0.079360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored_Black.TGA
-  artifactKey: Guid(fe303e767fb7b314189df0b70cd9ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored_Black.TGA using Guid(fe303e767fb7b314189df0b70cd9ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eb2023ec0340c5332e4b2f0d9d5df2') in 0.064952 seconds 
-  Import took 0.213772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001147 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Censored.TGA
-  artifactKey: Guid(8d97f841d1a9d0d4c83683c183243ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Censored.TGA using Guid(8d97f841d1a9d0d4c83683c183243ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b0c19c4198fcd15cc59f60e50443de') in 0.054032 seconds 
-  Import took 0.059400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Censored_Dark.TGA
-  artifactKey: Guid(a76de742cb3ca5d46824e95ed4afd0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Censored_Dark.TGA using Guid(a76de742cb3ca5d46824e95ed4afd0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573a3bd3cbddfebb96680f761e0fdf36') in 0.055835 seconds 
-  Import took 0.059081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_MatID.TGA
-  artifactKey: Guid(0dcf3e306b38df741a70f1219fca4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_MatID.TGA using Guid(0dcf3e306b38df741a70f1219fca4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58798a9e8e8d4bf8450de9c9b3eef1c') in 0.056184 seconds 
-  Import took 0.074356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_Roughness_Underwear_Censored.TGA
-  artifactKey: Guid(e6252a412e8ec3c4aae333203248fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_Roughness_Underwear_Censored.TGA using Guid(e6252a412e8ec3c4aae333203248fa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7a4b7e5322ea5153afabb4aee93d4') in 0.055399 seconds 
-  Import took 0.058686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Roughness.BMP
-  artifactKey: Guid(568e0065de6ef1043a5ecd976327b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Roughness.BMP using Guid(568e0065de6ef1043a5ecd976327b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8704ef01a4fb3d6167f794518d3ead4') in 0.055473 seconds 
-  Import took 0.058003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_eyeshadow.TGA
-  artifactKey: Guid(6a477f1f48da266449c8944c662cce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_eyeshadow.TGA using Guid(6a477f1f48da266449c8944c662cce1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636506a7f392dabda049d8070be1f44e') in 0.011619 seconds 
-  Import took 0.015968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_Normal.TGA
-  artifactKey: Guid(a5637c21f8975ad40b84bd2a17abc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_Normal.TGA using Guid(a5637c21f8975ad40b84bd2a17abc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403289f2a0428a0322a040d77cd754a') in 0.055565 seconds 
-  Import took 0.064867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_MatID.TGA
-  artifactKey: Guid(ebec955e26c0854488224f87ce2cce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_MatID.TGA using Guid(ebec955e26c0854488224f87ce2cce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e53fd127204a2f70682533a9c8a7a7') in 0.051122 seconds 
-  Import took 0.063166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_Roughness.BMP
-  artifactKey: Guid(09d457479e1cac84daa8a6517c375733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_Roughness.BMP using Guid(09d457479e1cac84daa8a6517c375733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26c68cc4880d8cb0eb427a053805d04') in 0.024428 seconds 
-  Import took 0.027015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_BaseColorGray.TGA
-  artifactKey: Guid(d4216caade6bfd648bcfe73b37c73c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Eyes_BaseColorGray.TGA using Guid(d4216caade6bfd648bcfe73b37c73c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c2328b77c81b08d8c39c6c10663aa3') in 0.054406 seconds 
-  Import took 0.068317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_D.TGA
-  artifactKey: Guid(6e2ba89d1445e164d8e9d1c58ca4c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_D.TGA using Guid(6e2ba89d1445e164d8e9d1c58ca4c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f5691d075db578147aa1042425b508') in 0.050189 seconds 
-  Import took 0.059569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_NORMAL.TGA
-  artifactKey: Guid(a94cd44e7aae4454695f48b227c4e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_NORMAL.TGA using Guid(a94cd44e7aae4454695f48b227c4e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4260a0e9010e26b9b8aec0d1c494b993') in 0.050694 seconds 
-  Import took 0.053638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored_Dark.TGA
-  artifactKey: Guid(1aa849932d53f384f9145ea98fbfb01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_BaseColor_Underwear_Full_Censored_Dark.TGA using Guid(1aa849932d53f384f9145ea98fbfb01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4ec565b7cb19e31d3727d77bb2585e') in 0.054925 seconds 
-  Import took 0.057804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA
-  artifactKey: Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA using Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6c62b3ce0caf6f45d5c5680134b795') in 0.049264 seconds 
-  Import took 0.052830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_ID.TGA
-  artifactKey: Guid(81152df9ded0316488f8a70206e60227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_ID.TGA using Guid(81152df9ded0316488f8a70206e60227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9399ad130b80841268c2d6a05a7f74') in 0.052567 seconds 
-  Import took 0.055527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_ROUGHNESS.TGA
-  artifactKey: Guid(fbd002ef12f089f47b0b819234cc2743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_HEAD_ROUGHNESS.TGA using Guid(fbd002ef12f089f47b0b819234cc2743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445c8570a299925c2c18e2e22cfd74ee') in 0.049943 seconds 
-  Import took 0.052760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Depth.BMP
-  artifactKey: Guid(7c11317b23496e040b0854cb432f2ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Hair_Depth.BMP using Guid(7c11317b23496e040b0854cb432f2ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f5e26d9e29a9e6d26ced4ab0209935') in 0.056123 seconds 
-  Import took 0.058650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.927218 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_BASECOLOR.TGA
-  artifactKey: Guid(136b20b005416944a886f48171405aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_BASECOLOR.TGA using Guid(136b20b005416944a886f48171405aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fc67f7974dd9a2b2b5987021db386') in 0.011981 seconds 
-  Import took 0.014748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_ROUGHNESS.BMP
-  artifactKey: Guid(4bd7037d6f7b1e24792f0e06328e4c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_Teeth_ROUGHNESS.BMP using Guid(4bd7037d6f7b1e24792f0e06328e4c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d224ab3e3a8d48cb3fc71241d664d') in 0.054051 seconds 
-  Import took 0.056185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_TEETH_NORMAL.TGA
-  artifactKey: Guid(5872526fa41772347af645161ae7675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_TEETH_NORMAL.TGA using Guid(5872526fa41772347af645161ae7675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4511eb6e76f8619b6365c3e1e4246ed5') in 0.014525 seconds 
-  Import took 0.017399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.728261 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_NORMAL.TGA
-  artifactKey: Guid(34f7aa436ae9c924f84a60e12fee9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_BODY_NORMAL.TGA using Guid(34f7aa436ae9c924f84a60e12fee9eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5b052c9e4863d38d5c0cc6e1c51ac5') in 0.057670 seconds 
-  Import took 0.078865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 876.089587 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA
-  artifactKey: Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA using Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c2ffaec9cfb00dfe5ee345ece22f06') in 0.071349 seconds 
-  Import took 0.083952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003359 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA
-  artifactKey: Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/NUN/T_NUN_CLOTHES_Normal.TGA using Guid(dd7c6ef9fa95f8147be3a2e7e79d60e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c2ffaec9cfb00dfe5ee345ece22f06') in 0.055261 seconds 
-  Import took 0.058210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12431.765478 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase
-  artifactKey: Guid(62e19dd3e9cba9144bbfef7402317ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase using Guid(62e19dd3e9cba9144bbfef7402317ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e647c81b72c827c6bd2416405975e95') in 0.006976 seconds 
-  Import took 0.039378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.654842 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7177040827070769c17a03bbca8b5c') in 0.013903 seconds 
-  Import took 0.038943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027330 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7177040827070769c17a03bbca8b5c') in 0.004200 seconds 
-  Import took 0.006811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.209789 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2c66ae1c5216dcca214f93bfcfdadc') in 0.005265 seconds 
-  Import took 0.008543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.577600 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c243f63568f048a8f853ebb4db69ff') in 0.005699 seconds 
-  Import took 0.018220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.982165 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f41bb5a14f8d1746d2e70fc18aef5e') in 0.005208 seconds 
-  Import took 0.008301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.749785 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7adbaa10cf615a609def9d7914ab327') in 0.004884 seconds 
-  Import took 0.007792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.099706 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d993219621311950e6ef2f76f5db185') in 0.006595 seconds 
-  Import took 0.009378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.452626 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eb2eb6ade93f15e12de8f6e982e8e8') in 0.007823 seconds 
-  Import took 0.040881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.277193 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader
-  artifactKey: Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/ShadowCaster.shader using Guid(90735b27c9c14da438ceb661a2b01e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f507872d00c19d9b51d82bb53c6fe7') in 0.004939 seconds 
-  Import took 0.008235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 143.134710 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase
-  artifactKey: Guid(1ff77d00b4d0a4c49bb5aaee3e80fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase using Guid(1ff77d00b4d0a4c49bb5aaee3e80fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243d1759b5f1009fe1714315ae6a6c05') in 0.003648 seconds 
-  Import took 0.023876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.887329 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e61e4d6048477dbafc9612011b877ac') in 0.005053 seconds 
-  Import took 0.018893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.715521 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderBase.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderBase.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b952ef5ad52ed8d8bb53d3698ae76') in 0.008929 seconds 
-  Import took 0.012168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.348151 seconds.
+  Time since last request: 1784.928649 seconds.
   path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
   artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e5e235f79c01c24f480a3462a6515f') in 0.005574 seconds 
-  Import took 0.008627 seconds .
+Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb80f1b3b214ebaba68b82e40fafe47') in 0.017669 seconds 
+  Import took 0.020771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.059346 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3359ab6df1f9478395d82c0423096c78') in 0.005832 seconds 
-  Import took 0.008470 seconds .
+  Time since last request: 1.737364 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary 1.cginc
+  artifactKey: Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary 1.cginc using Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288e5b93479b269fc257427fbd7a819e') in 0.005182 seconds 
+  Import took 0.024696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2162.394696 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
-  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1107ceb59a10b03f8a46c6a3ef95fdc') in 0.003503 seconds 
-  Import took 0.006391 seconds .
+  Time since last request: 6.722025 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc
+  artifactKey: Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc using Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7831aabf811f885293cd51941a3f040') in 0.004489 seconds 
+  Import took 0.022768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002273 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
-  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1107ceb59a10b03f8a46c6a3ef95fdc') in 0.003211 seconds 
-  Import took 0.005786 seconds .
+  Time since last request: 231.167196 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc
+  artifactKey: Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc using Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270a7690d659469565e58262d493961d') in 0.004822 seconds 
+  Import took 0.008252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.705323 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
-  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c7473f43f84c4029a0ccee00529234') in 0.003546 seconds 
-  Import took 0.006499 seconds .
+  Time since last request: 0.024816 seconds.
+  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc
+  artifactKey: Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderProperties.cginc using Guid(2bc6f64c43e55b141a98629117db77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270a7690d659469565e58262d493961d') in 0.003916 seconds 
+  Import took 0.007670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.847934 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
-  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafe4a541779df9923f28fb3d72b079e') in 0.003915 seconds 
-  Import took 0.007411 seconds .
+  Time since last request: 14237.273640 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_Normal.jpg
+  artifactKey: Guid(78417445de213a246a3e29b65ea0b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_body_nat_Normal.jpg using Guid(78417445de213a246a3e29b65ea0b0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7257c0d8f58aeb34ee39f9e43174b1') in 0.269712 seconds 
+  Import took 0.292274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.620092 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Toon.shader
-  artifactKey: Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Toon.shader using Guid(144502b47dba414479dcd44a27b4e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dad900ccd96804a0415695def1ffa2') in 0.004117 seconds 
-  Import took 0.007062 seconds .
+  Time since last request: 221.092789 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg
+  artifactKey: Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg using Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7eaeec2c4e058645d305b9376a3111') in 0.104881 seconds 
+  Import took 0.112888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.388090 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd73a083a9f086f78e99c1d36f433e20') in 0.004950 seconds 
-  Import took 0.020785 seconds .
+  Time since last request: 0.000580 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg
+  artifactKey: Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Pisciasa_3DsceneFiles/fish_paint_v002_fish_mat_Normal.jpg using Guid(fa1b0b009da2df546a3070b34c38a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7eaeec2c4e058645d305b9376a3111') in 0.056382 seconds 
+  Import took 0.059451 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1260ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (200ms)
+		EndReloadAssembly (845ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 163.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 2.500800 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.202700 ms  DeleteObjects: 0.016600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 163.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 2.121400 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.922800 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 163.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 2.013500 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.800500 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.0 MB.
+System memory in use after: 163.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 1.799800 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.530400 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 163.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 2.005000 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.725600 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5688.830940 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbd3c44056751b9c9cb2fdad0fa4b20') in 0.090529 seconds 
+  Import took 0.106297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.042972 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e71083a06c76dcab313dcb1c3cde0f') in 0.004721 seconds 
-  Import took 0.007706 seconds .
+  Time since last request: 62.547500 seconds.
+  path: Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd
+  artifactKey: Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Ramp0.psd using Guid(583dbacf14a15a949ba5b873aa625561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd120b6913109daf5a08632df02c11') in 0.039958 seconds 
+  Import took 0.061554 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 79.330222 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dee40998249db7dcabd8c509b76f392') in 0.005309 seconds 
-  Import took 0.009796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1665.063410 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/CustomLighting.cginc
-  artifactKey: Guid(55e8100c432ce984a95b78139d684e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/CustomLighting.cginc using Guid(55e8100c432ce984a95b78139d684e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412a4679df85d828e1fb8a548b1f23f') in 0.005761 seconds 
-  Import took 0.009040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.685094 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/CustomLighting 1.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/CustomLighting 1.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8364a6877a60b97c3773103459c1a7e') in 0.005093 seconds 
-  Import took 0.024779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.737364 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/LightingBase/Base.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/LightingBase/Base.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0253101eb3be93f87972a395e018097d') in 0.009087 seconds 
-  Import took 0.011879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 155.499389 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/Base.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/Base.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635ec614c397cf697d39ea753923b639') in 0.005588 seconds 
-  Import took 0.009074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 196.446588 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece170eb7a3e251c71d0f16078075c2') in 0.006941 seconds 
-  Import took 0.010992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.706308 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f7524f86effb485e94400c6403c172') in 0.004989 seconds 
-  Import took 0.014733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008654 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f7524f86effb485e94400c6403c172') in 0.009341 seconds 
-  Import took 0.013055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.167507 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea85fd9b835662292b2234cd706fe36') in 0.004371 seconds 
-  Import took 0.025993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020490 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea85fd9b835662292b2234cd706fe36') in 0.005442 seconds 
-  Import took 0.008697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.167997 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc
-  artifactKey: Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/CustomBase.cginc using Guid(a6076cf94537e81468efa0a75c4802d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52999469c97490eaec62f0b4458e31e') in 0.006925 seconds 
-  Import took 0.010277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4149.274042 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdd7f3195cf8c74a612f985e6efefd6') in 0.011508 seconds 
-  Import took 0.035030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9628.816710 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/NewShaderVariants.shadervariants
-  artifactKey: Guid(bfc7cabd55438da46a212e19e2b8d1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/NewShaderVariants.shadervariants using Guid(bfc7cabd55438da46a212e19e2b8d1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6f6a0f5eba53c0f25a6f180cb91739') in 0.017429 seconds 
-  Import took 0.029853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.305227 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926b54f1c8fd4f5f1b44a97f2cab03c5') in 0.012324 seconds 
-  Import took 0.025503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.977253 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c07141d94623872748fa6bd6ea2e56e') in 0.015182 seconds 
-  Import took 0.018525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.636035 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc
-  artifactKey: Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc using Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faddf26d3cc4315f8ecb639a914c5708') in 0.004812 seconds 
-  Import took 0.007591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000631 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc
-  artifactKey: Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc using Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faddf26d3cc4315f8ecb639a914c5708') in 0.003354 seconds 
-  Import took 0.005707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.593548 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc
-  artifactKey: Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonLightModel.cginc using Guid(cc90a79740994794293deb5804731c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ea2ec7ffc2f64d9fe92d67ccd91cef') in 0.005482 seconds 
-  Import took 0.008857 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

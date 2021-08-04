@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 583dbacf14a15a949ba5b873aa625561, type: 3}
+        m_Texture: {fileID: 2800000, guid: 60875fcb0fffca6488eee26258103161, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
@@ -51,9 +51,10 @@ Material:
     - _LightSize: 0.834
     - _NormalIntensity: 1
     - _OutlineWidth: 0.28
-    - _RampOffset: 0.1
+    - _RampOffset: 1
     - _RimIntensity: 0.42
     - _RimSize: 0.456
+    - _Roughness: 0.5
     - _ShadowReceivedIntensity: 0.786
     - _SpecSmooth: 0.5
     - _SpecStrength: 0

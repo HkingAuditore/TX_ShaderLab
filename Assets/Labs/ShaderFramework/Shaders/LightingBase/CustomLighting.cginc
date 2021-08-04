@@ -2,8 +2,10 @@
     #define CUSTOM_LIGHTING
     #include "UnityCG.cginc"
     #include "Lighting.cginc"
-
+    #include "../CustomBase.cginc"
+    
     #pragma multi_compile_fwdbase
+    #pragma shader_feature __ _GPU_INSTANCE
     #include "AutoLight.cginc"
 
     sampler2D _MainTex;
@@ -30,9 +32,8 @@
         float3 worldNormal : TEXCOORD2;
         float3 worldLight : TEXCOORD3;
         float3 viewDir : TEXCOORD4;
-        float3 tangent : TEXCOORD5;
-        float3 bitangent : TEXCOORD6;
-        SHADOW_COORDS(7)
+        float3 bitangent : TEXCOORD5;
+        SHADOW_COORDS(6)
         #ifdef _GPU_INSTANCE
             UNITY_VERTEX_INPUT_INSTANCE_ID
         #endif
@@ -56,7 +57,6 @@
         o.worldLight = normalize(UnityWorldSpaceLightDir(o.worldPos));
         o.viewDir = normalize(WorldSpaceViewDir(v.vertex));
         o.worldNormal = UnityObjectToWorldNormal(v.normal);
-        o.tangent = mul(unity_ObjectToWorld, v.tangent);
         o.bitangent = mul(unity_ObjectToWorld, cross(v.normal, v.tangent));;
         UNITY_TRANSFER_FOG(o, o.vertex);
         TRANSFER_SHADOW(o)
@@ -94,6 +94,14 @@
         // float spec = pow(max(dot(viewDir,re),0.0),32);
         return spec;
     }
+
+    //法线贴图
+    float3 NormalMap(float3 oriNormal, sampler2D normalMap, float2 uv, float intensity)
+        {
+            float3 bump = UnpackNormalWithScale(tex2D(normalMap, uv), intensity);
+            return normalize(oriNormal) + bump;
+        }
+
 
     float GetNoisySpec(float3 normal, float3 lightDir, float3 viewDir, half specNoise, half specStrength, half specSmooth)
     {

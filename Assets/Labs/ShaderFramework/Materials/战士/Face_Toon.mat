@@ -47,15 +47,15 @@ Material:
     - _AmbientStrength: 0.21
     - _AnisotropicIntensity: 0
     - _AnisotropicPow: 0.421
-    - _LightIntensity: 0.66
-    - _LightSize: 0.94
+    - _LightIntensity: 0.306
+    - _LightSize: 1
     - _NormalIntensity: 1
     - _OutlineWidth: 0
-    - _RampOffset: -0.16
+    - _RampOffset: 0.084
     - _RimIntensity: 0.87
     - _RimSize: 0.76
     - _Roughness: 0.68
-    - _ShadowReceivedIntensity: 0.31
+    - _ShadowReceivedIntensity: 0.151
     - _SpecSmooth: 0.222
     - _SpecStrength: 0.477
     - _TangentOffset: 0

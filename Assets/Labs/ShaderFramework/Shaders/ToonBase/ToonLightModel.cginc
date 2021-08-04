@@ -4,7 +4,7 @@
     #pragma vertex vert_CustomLighting
     #pragma fragment frag
     #include "ToonShaderProperties.cginc"
-    #pragma multi_compile __ _GPU_INSTANCE
+    #pragma shader_feature __ _GPU_INSTANCE
 
 
 
@@ -57,7 +57,7 @@
     ///light : 上文光照处理结果
     float GET_SHADE(v2f_CustomLighting i,float light)
     {
-        #ifdef _TOON_SHADOW_RECEIVE
+        #ifdef _TOON_RECEIVE_SHADOW
              #ifdef CUSTOM_SHADE_FUNC
                 return CUSTOM_SHADE_FUNC(i,light);
              #else
@@ -80,7 +80,11 @@
             #ifdef CUSTOM_AMBIENT_FUNC
                 return CUSTOM_AMBIENT_FUNC(i);
             #else
-                return (GetAmbientGradient(i.worldNormal) + GetReflectionProbe(i,.5)) * _AmbientStrength;
+                #ifdef _GPU_INSTANCE
+                    return (GetAmbientGradient(i.worldNormal) + GetReflectionProbe(i,GetInstanceProperty( _Roughness))) * GetInstanceProperty(_AmbientStrength);
+                #else
+                    return (GetAmbientGradient(i.worldNormal) + GetReflectionProbe(i, _Roughness)) * _AmbientStrength;
+                #endif
             #endif
         #else
             return float3(0,0,0);
@@ -95,18 +99,34 @@
             #ifdef CUSTOM_EFFECT_FUNC
                 return CUSTOM_EFFECT_FUNC(i);
             #else
-                float4 col = float4(0,0,0,0);
-                //各向异性
-                #ifdef _TOON_ANISOTROPIC
-                    half anisotropic = GetKajiyaKay(i, GetInstanceProperty(_TangentOffset), 1 / GetInstanceProperty(_SpecStrength));
-                    anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8, GetInstanceProperty(_AnisotropicIntensity));
-                    col = AlphaBlend(col,half4( GetInstanceProperty(_AnisotropicColor).rgb, GetInstanceProperty(_AnisotropicColor).a * anisotropic));
-                #endif
+                #ifndef _GPU_INSTANCE
+                    float4 col = float4(0,0,0,0);
+                    //各向异性
+                    #ifdef _TOON_ANISOTROPIC
+                        half anisotropic = GetKajiyaKay(i, _TangentOffset, 1 / _SpecStrength);
+                        anisotropic = Contrast(anisotropic, _AnisotropicPow, 8, _AnisotropicIntensity);
+                        col = AlphaBlend(col,half4( _AnisotropicColor.rgb, _AnisotropicColor.a * anisotropic));
+                    #endif
 
-                //边缘光
-                #ifdef _TOON_RIM
-                    col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity))));
-                    return col;
+                    //边缘光
+                    #ifdef _TOON_RIM
+                        col = AlphaBlend(col,half4(_RimColor.rgb,_RimColor.a * GetFresnel(i.viewDir, i.worldNormal, _RimSize, _RimIntensity)));
+                        return col;
+                    #endif
+                #else
+                    float4 col = float4(0,0,0,0);
+                    //各向异性
+                    #ifdef _TOON_ANISOTROPIC
+                        half anisotropic = GetKajiyaKay(i, GetInstanceProperty(_TangentOffset), 1 / GetInstanceProperty(_SpecStrength));
+                        anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8, GetInstanceProperty(_AnisotropicIntensity));
+                        col = AlphaBlend(col,half4( GetInstanceProperty(_AnisotropicColor).rgb, GetInstanceProperty(_AnisotropicColor).a * anisotropic));
+                    #endif
+
+                    //边缘光
+                    #ifdef _TOON_RIM
+                        col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity))));
+                        return col;
+                    #endif
                 #endif
             #endif  
         #else
@@ -156,11 +176,8 @@
             UNITY_APPLY_FOG(i.fogCoord, col);
         #endif
         
-        #ifdef _GPU_INSTANCE
-            return col;
-        #else
-            return col;
-        #endif
+
+        return col;
         
     }
 

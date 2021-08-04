@@ -53,14 +53,14 @@ Material:
     - _OutlineWidth: 0.28
     - _RampOffset: -0.135
     - _RimIntensity: 0.71
-    - _RimSize: 0.45
-    - _Roughness: 0
+    - _RimSize: 0.516
+    - _Roughness: 0.232
     - _ShadowReceivedIntensity: 1
     - _SpecSmooth: 0.114
     - _SpecStrength: 0.395
     - _TangentOffset: 0.93
     m_Colors:
-    - _AnisotropicColor: {r: 0.3773585, g: 0.22503218, b: 0.21893913, a: 0.7607843}
+    - _AnisotropicColor: {r: 0.2735849, g: 0.20950164, b: 0.20776966, a: 0.8156863}
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
     - _OutLineColor: {r: 0.24528301, g: 0.22023271, b: 0.18859024, a: 1}

@@ -20,12 +20,12 @@
             sampler2D _SpecMap;
             half _SpecStrength;
             half _SpecSmooth;
+            half _Roughness;
         #endif
 
         #if defined(_TOON_ANISOTROPIC)
             half _AnisotropicPow;
             half _AnisotropicIntensity;
-            half4 _AnisotropicNoiseVector;
             half4 _AnisotropicColor;
             half _TangentOffset;
         #endif
@@ -58,12 +58,12 @@
             // UNITY_DEFINE_INSTANCED_PROP(sampler2D,_SpecMap)
             UNITY_DEFINE_INSTANCED_PROP(half,_SpecStrength)
             UNITY_DEFINE_INSTANCED_PROP(half,_SpecSmooth)
+            UNITY_DEFINE_INSTANCED_PROP(half,_Roughness)
         #endif
         
         #if defined(_TOON_ANISOTROPIC)
             UNITY_DEFINE_INSTANCED_PROP(half,_AnisotropicPow)
             UNITY_DEFINE_INSTANCED_PROP(half,_AnisotropicIntensity)
-            UNITY_DEFINE_INSTANCED_PROP(half4,_AnisotropicNoiseVector)
             UNITY_DEFINE_INSTANCED_PROP(half4,_AnisotropicColor)
             UNITY_DEFINE_INSTANCED_PROP(half,_TangentOffset)
         #endif
@@ -101,7 +101,6 @@
             // #if defined(_TOON_ANISOTROPIC)
             //     half _AnisotropicPow;
             //     half _AnisotropicIntensity;
-            //     half4 _AnisotropicNoiseVector;
             //     half4 _AnisotropicColor;
             //     half _TangentOffset;
             // #endif

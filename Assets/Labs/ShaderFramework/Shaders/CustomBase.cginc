@@ -1,6 +1,9 @@
 #ifndef CUSTOM_BASE
     #define CUSTOM_BASE
     #include "UnityCG.cginc"
+    #ifdef _GPU_INSTANCE
+        #pragma multi_compile_instancing
+    #endif
 
     float Contrast(float value,float offset,float power,float intensity)
     {
@@ -16,5 +19,7 @@
     {
         return ori * (1 - target.a) + target * target.a;
     }
+
+
 
 #endif

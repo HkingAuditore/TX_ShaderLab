@@ -22,7 +22,7 @@ Shader "ShaderFramework/Toon/ToonHair"
         
         [Space(15)]
         [Header(Spec)]
-        _SpecMap("Spec Map",2D) = "black" {}
+        _SpecMap("Spec Map",2D) = "white" {}
         _SpecStrength("Spec Strength",Range(0,1)) = .5
         _SpecSmooth("Spec Smooth",Range(0,1)) = .5
         
@@ -62,11 +62,9 @@ Shader "ShaderFramework/Toon/ToonHair"
         {
             Tags {"LightMode"="ForwardBase"}
             CGPROGRAM
-            // #pragma shader_feature __ _GPU_INSTANCE
-            
             #pragma multi_compile_fog
             
-            #include "LightingBase/CustomLighting.cginc"
+            
             
             #define _TOON_USE_STANDARD
             #define _TOON_BUMP
@@ -79,8 +77,9 @@ Shader "ShaderFramework/Toon/ToonHair"
             #define _GPU_INSTANCE
             
             
-
+            #include "LightingBase/CustomLighting.cginc"
             #include "ToonBase/ToonShaderProperties.cginc"
+
             
             sampler2D _AnisotropicNoise;
             half4 _AnisotropicNoiseVector;
@@ -109,7 +108,7 @@ Shader "ShaderFramework/Toon/ToonHair"
                     #ifdef _TOON_ANISOTROPIC
                         half noise = tex2D(_AnisotropicNoise,i.uv);
                         half anisotropic = GetKajiyaKay(i, noise,_AnisotropicNoiseVector.x,_AnisotropicNoiseVector.y,_AnisotropicNoiseVector.z,_AnisotropicNoiseVector.w);
-                        anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8, GetInstanceProperty(_AnisotropicIntensity));
+                        anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8) * GetInstanceProperty(_AnisotropicIntensity);
                         col = AlphaBlend(col,half4( GetInstanceProperty(_AnisotropicColor).rgb, GetInstanceProperty(_AnisotropicColor).a * anisotropic));
                     #endif
 

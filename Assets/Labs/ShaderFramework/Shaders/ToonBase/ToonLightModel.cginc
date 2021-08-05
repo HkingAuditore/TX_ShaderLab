@@ -11,6 +11,25 @@
     /**********************************************/
     /**************     光照模型       *************/
     /**********************************************/
+    //阴影
+    ///light : 上文光照处理结果
+    float GET_SHADE(v2f_CustomLighting i,float light)
+    {
+            #ifdef _TOON_RECEIVE_SHADOW
+                 #ifdef CUSTOM_SHADE_FUNC
+        return CUSTOM_SHADE_FUNC(i,light);
+                 #else
+                    #ifndef _GPU_INSTANCE
+        return light - (1 - GetShadow(i)) * _ShadowReceivedIntensity;
+                    #else
+        return light - (1 - GetShadow(i)) * GetInstanceProperty(_ShadowReceivedIntensity);
+                    #endif
+                    
+                 #endif
+            #else
+        return light;
+            #endif
+    }
 
     //光照明暗
     float GET_LIGHT(v2f_CustomLighting i)
@@ -50,26 +69,7 @@
                     float light = GetToonLight(i.worldLight,normal,GetInstanceProperty(_LightSize),GetInstanceProperty(_LightIntensity));
                 #endif
             #endif
-            return light;
-        #endif
-    }
-    //阴影
-    ///light : 上文光照处理结果
-    float GET_SHADE(v2f_CustomLighting i,float light)
-    {
-        #ifdef _TOON_RECEIVE_SHADOW
-             #ifdef CUSTOM_SHADE_FUNC
-                return CUSTOM_SHADE_FUNC(i,light);
-             #else
-                #ifndef _GPU_INSTANCE
-                    return light - (1 - GetShadow(i)) * _ShadowReceivedIntensity;
-                #else
-                    return light * (GetShadow(i) + GetInstanceProperty(_LightIntensity));
-                #endif
-                
-             #endif
-        #else
-            return light;
+            return light + GET_SHADE(i,light);
         #endif
     }
 
@@ -104,29 +104,31 @@
                     //各向异性
                     #ifdef _TOON_ANISOTROPIC
                         half anisotropic = GetKajiyaKay(i, _TangentOffset, 1 / _SpecStrength);
-                        anisotropic = Contrast(anisotropic, _AnisotropicPow, 8, _AnisotropicIntensity);
+                        anisotropic = Contrast(anisotropic, _AnisotropicPow, 1/clamp(_SpecSmooth,.0001,.9999)) * _AnisotropicIntensity;
                         col = AlphaBlend(col,half4( _AnisotropicColor.rgb, _AnisotropicColor.a * anisotropic));
                     #endif
 
                     //边缘光
                     #ifdef _TOON_RIM
                         col = AlphaBlend(col,half4(_RimColor.rgb,_RimColor.a * GetFresnel(i.viewDir, i.worldNormal, _RimSize, _RimIntensity)));
-                        return col;
+                        
                     #endif
+                    return col;
                 #else
                     float4 col = float4(0,0,0,0);
                     //各向异性
                     #ifdef _TOON_ANISOTROPIC
                         half anisotropic = GetKajiyaKay(i, GetInstanceProperty(_TangentOffset), 1 / GetInstanceProperty(_SpecStrength));
-                        anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8, GetInstanceProperty(_AnisotropicIntensity));
+                        anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 1/clamp(GetInstanceProperty(_SpecSmooth),.0001,.9999)) * GetInstanceProperty(_AnisotropicIntensity);
                         col = AlphaBlend(col,half4( GetInstanceProperty(_AnisotropicColor).rgb, GetInstanceProperty(_AnisotropicColor).a * anisotropic));
                     #endif
 
                     //边缘光
                     #ifdef _TOON_RIM
                         col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity))));
-                        return col;
+                        
                     #endif
+                    return col;
                 #endif
             #endif  
         #else
@@ -140,9 +142,8 @@
     float4 ToonLightModel(v2f_CustomLighting i)
     {
         half4 col = tex2D(_MainTex, i.uv);
-
-        float light = GET_LIGHT(i);
-        float shade = GET_SHADE(i,light);
+        
+        float shade =  GET_LIGHT(i);
         
         //颜色渐变
         #ifndef _GPU_INSTANCE

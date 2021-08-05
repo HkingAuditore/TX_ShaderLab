@@ -1,50 +1,54 @@
-﻿#pragma vertex vert
-#pragma fragment frag
+﻿#pragma vertex vert_outline
+#pragma fragment frag_outline
 #include "UnityCG.cginc"
+#include "ToonShaderLibrary.cginc"
 
-sampler2D _MainTex;
-sampler2D _OutLineNoise;
-float4 _MainTex_ST;
-half _OutlineWidth;
-half4 _OutLineColor;
 
-struct a2v 
+float4 OUTLINE_POS(a2v_outline v, v2f_outline o)
 {
-    float4 vertex : POSITION;
-    float3 normal : NORMAL;
-    float2 uv : TEXCOORD0;
-    float4 vertColor : COLOR;
-    float4 tangent : TANGENT;
-};
+    #ifdef CUSTOM_OUTLINE_POS_FUNC
+        return CUSTOM_OUTLINE_POS_FUNC(v,o);
+    #else
+        float4 pos = UnityObjectToClipPos(v.vertex);
+        float3 viewNormal = mul((float3x3)UNITY_MATRIX_IT_MV, v.normal.xyz);
+        float3 ndcNormal = normalize(TransformViewToProjection(viewNormal.xyz)) * pos.w;
+        float4 nearUpperRight = mul(unity_CameraInvProjection,
+        float4(1, 1, UNITY_NEAR_CLIP_VALUE, _ProjectionParams.y));
+        //将近裁剪面右上角位置的顶点变换到观察空间
+        float aspect = abs(nearUpperRight.y / nearUpperRight.x);
+        ndcNormal.x *= aspect;
+        pos.xy += 0.01 * (_OutlineWidth) * ndcNormal.xy;
+        return pos;
+    #endif
+}
 
-struct v2f
+float4 OUTLINE_COLOR(v2f_outline i)
 {
-    float4 pos : SV_POSITION;
-    float4 color : COLOR;
-    float2 uv : TEXCOORD0;
-};
+    #ifdef CUSTOM_OUTLINE_COLOR_FUNC
+        return CUSTOM_OUTLINE_COLOR_FUNC(i);
+    #else
+        half4 col = tex2D(_MainTex, i.uv);
+        return col * _OutLineColor;
+    #endif
+}
 
 
-v2f vert (a2v v) 
+v2f_outline vert_outline(a2v_outline v)
 {
-    v2f o;
-    UNITY_INITIALIZE_OUTPUT(v2f, o);
+    v2f_outline o;
+    UNITY_INITIALIZE_OUTPUT(v2f_outline, o);
     o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-    float4 pos = UnityObjectToClipPos(v.vertex);
-    float3 viewNormal = mul((float3x3)UNITY_MATRIX_IT_MV, v.normal.xyz);
-    float3 ndcNormal = normalize(TransformViewToProjection(viewNormal.xyz)) * pos.w;
-    float4 nearUpperRight = mul(unity_CameraInvProjection, float4(1, 1, UNITY_NEAR_CLIP_VALUE, _ProjectionParams.y));//将近裁剪面右上角位置的顶点变换到观察空间
-    float aspect = abs(nearUpperRight.y / nearUpperRight.x);
-    ndcNormal.x *= aspect;
-    half noise = tex2Dlod(_OutLineNoise, float4(o.uv, 0, 0)).r;
-    pos.xy += 0.01 * (_OutlineWidth * (1 + noise * .5)) * ndcNormal.xy;
-    o.pos = pos;
-    o.color = v.vertColor;
+    o.worldPos = mul(unity_ObjectToWorld, v.vertex);
+    o.viewDir = normalize(WorldSpaceViewDir(v.vertex));
+    o.worldNormal = UnityObjectToWorldNormal(v.normal);
+    o.bitangent = mul(unity_ObjectToWorld, cross(v.normal, v.tangent));;
+
+    o.pos = OUTLINE_POS(v, o);
+    o.color = v.color;
     return o;
 }
 
-half4 frag(v2f i) : SV_TARGET 
+half4 frag_outline(v2f_outline i) : SV_TARGET
 {
-    half4 col = tex2D(_MainTex,i.uv);
-    return col * _OutLineColor;
+    return OUTLINE_COLOR(i);
 }

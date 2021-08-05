@@ -22,7 +22,7 @@ Shader "ShaderFramework/Toon/Toon"
         
         [Space(15)]
         [Header(Spec)]
-        _SpecMap("Spec Map",2D) = "black" {}
+        _SpecMap("Spec Map",2D) = "white" {}
         _SpecStrength("Spec Strength",Range(0,1)) = .5
         _SpecSmooth("Spec Smooth",Range(0,1)) = .5
         

@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
-        m_Texture: {fileID: 2800000, guid: 2cd06f7a44d71334fafaca5bd14a6aab, type: 3}
+        m_Texture: {fileID: 2800000, guid: 69314f44ef4e1d04983446bf0aa4fb13, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -49,11 +49,11 @@ Material:
     - _AnisotropicPow: 0.421
     - _LightIntensity: 1
     - _LightSize: 0.65
-    - _NormalIntensity: 1
+    - _NormalIntensity: 0.91
     - _OutlineWidth: 0
-    - _RampOffset: 0.08
-    - _RimIntensity: 0.87
-    - _RimSize: 0.76
+    - _RampOffset: 0.667
+    - _RimIntensity: 1
+    - _RimSize: 0
     - _Roughness: 0.68
     - _ShadowReceivedIntensity: 0.151
     - _SpecSmooth: 0.222
@@ -64,5 +64,5 @@ Material:
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
     - _OutLineColor: {r: 0.16037738, g: 0.12624045, b: 0.11725705, a: 1}
-    - _RimColor: {r: 0.6509434, g: 0.15824988, b: 0.095185116, a: 0.69803923}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

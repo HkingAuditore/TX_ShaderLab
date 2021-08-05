@@ -78,6 +78,10 @@
             UNITY_DEFINE_INSTANCED_PROP(half,_RimIntensity)
             UNITY_DEFINE_INSTANCED_PROP(half,_RimSize)
         #endif
+
+        #if defined(_TOON_RECEIVE_SHADOW)
+            UNITY_DEFINE_INSTANCED_PROP(half,_ShadowReceivedIntensity)
+        #endif
         UNITY_INSTANCING_BUFFER_END(Props)
             // //Ramp
             sampler2D _RampTex;

@@ -5,9 +5,9 @@
         #pragma multi_compile_instancing
     #endif
 
-    float Contrast(float value,float offset,float power,float intensity)
+    float Contrast(float value,float offset,float power)
     {
-        return pow(saturate(value + offset),power) * intensity;
+        return pow(saturate(value + offset),power);
     }
 
     float3 Blend(float3 ori,float3 target,float blendValue)

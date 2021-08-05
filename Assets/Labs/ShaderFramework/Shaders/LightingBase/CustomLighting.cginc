@@ -33,7 +33,9 @@
         float3 worldLight : TEXCOORD3;
         float3 viewDir : TEXCOORD4;
         float3 bitangent : TEXCOORD5;
-        SHADOW_COORDS(6)
+        #ifdef _TOON_RECEIVE_SHADOW
+            SHADOW_COORDS(6)
+        #endif
         #ifdef _GPU_INSTANCE
             UNITY_VERTEX_INPUT_INSTANCE_ID
         #endif
@@ -59,7 +61,9 @@
         o.worldNormal = UnityObjectToWorldNormal(v.normal);
         o.bitangent = mul(unity_ObjectToWorld, cross(v.normal, v.tangent));;
         UNITY_TRANSFER_FOG(o, o.vertex);
-        TRANSFER_SHADOW(o)
+        #ifdef _TOON_RECEIVE_SHADOW
+            TRANSFER_SHADOW(o)
+        #endif
         return o;
     }
 
@@ -105,8 +109,9 @@
 
     float GetNoisySpec(float3 normal, float3 lightDir, float3 viewDir, half specNoise, half specStrength, half specSmooth)
     {
-        float spec = GetSpecular(lightDir, viewDir, normal, specStrength, specSmooth);
-        spec = saturate(spec + specNoise);
+        float spec = GetSpecular(lightDir, viewDir, normal, specStrength*specNoise, specSmooth);
+        // spec += smoothstep(.5, .5 + specSmooth, specNoise * specStrength);
+        // spec = saturate(spec);
         return spec;
     }
 
@@ -133,12 +138,12 @@
     }
 
     //丝高光
-    float StrandSpecular(float3 B, float3 V, float3 L, float exponent)
+    float StrandSpecular(float3 bitangent, float3 viewDir, float3 lightDir, float exponent)
     {
-        float3 H = normalize(L + V);
-        float TdotH = dot(B, H);
+        float3 H = normalize(lightDir + viewDir);
+        float TdotH = dot(bitangent, H);
         float TsinH = sqrt(1.0 - TdotH * TdotH);
-        float dirAtten = smoothstep(-1, 0, dot(B, H));
+        float dirAtten = smoothstep(-1, 0, dot(bitangent, H))*.9;
         return dirAtten * pow(TsinH, exponent);
     }
 
@@ -149,8 +154,6 @@
         half3 N = normalize(i.worldNormal);
         half3 B = normalize(i.bitangent);
         half3 V = normalize(i.viewDir);
-        half3 H = normalize(L + V);
-        half Lambert = max(0, dot(N, L) * 0.5 + 0.5);
         half3 lerpNormal = normalize(lerp(N + B, B, offset));
 
         return StrandSpecular(lerpNormal, V, L, gloss);
@@ -177,7 +180,11 @@
     //获取ShadowMap
     half GetShadow(v2f_CustomLighting i)
     {
-        return SHADOW_ATTENUATION(i);
+        #ifdef _TOON_RECEIVE_SHADOW
+            return SHADOW_ATTENUATION(i);
+        #else
+            return 0;
+        #endif
     }
 
     half3 GetReflectionProbe(v2f_CustomLighting i,half roughness)

@@ -4,6 +4,30 @@
     #include "../CustomBase.cginc"
     #include "../LightingBase/CustomLighting.cginc"
     #include "UnityCG.cginc"
+    /**********************************************/
+    /**************        描边        *************/
+    /**********************************************/
+    half _OutlineWidth;
+    half4 _OutLineColor;
+    struct a2v_outline
+    {
+        float4 vertex : POSITION;
+        float3 normal : NORMAL;
+        float2 uv : TEXCOORD0;
+        float4 color : COLOR;
+        float4 tangent : TANGENT;
+    };
+    struct v2f_outline
+    {
+        float4 pos : SV_POSITION;
+        float4 color : COLOR;
+        float2 uv : TEXCOORD0;
+        float4 worldPos : TEXCOORD1;
+        float3 worldNormal : TEXCOORD2;
+        float3 viewDir : TEXCOORD3;
+        float3 bitangent : TEXCOORD4;
+    };
+    /**********************************************/
 
     /**********************************************/
     /**************        Ramp        *************/

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 16312 MB
+OS: 'Windows 10 Home China; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16263 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/UnityProject/TX_ShaderLab
+G:/TX_ShaderLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62012
-Successfully changed project path to: D:/UnityProject/TX_ShaderLab
-D:/UnityProject/TX_ShaderLab
+60707
+Successfully changed project path to: G:/TX_ShaderLab
+G:/TX_ShaderLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProject/TX_ShaderLab/Assets
+[Subsystems] Discovering subsystems at path G:/TX_ShaderLab/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
     Vendor:   
     VRAM:     6052 MB
-    Driver:   27.21.14.6192
+    Driver:   27.21.14.6230
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001398 seconds.
+Registered in 0.002050 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.729 seconds
+- Completed reload, in  1.904 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2729ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1904ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (112ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.032197 seconds.
+Registered in 0.002921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.342 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2344ms)
-		BeginReloadAssembly (268ms)
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1797ms)
-			LoadAssemblies (270ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (139ms)
-			SetupLoadedEditorAssemblies (541ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (355ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (233ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 2.61 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.5 MB.
-System memory in use after: 165.4 MB.
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 1.971100 ms (FindLiveObjects: 0.143200 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.498400 ms  DeleteObjects: 0.286000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.379800 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.777000 ms  DeleteObjects: 0.212000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,206 +126,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonHair.shader
-  artifactKey: Guid(0956bdb7d429b3145b347122f1a85c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonHair.shader using Guid(0956bdb7d429b3145b347122f1a85c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfd71074ff0d9634505c1d0552016f7') in 0.041286 seconds 
-  Import took 0.043988 seconds .
+  path: Assets/Labs/ShaderFramework/Materials/战士/Face_Toon.mat
+  artifactKey: Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Face_Toon.mat using Guid(65d7731ac3f183f4487a78f28415a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077517c2709df5103f8cbc3c4470d0c') in 0.409629 seconds 
+  Import took 0.416439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 436.014654 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65171c9fd7a916378343a221f64e8b3f') in 0.003507 seconds 
-  Import took 0.006909 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/战士/Fish_Toon.mat
+  artifactKey: Guid(422ecb7c15c0d9a4793b338370d6c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Fish_Toon.mat using Guid(422ecb7c15c0d9a4793b338370d6c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10634db3f8187042687b7bdac3ea4f0') in 0.188606 seconds 
+  Import took 0.191563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65171c9fd7a916378343a221f64e8b3f') in 0.004355 seconds 
-  Import took 0.007345 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/战士/Sock_Toon.mat
+  artifactKey: Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Sock_Toon.mat using Guid(c1ae577fceb881e408e202d9b8cc37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5bc470f20c02571b2f99f4564f657e') in 0.121476 seconds 
+  Import took 0.124965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.081229 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84637a4e0238b0e9c2139e19cb85f3b1') in 0.003543 seconds 
-  Import took 0.006074 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat
+  artifactKey: Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Labs/ShaderFramework/Materials/战士/Hair_Toon.mat using Guid(3ea4d2dc278b8c4469d95a10d617ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bc2540309c1b12b782b4e9070a024b') in 0.257226 seconds 
+  Import took 0.261541 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 108.017840 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ba2bea575d95d1c0b44e8afbc6f08') in 0.004001 seconds 
-  Import took 0.007065 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 36.677494 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a07df12285d6ccdd351efaca901d05') in 0.003203 seconds 
-  Import took 0.005724 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 2.090700 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.813600 ms  DeleteObjects: 0.018800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 287.235798 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582b708271fe9967948136da7b3a9b25') in 0.003919 seconds 
-  Import took 0.007077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.505597 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc60761a00835dc111d3ee5ff4193c8') in 0.007861 seconds 
-  Import took 0.025438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001882 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonTest.shader
-  artifactKey: Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonTest.shader using Guid(d39c62397abb95f42bfe628a6ccca9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc60761a00835dc111d3ee5ff4193c8') in 0.007626 seconds 
-  Import took 0.011468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.359790 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acb8a2bfee5adf59d6bf423278704db') in 0.002987 seconds 
-  Import took 0.005141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 402.391315 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eb0c19873b0d9205b5eb6ad9fa4d95') in 0.003943 seconds 
-  Import took 0.007115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.898303 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d6a58bdfd7e036e5af41a358083a11') in 0.004449 seconds 
-  Import took 0.007547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.773828 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be80712265a8a2c3d34698cd951e3403') in 0.004299 seconds 
-  Import took 0.007193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 178.709749 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc03f584111d0429b09bbe724dd7c9f7') in 0.004448 seconds 
-  Import took 0.006809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.730207 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader
-  artifactKey: Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonBase.shader using Guid(1f1c0b9974ef41b4b939aee80495e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff2a80453173f0299e9b80f55615d11') in 0.003915 seconds 
-  Import took 0.006386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2033.394874 seconds.
-  path: Assets/Labs/ShaderFramework/Materials/战士/TestMaterial
-  artifactKey: Guid(ef7f53fa31fa5a440ad707d93c750048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Materials/战士/TestMaterial using Guid(ef7f53fa31fa5a440ad707d93c750048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68000c28d6b833370668d7011c4d1f23') in 0.004516 seconds 
-  Import took 0.008231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 930.022117 seconds.
-  path: Assets/Labs/ShaderFramework/Textures/Ramp/Materials
-  artifactKey: Guid(6398b77bee660c643bdd9fe928df9cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Textures/Ramp/Materials using Guid(6398b77bee660c643bdd9fe928df9cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ab22fbe9fc177703bd794195797217') in 0.004063 seconds 
-  Import took 0.006750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19561.241601 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc
-  artifactKey: Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc using Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd609855c9f66955d4e8a053bb81ce3') in 0.022536 seconds 
-  Import took 0.056688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.988565 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc
-  artifactKey: Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc using Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7420435e2c712b184ad402a5bdb2b5') in 0.004920 seconds 
-  Import took 0.007822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.196749 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc
-  artifactKey: Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc using Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5cc9d530cfe83be4b5fed4f13ebb19') in 0.005332 seconds 
-  Import took 0.041483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.003713 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc
-  artifactKey: Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc using Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66848988383059a0a8211202ea301dd') in 0.006848 seconds 
-  Import took 0.011570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.080323 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc
-  artifactKey: Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/Outline.cginc using Guid(6f5bbb14d34d468e8e4b64ce05be69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f46e5aa98627fbe2a5c2874ca5cd3aa') in 0.004577 seconds 
-  Import took 0.007433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6448.020259 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd65a7d6cc7aff10d30807c84f8562ca') in 0.024151 seconds 
-  Import took 0.048794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 644.503673 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae337d5a90afd6660516bcbb072032c1') in 0.034048 seconds 
-  Import took 0.058940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013048 seconds.
-  path: Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc
-  artifactKey: Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Labs/ShaderFramework/Shaders/ToonBase/ToonShaderLibrary.cginc using Guid(1e42c49ffa0365546af16d90b03d4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae337d5a90afd6660516bcbb072032c1') in 0.005177 seconds 
-  Import took 0.008328 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -40,29 +40,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c5c01a0c8c68c7d428d64c55d0d11aeb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AmbientStrength: 0.119
-    - _AnisotropicIntensity: 0
-    - _AnisotropicPow: 0.421
+    - _AnisotropicIntensity: 0.436
+    - _AnisotropicPow: 0
     - _LightIntensity: 0.247
     - _LightSize: 0.234
     - _NormalIntensity: 1
     - _OutlineWidth: 0.37
-    - _RampOffset: 0.243
+    - _RampOffset: -0.409
     - _RimIntensity: 0.4
     - _RimSize: 0.858
     - _Roughness: 0.5
     - _ShadowReceivedIntensity: 0.786
-    - _SpecSmooth: 0.781
-    - _SpecStrength: 0.023
+    - _SpecSmooth: 0.621
+    - _SpecStrength: 0.613
     - _TangentOffset: 0
     m_Colors:
-    - _AnisotropicColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AnisotropicColor: {r: 0.2830189, g: 0.13287647, b: 0.1241545, a: 1}
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
     - _OutLineColor: {r: 0.1981132, g: 0.09408901, b: 0.0719562, a: 1}
-    - _RimColor: {r: 2.1982934, g: 1.7117859, b: 1.6487201, a: 1}
+    - _RimColor: {r: 2.9348943, g: 2.477164, b: 2.4226723, a: 1}
   m_BuildTextureStacks: []

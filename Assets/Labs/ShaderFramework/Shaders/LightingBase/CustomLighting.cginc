@@ -101,10 +101,10 @@
 
     //法线贴图
     float3 NormalMap(float3 oriNormal, sampler2D normalMap, float2 uv, float intensity)
-        {
-            float3 bump = UnpackNormalWithScale(tex2D(normalMap, uv), intensity);
-            return normalize(oriNormal) + bump;
-        }
+    {
+        float3 bump = UnpackNormalWithScale(tex2D(normalMap, uv), intensity);
+        return normalize(oriNormal) + bump;
+    }
 
 
     float GetNoisySpec(float3 normal, float3 lightDir, float3 viewDir, half specNoise, half specStrength, half specSmooth)

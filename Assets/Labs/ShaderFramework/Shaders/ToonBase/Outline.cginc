@@ -3,7 +3,7 @@
 #include "UnityCG.cginc"
 #include "ToonShaderLibrary.cginc"
 
-
+//描边位置
 float4 OUTLINE_POS(a2v_outline v, v2f_outline o)
 {
     #ifdef CUSTOM_OUTLINE_POS_FUNC
@@ -22,6 +22,7 @@ float4 OUTLINE_POS(a2v_outline v, v2f_outline o)
     #endif
 }
 
+//描边颜色
 float4 OUTLINE_COLOR(v2f_outline i)
 {
     #ifdef CUSTOM_OUTLINE_COLOR_FUNC

@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: a85cee88927853940baeae6b765e1a9d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chengqiang01
+    100004: chengqiang02
+    100006: chengqiang03
+    100008: chengqiang04
+    100010: chengqiang05
+    100012: chengqiang06
+    100014: chengqiang07
+    100016: chengqiang08
+    100018: chengqiang09
+    100020: chengqiang10
+    100022: chengqiang11
+    100024: chengqiang12
+    100026: chengqiang13
+    400000: //RootNode
+    400002: chengqiang01
+    400004: chengqiang02
+    400006: chengqiang03
+    400008: chengqiang04
+    400010: chengqiang05
+    400012: chengqiang06
+    400014: chengqiang07
+    400016: chengqiang08
+    400018: chengqiang09
+    400020: chengqiang10
+    400022: chengqiang11
+    400024: chengqiang12
+    400026: chengqiang13
+    2100000: chengqiang13
+    2100002: chengqiang01
+    2100004: chengqiang02
+    2100006: chengqiang03
+    2100008: chengqiang04
+    2100010: chengqiang05
+    2100012: chengqiang06
+    2100014: chengqiang07
+    2100016: chengqiang08
+    2100018: chengqiang009
+    2100020: chengqiang10
+    2100022: chengqiang11
+    2100024: chengqiang12
+    2300000: chengqiang01
+    2300002: chengqiang02
+    2300004: chengqiang03
+    2300006: chengqiang04
+    2300008: chengqiang05
+    2300010: chengqiang06
+    2300012: chengqiang07
+    2300014: chengqiang08
+    2300016: chengqiang09
+    2300018: chengqiang10
+    2300020: chengqiang11
+    2300022: chengqiang12
+    2300024: chengqiang13
+    3300000: chengqiang01
+    3300002: chengqiang02
+    3300004: chengqiang03
+    3300006: chengqiang04
+    3300008: chengqiang05
+    3300010: chengqiang06
+    3300012: chengqiang07
+    3300014: chengqiang08
+    3300016: chengqiang09
+    3300018: chengqiang10
+    3300020: chengqiang11
+    3300022: chengqiang12
+    3300024: chengqiang13
+    4300000: chengqiang13
+    4300002: chengqiang01
+    4300004: chengqiang02
+    4300006: chengqiang03
+    4300008: chengqiang04
+    4300010: chengqiang05
+    4300012: chengqiang06
+    4300014: chengqiang07
+    4300016: chengqiang08
+    4300018: chengqiang09
+    4300020: chengqiang10
+    4300022: chengqiang11
+    4300024: chengqiang12
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

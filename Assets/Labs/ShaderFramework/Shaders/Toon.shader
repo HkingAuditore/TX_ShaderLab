@@ -31,6 +31,11 @@ Shader "ShaderFramework/Toon/Toon"
         _AnisotropicColor("Anisotropic Color",Color) = (1,1,1,1)
         _AnisotropicPow("Anisotropic Pow",Range(0,1)) = .5
         _AnisotropicIntensity("Anisotropic Intensity",Range(0,1)) = 0
+        
+        [Space(15)]
+        [Header(Outline)]
+        _OutLineColor("Outline Color",Color) = (1,1,1,1)
+        _OutlineWidth("Outline Width",Range(0,5)) = .5
         _TangentOffset("Tangent Offset",float) = 0
         
         [Space(15)]
@@ -38,11 +43,6 @@ Shader "ShaderFramework/Toon/Toon"
         _Roughness("Roughness",Range(0,1)) = .5
         _AmbientStrength("Ambient Strength",Range(0,1)) = .5
         
-        [Space(15)]
-        [Header(Outline)]
-        _OutLineNoise("OutLine Noise",2D) = "black" {}
-        _OutLineColor("Outline Color",Color) = (1,1,1,1)
-        _OutlineWidth("Outline Width",Range(0,5)) = .5
         
         [Space(15)]
         [Header(Rim)]
@@ -61,9 +61,8 @@ Shader "ShaderFramework/Toon/Toon"
             Tags {"LightMode"="ForwardBase"}
             CGPROGRAM
             
-            // #pragma shader_feature __ _GPU_INSTANCE
-            
             #pragma multi_compile_fog
+            #pragma multi_compile __ _GPU_INSTANCE
 
             #define _TOON_USE_STANDARD
             #define _TOON_BUMP
@@ -73,7 +72,6 @@ Shader "ShaderFramework/Toon/Toon"
             #define _TOON_RIM
             #define _TOON_ANISOTROPIC 
             #define _TOON_RECEIVE_SHADOW
-            #define _GPU_INSTANCE
             
             #include "LightingBase/CustomLighting.cginc"
             #include "ToonBase/ToonShaderLibrary.cginc"

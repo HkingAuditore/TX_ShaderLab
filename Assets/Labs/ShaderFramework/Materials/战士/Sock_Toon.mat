@@ -44,23 +44,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientStrength: 1
-    - _AnisotropicIntensity: 0.845
-    - _AnisotropicPow: 0.286
-    - _LightIntensity: 0.382
-    - _LightSize: 0.834
+    - _AmbientStrength: 0.94
+    - _AnisotropicIntensity: 0.67
+    - _AnisotropicPow: 0.26
+    - _LightIntensity: 0.87
+    - _LightSize: 0.88
     - _NormalIntensity: 0.68
-    - _OutlineWidth: 0.28
+    - _OutlineWidth: 0.64
     - _RampOffset: -0.135
     - _RimIntensity: 0.71
-    - _RimSize: 0.516
-    - _Roughness: 0.102
+    - _RimSize: 0.49
+    - _Roughness: 0.3
     - _ShadowReceivedIntensity: 1
-    - _SpecSmooth: 0.114
-    - _SpecStrength: 0.395
-    - _TangentOffset: 0.93
+    - _SpecSmooth: 0.26
+    - _SpecStrength: 0.51
+    - _TangentOffset: 1.08
     m_Colors:
-    - _AnisotropicColor: {r: 0.6509434, g: 0.2732734, b: 0.44152337, a: 0.8156863}
+    - _AnisotropicColor: {r: 0.5754717, g: 0.20901565, b: 0.37315753, a: 0.8156863}
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
     - _OutLineColor: {r: 0.24528301, g: 0.22023271, b: 0.18859024, a: 1}

@@ -47,22 +47,22 @@ Material:
     - _AmbientStrength: 0.114
     - _AnisotropicIntensity: 0.621
     - _AnisotropicPow: 0.112
-    - _LightIntensity: 0.815
+    - _LightIntensity: 0.19
     - _LightSize: 0.587
     - _NormalIntensity: 1
-    - _OutlineWidth: 0.23
+    - _OutlineWidth: 0.87
     - _RampOffset: -0.282
-    - _RimIntensity: 0.217
+    - _RimIntensity: 0.94
     - _RimSize: 0.557
     - _Roughness: 0.009
     - _ShadowReceivedIntensity: 0.733
-    - _SpecSmooth: 0.351
+    - _SpecSmooth: 0.03
     - _SpecStrength: 0.066
     - _TangentOffset: 0
     m_Colors:
     - _AnisotropicColor: {r: 0.9528302, g: 0.40899786, b: 0.40899786, a: 1}
     - _AnisotropicNoiseVector: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalTangent: {r: 0, g: 0, b: 0, a: 0}
-    - _OutLineColor: {r: 0.8396226, g: 0.42878953, b: 0.1544589, a: 1}
+    - _OutLineColor: {r: 0.46226418, g: 0.23331258, b: 0.08067818, a: 1}
     - _RimColor: {r: 1.0164217, g: 0.64195055, b: 0.42202306, a: 1}
   m_BuildTextureStacks: []

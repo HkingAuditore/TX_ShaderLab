@@ -42,7 +42,6 @@ Shader "ShaderFramework/Toon/ToonHair"
         
         [Space(15)]
         [Header(Outline)]
-        _OutLineNoise("OutLine Noise",2D) = "black" {}
         _OutLineColor("Outline Color",Color) = (1,1,1,1)
         _OutlineWidth("Outline Width",Range(0,5)) = .5
         
@@ -63,7 +62,7 @@ Shader "ShaderFramework/Toon/ToonHair"
             Tags {"LightMode"="ForwardBase"}
             CGPROGRAM
             #pragma multi_compile_fog
-            
+            #pragma multi_compile __ _GPU_INSTANCE
             
             
             #define _TOON_USE_STANDARD
@@ -100,8 +99,8 @@ Shader "ShaderFramework/Toon/ToonHair"
                     //边缘光
                     #ifdef _TOON_RIM
                         col = AlphaBlend(col,half4(_RimColor.rgb,_RimColor.a * GetFresnel(i.viewDir, i.worldNormal, _RimSize, _RimIntensity)));
-                        return col;
                     #endif
+                    return col;
                 #else
                     float4 col = float4(0,0,0,0);
                     //各向异性
@@ -111,12 +110,14 @@ Shader "ShaderFramework/Toon/ToonHair"
                         anisotropic = Contrast(anisotropic, GetInstanceProperty(_AnisotropicPow), 8) * GetInstanceProperty(_AnisotropicIntensity);
                         col = AlphaBlend(col,half4( GetInstanceProperty(_AnisotropicColor).rgb, GetInstanceProperty(_AnisotropicColor).a * anisotropic));
                     #endif
-
+    
                     //边缘光
                     #ifdef _TOON_RIM
-                        col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity))));
-                        return col;
+                        float rim = GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity));
+                        col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * saturate(rim)));
+                        
                     #endif
+                    return col;
                 #endif
             }
             #include "ToonBase/ToonShaderLibrary.cginc"
@@ -126,6 +127,6 @@ Shader "ShaderFramework/Toon/ToonHair"
         
         UsePass "ShaderFramework/Toon/ToonBase/OutlinePass"
 
-        UsePass "ShaderFramework/Lighting/ShadowCaster/ShadowCasterPass"
+        UsePass "ShaderFramework/Lighting/ShadowCaster/Shadow CasterPass"
     }
 }

@@ -6,16 +6,17 @@
         sampler2D _RampTex;
         half _RampOffset;
 
-        //Ambient
+        //环境光
         #if defined(_TOON_AMBIENT)
             half _AmbientStrength;
         #endif
 
-        //Light
+        //光照
         half _LightSize;
         half _LightIntensity;
         half _ShadowReceivedIntensity;
 
+        //高光
         #if defined(_TOON_SPECULAR)
             sampler2D _SpecMap;
             half _SpecStrength;
@@ -23,18 +24,25 @@
             half _Roughness;
         #endif
 
+        //各向异性高光
         #if defined(_TOON_ANISOTROPIC)
+            #ifndef _TOON_SPECULAR
+                half _SpecStrength;
+                half _SpecSmooth;
+            #endif
             half _AnisotropicPow;
             half _AnisotropicIntensity;
             half4 _AnisotropicColor;
             half _TangentOffset;
         #endif
 
+        //法线贴图
         #if defined(_TOON_BUMP)
             sampler2D _NormalMap;
             half _NormalIntensity;
         #endif
 
+        //边缘光
         #if defined(_TOON_RIM)
             half4 _RimColor;
             half _RimIntensity;
@@ -43,7 +51,6 @@
 
     #else
         UNITY_INSTANCING_BUFFER_START(Props)
-        // UNITY_DEFINE_INSTANCED_PROP(sampler2D, _RampTex)
         UNITY_DEFINE_INSTANCED_PROP(half,_RampOffset)
         
         #if defined(_TOON_AMBIENT)
@@ -55,13 +62,16 @@
         UNITY_DEFINE_INSTANCED_PROP(half,_ShadowReceivedIntensityy)
         
         #if defined(_TOON_SPECULAR)
-            // UNITY_DEFINE_INSTANCED_PROP(sampler2D,_SpecMap)
             UNITY_DEFINE_INSTANCED_PROP(half,_SpecStrength)
             UNITY_DEFINE_INSTANCED_PROP(half,_SpecSmooth)
             UNITY_DEFINE_INSTANCED_PROP(half,_Roughness)
         #endif
         
         #if defined(_TOON_ANISOTROPIC)
+            #ifndef _TOON_SPECULAR
+                UNITY_DEFINE_INSTANCED_PROP(half,_SpecStrength)
+                UNITY_DEFINE_INSTANCED_PROP(half,_SpecSmooth)
+            #endif
             UNITY_DEFINE_INSTANCED_PROP(half,_AnisotropicPow)
             UNITY_DEFINE_INSTANCED_PROP(half,_AnisotropicIntensity)
             UNITY_DEFINE_INSTANCED_PROP(half4,_AnisotropicColor)
@@ -69,7 +79,6 @@
         #endif
         
         #if defined(_TOON_BUMP)
-            // UNITY_DEFINE_INSTANCED_PROP(sampler2D,_NormalMap)
             UNITY_DEFINE_INSTANCED_PROP(half,_NormalIntensity)
         #endif
         
@@ -83,42 +92,10 @@
             UNITY_DEFINE_INSTANCED_PROP(half,_ShadowReceivedIntensity)
         #endif
         UNITY_INSTANCING_BUFFER_END(Props)
-            // //Ramp
-            sampler2D _RampTex;
-            // half _RampOffset;
-            //
-            // //Ambient
-            // #if defined(_TOON_AMBIENT)
-            //     half _AmbientStrength;
-            // #endif
-            //
-            // //Light
-            // half _LightSize;
-            // half _LightIntensity;
-            //
-            // #if defined(_TOON_SPECULAR)
-            sampler2D _SpecMap;
-            //     half _SpecStrength;
-            //     half _SpecSmooth;
-            // #endif
-            //
-            // #if defined(_TOON_ANISOTROPIC)
-            //     half _AnisotropicPow;
-            //     half _AnisotropicIntensity;
-            //     half4 _AnisotropicColor;
-            //     half _TangentOffset;
-            // #endif
-            //
-            // #if defined(_TOON_BUMP)
-            sampler2D _NormalMap;
-            //     half _NormalIntensity;
-            // #endif
-            //
-            // #if defined(_TOON_RIM)
-            //     half4 _RimColor;
-            //     half _RimIntensity;
-            //     half _RimSize;
-            // #endif
+         //Ramp
+        sampler2D _RampTex;
+        sampler2D _SpecMap;
+        sampler2D _NormalMap;
 
         #define GetInstanceProperty(i) UNITY_ACCESS_INSTANCED_PROP(Props,i) 
         

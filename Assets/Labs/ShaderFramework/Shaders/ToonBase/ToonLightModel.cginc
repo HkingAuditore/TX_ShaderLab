@@ -44,7 +44,8 @@
                 #else
                     half3 normal = normalize(i.worldNormal);
                 #endif
-                
+
+                //高光
                 #ifdef _TOON_SPECULAR
                     half specMap = tex2D(_SpecMap, i.uv);
                     float light = GetToonLight(i.worldLight, normal, i.viewDir,
@@ -125,9 +126,10 @@
 
                     //边缘光
                     #ifdef _TOON_RIM
-                        col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,GetInstanceProperty(_RimColor).a * GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity))));
-                        
+                        float rim = GetFresnel(i.viewDir, i.worldNormal, GetInstanceProperty(_RimSize), GetInstanceProperty(_RimIntensity));
+                        col = AlphaBlend(col,half4(GetInstanceProperty(_RimColor).rgb,saturate(GetInstanceProperty(_RimColor).a * rim)));
                     #endif
+        
                     return col;
                 #endif
             #endif  
@@ -157,7 +159,7 @@
 
         col.rgb *= ramp;
         
-        col.rgb = AlphaBlend(col,GET_EFFECT(i));
+        col = AlphaBlend(col,GET_EFFECT(i));
 
         return float4(col.rgb, 1);
     }
